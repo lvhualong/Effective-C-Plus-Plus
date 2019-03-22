@@ -1,3 +1,0 @@
-/home/ubuntu/coding/C-Plus-Plus-Software-Developer/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/coding/C-Plus-Plus-Software-Developer/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/coding/C-Plus-Plus-Software-Developer/build/CMakeFiles/vector_exe.dir
