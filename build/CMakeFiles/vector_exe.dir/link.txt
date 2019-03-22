@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/vector_exe.dir/dataStructure/vectorMain.cpp.o  -o x86_64/bin/vector_exe -rdynamic 

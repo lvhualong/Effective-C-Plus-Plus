@@ -1,6 +1,6 @@
 
 
-#include "myVector.h"
+#include "vectorMain.h"
 #include <iostream>
 
 

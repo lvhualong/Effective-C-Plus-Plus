@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/coding/C-Plus-Plus-Software-Developer/Data-Structure
+CMAKE_SOURCE_DIR = /home/ubuntu/coding/C-Plus-Plus-Software-Developer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/coding/C-Plus-Plus-Software-Developer/Data-Structure/build
+CMAKE_BINARY_DIR = /home/ubuntu/coding/C-Plus-Plus-Software-Developer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/coding/C-Plus-Plus-Software-Developer/Data-Structure/build/CMakeFiles /home/ubuntu/coding/C-Plus-Plus-Software-Developer/Data-Structure/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/coding/C-Plus-Plus-Software-Developer/build/CMakeFiles /home/ubuntu/coding/C-Plus-Plus-Software-Developer/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/coding/C-Plus-Plus-Software-Developer/Data-Structure/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/coding/C-Plus-Plus-Software-Developer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ vector_exe/fast:
 	$(MAKE) -f CMakeFiles/vector_exe.dir/build.make CMakeFiles/vector_exe.dir/build
 .PHONY : vector_exe/fast
 
-myVector.o: myVector.cpp.o
+dataStructure/vectorMain.o: dataStructure/vectorMain.cpp.o
 
-.PHONY : myVector.o
+.PHONY : dataStructure/vectorMain.o
 
 # target to build an object file
-myVector.cpp.o:
-	$(MAKE) -f CMakeFiles/vector_exe.dir/build.make CMakeFiles/vector_exe.dir/myVector.cpp.o
-.PHONY : myVector.cpp.o
+dataStructure/vectorMain.cpp.o:
+	$(MAKE) -f CMakeFiles/vector_exe.dir/build.make CMakeFiles/vector_exe.dir/dataStructure/vectorMain.cpp.o
+.PHONY : dataStructure/vectorMain.cpp.o
 
-myVector.i: myVector.cpp.i
+dataStructure/vectorMain.i: dataStructure/vectorMain.cpp.i
 
-.PHONY : myVector.i
+.PHONY : dataStructure/vectorMain.i
 
 # target to preprocess a source file
-myVector.cpp.i:
-	$(MAKE) -f CMakeFiles/vector_exe.dir/build.make CMakeFiles/vector_exe.dir/myVector.cpp.i
-.PHONY : myVector.cpp.i
+dataStructure/vectorMain.cpp.i:
+	$(MAKE) -f CMakeFiles/vector_exe.dir/build.make CMakeFiles/vector_exe.dir/dataStructure/vectorMain.cpp.i
+.PHONY : dataStructure/vectorMain.cpp.i
 
-myVector.s: myVector.cpp.s
+dataStructure/vectorMain.s: dataStructure/vectorMain.cpp.s
 
-.PHONY : myVector.s
+.PHONY : dataStructure/vectorMain.s
 
 # target to generate assembly for a file
-myVector.cpp.s:
-	$(MAKE) -f CMakeFiles/vector_exe.dir/build.make CMakeFiles/vector_exe.dir/myVector.cpp.s
-.PHONY : myVector.cpp.s
+dataStructure/vectorMain.cpp.s:
+	$(MAKE) -f CMakeFiles/vector_exe.dir/build.make CMakeFiles/vector_exe.dir/dataStructure/vectorMain.cpp.s
+.PHONY : dataStructure/vectorMain.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vector_exe"
-	@echo "... myVector.o"
-	@echo "... myVector.i"
-	@echo "... myVector.s"
+	@echo "... dataStructure/vectorMain.o"
+	@echo "... dataStructure/vectorMain.i"
+	@echo "... dataStructure/vectorMain.s"
 .PHONY : help
 
 

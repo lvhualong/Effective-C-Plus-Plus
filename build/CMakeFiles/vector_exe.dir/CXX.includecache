@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/coding/C-Plus-Plus-Software-Developer/dataStructure/vectorMain.cpp
+vectorMain.h
+/home/ubuntu/coding/C-Plus-Plus-Software-Developer/dataStructure/vectorMain.h
+iostream
+-
+
+/home/ubuntu/coding/C-Plus-Plus-Software-Developer/dataStructure/vectorMain.h
+

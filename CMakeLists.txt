@@ -1,10 +1,21 @@
-cmake_minimum_required(VERSION 3.11)
-project(untitled)
+cmake_minimum_required(VERSION 2.8)
+project(dataStructure)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(untitled  LeeCode/test.cpp )
+set( PROJECT_OUTPUT_DIR ${PROJECT_BINARY_DIR}/${CMAKE_SYSTEM_PROCESSOR})
 
-add_executable(RemoveDuplicates  LeeCode/rm-duplicates.cpp)
+## make directory
+#file( MAKE_DIRECTORY ${PROJECT_OUTPUT_DIR})
+file( MAKE_DIRECTORY ${PROJECT_OUTPUT_DIR}/bin)
+file( MAKE_DIRECTORY ${PROJECT_OUTPUT_DIR}/lib)
 
-add_executable(Search_in_rotatedArray LeeCode/search-in-Rotated-sorted-array.cpp)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${PROJECT_OUTPUT_DIR}/bin)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_OUTPUT_DIR}/lib)
+set(CMAKE_LIBRARY_ARCHITECTURE  ${PROJECT_OUTPUT_DIR}/lib)
+
+
+
+add_executable(vector_exe   dataStructure/vectorMain.cpp)
+
