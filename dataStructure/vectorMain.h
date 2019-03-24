@@ -13,6 +13,7 @@ protected:
     int _capacity; //容量
     T* _elem;    //数据区
 
+    void expend(); // 可扩充向量的溢出策略
 
 public: 
     //构造函数
