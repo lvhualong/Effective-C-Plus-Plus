@@ -6,6 +6,15 @@
 typedef int     Rank; // vector 秩
 #define DEFAULT_CAPACITY    10 //默认的初始容量， 根据实际情况设置
 
+//随机置乱向量，使各元素等概率出现于各位置
+template <typename T> void permute ( Vector<T>& V ) 
+{ 
+   for ( int i = V.size(); i > 0; i-- ) //自后向前
+      swap ( V[i - 1], V[rand() % i] ); //V[i - 1]与V[0, i)中某一随机元素交换
+}
+
+
+
 template <typename T> class Vector 
 {
 protected:
@@ -44,7 +53,7 @@ public:
         return (_size <= 0) ? -1:search(e, 0, _size);
     };
 
-    //重载操作 新增
+    //重载操作 
     T& operator[] (Rank r) const; //重载下标操作符，实现数组形式的元素引用
     Vector<T> & operator= (Vector<T> const&); //重载赋值操作符，实现vector 克隆
 
