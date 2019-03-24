@@ -13,10 +13,12 @@ protected:
     int _capacity; //容量
     T* _elem;    //数据区
 
-    void expend(); // 可扩充向量的溢出策略
+    void expand(); // 可扩充向量的溢出策略
+    void shrink(); // 装载因子过低时，进行缩容
+    void copyFrom ( T const* A, Rank lo, Rank hi ); //复制数组区间A[lo, hi)
 
 public: 
-    //构造函数
+    //默认构造函数  指定初始容量 申请内存空间
     Vector(int c = DEFAULT_CAPACITY, int s = 0, T v = 0) //capecity rankSize elem初值
     {
         _elem = new T[_capacity = c]; //size < capacity
