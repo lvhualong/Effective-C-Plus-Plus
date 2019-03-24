@@ -41,7 +41,7 @@ public:
         return (_size <= 0) ? -1:search(e, 0, _size);
     };
 
-    //重载操作
+    //重载操作 新增
     T& operator[] (Rank r) const; //重载下标操作符，实现数组形式的元素引用
     Vector<T> & operator= (Vector<T> const&); //重载赋值操作符，实现vector 克隆
 
