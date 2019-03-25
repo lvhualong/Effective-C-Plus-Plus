@@ -46,6 +46,10 @@ public:
     void unsort(Rank lo, Rank hi);
     void unsort() {unsort(0, _size);}
 
+    //排序
+    void sort();
+
+
     //无序查找
     Rank find( T const& e, Rank lo, Rank hi) const; //从区间[lo, hi]中查找
     Rank find( T const& e) const { return find(e, 0, _size);} //从整个vector中查找
@@ -56,6 +60,20 @@ public:
     {
         return (_size <= 0) ? -1:search(e, 0, _size);
     };
+
+    // 插入
+    Rank insert(Rank r, T const& e); //中间插入
+    Rank insert(T const& e) {return insert(_size, e);}; //尾部插入
+
+    // 删除
+    int remove(Rank lo, Rank hi); //删除区间[lo, hi]
+    int remove(Rank r); //删除
+
+    //剔除重复元素
+    //无序剔除
+    int deduplicate(); //无序去重
+    int uniquify(); //有序去重
+
 
     //重载操作 
     T& operator[] (Rank r) const; //重载下标操作符，实现数组形式的元素引用
