@@ -44,7 +44,7 @@ public:
 
     //随机置乱
     void unsort(Rank lo, Rank hi);
-    vodi unsort() {unsort(0, _size);}
+    void unsort() {unsort(0, _size);}
 
     //无序查找
     Rank find( T const& e, Rank lo, Rank hi) const; //从区间[lo, hi]中查找
