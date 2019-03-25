@@ -42,6 +42,10 @@ public:
     bool empty() const {return !_size;}; //判断vector 是否为空 true is empty
     int disordered() const; //判断vector 是否已经排序
 
+    //随机置乱
+    void unsort(Rank lo, Rank hi);
+    vodi unsort() {unsort(0, _size);}
+
     //无序查找
     Rank find( T const& e, Rank lo, Rank hi) const; //从区间[lo, hi]中查找
     Rank find( T const& e) const { return find(e, 0, _size);} //从整个vector中查找
