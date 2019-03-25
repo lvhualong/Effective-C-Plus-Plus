@@ -40,7 +40,33 @@ void Vector<T>::copyFrom ( T const* A, Rank lo, Rank hi )
       _elem[_size++] = A[lo++];  //复制至_elem[0, hi - lo)
 }
 
+// 各种排序算法
+template <typename T> //向量的起泡排序 每次去除尾部元素
+void Vector<T>::bubbleSort ( Rank lo, Rank hi ) //assert: 0 <= lo < hi <= size
+{ while ( !bubble( lo, hi-- ) ); } //逐趟做扫描交换，直至全序
 
+//归并排序， 递归分解， 逐层归并
+template <typename T> //两个有序向量的归并
+void Vector<T>::merge ( Rank lo, Rank mi, Rank hi ) { //各自有序的子向量[lo, mi)和[mi, hi)
+    T* A = _elem + lo; //合并后的向量A[0, hi - lo) = _elem[lo, hi)
+    int lb = mi - lo; T* B = new T[lb]; //前子向量B[0, lb) = _elem[lo, mi)
+    for ( Rank i = 0; i < lb; B[i] = A[i++] ); //复制前子向量
+    int lc = hi - mi; T* C = _elem + mi; //后子向量C[0, lc) = _elem[mi, hi)
+    for ( Rank i = 0, j = 0, k = 0; ( j < lb ) || ( k < lc ); ) { //B[j]和C[k]中的小者续至A末尾
+        if ( ( j < lb ) && ( ! ( k < lc ) || ( B[j] <= C[k] ) ) ) A[i++] = B[j++];
+        if ( ( k < lc ) && ( ! ( j < lb ) || ( C[k] <  B[j] ) ) ) A[i++] = C[k++];
+    }
+    delete [] B; //释放临时空间B
+} //归并后得到完整的有序向量[lo, hi)
+
+template <typename T> //向量归并排序
+void Vector<T>::mergeSort ( Rank lo, Rank hi ) { //0 <= lo < hi <= size
+    /*DSA*/printf ( "\tMERGEsort [%3d, %3d)\n", lo , hi );
+    if ( hi - lo < 2 ) return; //单元素区间自然有序，否则...
+    int mi = ( lo + hi ) / 2; //以中点为界
+    mergeSort ( lo, mi ); mergeSort ( mi, hi ); //分别排序 递归分解
+    merge ( lo, mi, hi ); //归并 各自子序列的[lo, mi)和[mi, hi)
+}
 
 // public
 
@@ -53,6 +79,14 @@ void Vector<T>::unsort(Rank lo, Rank hi)
         swap ( V[i - 1], V[rand() % i] ); //将V[i - 1]与V[0, i)中某一元素随机交换
 }
 
+//有序向量甄别器 有序return 0
+template <typename T> int Vector<T>::disordered() const { //返回向量中逆序相邻元素对的总数
+    int n = 0; //计数器
+    for ( int i = 1; i < _size; i++ ) //逐一检查_size - 1对相邻元素
+        if ( _elem[i - 1] > _elem[i] ) n++; //逆序则计数
+    return n; //向量有序当且仅当n = 0
+}
+
 //无序查找
 template <typename T>
 Rank Vector<T>::find(const T &e, Rank lo, Rank hi) const
@@ -60,6 +94,15 @@ Rank Vector<T>::find(const T &e, Rank lo, Rank hi) const
     while((lo < hi--) && (e != _elem[hi])) ; //从后向前，顺序查找
     return  hi;
 }
+
+//有序查找
+template <typename T>
+Rank Vector<T>::search(const T &e, Rank lo, Rank hi) const {
+    return (rand() % 2) ? //按各50%的概率随机使用二分查找或Fibonacci查找
+           binSearch(_elem, e, lo, hi) : fibSearch(_elem, e, lo, hi);
+}
+
+
 
 //插入元素
 template <typename T>
@@ -143,6 +186,20 @@ Vector<T>&  Vector<T>::operator[] (Rank r) const //重载下标操作符，实�
     return _elem[r];
 }
 
+// 遍历
+template <typename T> void Vector<T>::traverse ( void ( *visit ) ( T& ) ) //借助函数指针机制
+{ for ( int i = 0; i < _size; i++ ) visit ( _elem[i] ); } //遍历向量
+
+template <typename T> template <typename VST> //元素类型、操作器
+void Vector<T>::traverse ( VST& visit ) //借助函数对象机制
+{ for ( int i = 0; i < _size; i++ ) visit ( _elem[i] ); } //遍历向量
+
+/*
+ * ************************************
+ *
+ *
+ * ************************************
+ */
 int main()
 {
     std::cout << "test" << std::endl;

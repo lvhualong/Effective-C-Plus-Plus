@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/myVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myVector.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/myVector.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myVector.h" afterDir="false" />
@@ -27,15 +26,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataStructure/myVector.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="117" column="44" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
+            <state relative-caret-position="537">
+              <caret line="201" column="3" lean-forward="true" selection-start-line="201" selection-start-column="3" selection-end-line="201" selection-end-column="3" />
               <folding>
                 <element signature="e#122#134#0" expanded="true" />
                 <element signature="e#60#648#0" />
                 <element signature="e#659#671#0" expanded="true" />
                 <element signature="e#1043#1055#0" expanded="true" />
+                <element signature="e#1311#1323#0" expanded="true" />
+                <element signature="e#1496#1508#0" expanded="true" />
+                <element signature="e#2182#2194#0" expanded="true" />
                 <element signature="e#1314#1326#0" expanded="true" />
+                <element signature="e#2825#2837#0" expanded="true" />
                 <element signature="e#1563#1575#0" expanded="true" />
+                <element signature="e#1742#1754#0" expanded="true" />
                 <element signature="e#1720#1732#0" expanded="true" />
                 <element signature="e#1984#1996#0" expanded="true" />
                 <element signature="e#2300#2312#0" expanded="true" />
@@ -43,6 +47,9 @@
                 <element signature="e#3122#3134#0" expanded="true" />
                 <element signature="e#2514#2526#0" expanded="true" />
                 <element signature="e#1558#1570#0" expanded="true" />
+                <element signature="e#5592#5604#0" expanded="true" />
+                <element signature="e#5743#5755#0" expanded="true" />
+                <element signature="e#5765#5779#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,12 +58,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructure/myVector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+            <state relative-caret-position="1083">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="e#160#172#0" expanded="true" />
+                <element signature="e#2017#2029#0" expanded="true" />
+                <element signature="e#2844#2856#0" expanded="true" />
+                <element signature="e#3810#3822#0" expanded="true" />
                 <element signature="e#336#348#0" expanded="true" />
+                <element signature="e#349#1877#1" />
                 <element signature="e#599#838#0" />
+                <element signature="e#1422#1534#0" />
               </folding>
             </state>
           </provider>
@@ -66,8 +78,8 @@
         <entry file="file://$PROJECT_DIR$/dataStructure/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="374">
-                <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+              <first_editor relative-caret-position="285">
+                <caret line="29" column="56" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="56" />
               </first_editor>
               <second_editor />
             </state>
@@ -80,6 +92,9 @@
     <findStrings>
       <find>uniquify</find>
       <find>expand</find>
+      <find>find</find>
+      <find>disorder</find>
+      <find>bubble</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,17 +105,18 @@
       <list>
         <option value="$PROJECT_DIR$/Data-Structure/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Data-Structure/readme.md" />
-        <option value="$PROJECT_DIR$/dataStructure/myVector.cpp" />
         <option value="$PROJECT_DIR$/dataStructure/readme.md" />
         <option value="$PROJECT_DIR$/dataStructure/myVector.h" />
+        <option value="$PROJECT_DIR$/dataStructure/myVector.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -126,7 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -156,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553214339775</updated>
       <workItem from="1553214348240" duration="2232000" />
-      <workItem from="1553473372759" duration="7328000" />
+      <workItem from="1553473372759" duration="23433000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -165,14 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553473997861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update new message">
+      <created>1553481070751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553481070751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9560000" />
+    <option name="totallyTimeSpent" value="25665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="963" y="0" width="957" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18777777" />
@@ -188,7 +211,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32855567" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.12899669" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -220,8 +243,8 @@
     <entry file="file://$PROJECT_DIR$/dataStructure/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="374">
-            <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <first_editor relative-caret-position="285">
+            <caret line="29" column="56" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="56" />
           </first_editor>
           <second_editor />
         </state>
@@ -229,27 +252,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myVector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        <state relative-caret-position="1083">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="e#160#172#0" expanded="true" />
+            <element signature="e#2017#2029#0" expanded="true" />
+            <element signature="e#2844#2856#0" expanded="true" />
+            <element signature="e#3810#3822#0" expanded="true" />
             <element signature="e#336#348#0" expanded="true" />
+            <element signature="e#349#1877#1" />
             <element signature="e#599#838#0" />
+            <element signature="e#1422#1534#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myVector.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="117" column="44" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
+        <state relative-caret-position="537">
+          <caret line="201" column="3" lean-forward="true" selection-start-line="201" selection-start-column="3" selection-end-line="201" selection-end-column="3" />
           <folding>
             <element signature="e#122#134#0" expanded="true" />
             <element signature="e#60#648#0" />
             <element signature="e#659#671#0" expanded="true" />
             <element signature="e#1043#1055#0" expanded="true" />
+            <element signature="e#1311#1323#0" expanded="true" />
+            <element signature="e#1496#1508#0" expanded="true" />
+            <element signature="e#2182#2194#0" expanded="true" />
             <element signature="e#1314#1326#0" expanded="true" />
+            <element signature="e#2825#2837#0" expanded="true" />
             <element signature="e#1563#1575#0" expanded="true" />
+            <element signature="e#1742#1754#0" expanded="true" />
             <element signature="e#1720#1732#0" expanded="true" />
             <element signature="e#1984#1996#0" expanded="true" />
             <element signature="e#2300#2312#0" expanded="true" />
@@ -257,6 +290,9 @@
             <element signature="e#3122#3134#0" expanded="true" />
             <element signature="e#2514#2526#0" expanded="true" />
             <element signature="e#1558#1570#0" expanded="true" />
+            <element signature="e#5592#5604#0" expanded="true" />
+            <element signature="e#5743#5755#0" expanded="true" />
+            <element signature="e#5765#5779#0" expanded="true" />
           </folding>
         </state>
       </provider>
