@@ -1,18 +1,12 @@
-
 #ifndef MYVECTOR_H 
 #define MYVECTOR_H
 
-#include "fib.h"
+// #include "fib.h"
+#include <string>
 
 typedef int     Rank; // vector 秩
 #define DEFAULT_CAPACITY    10 //默认的初始容量， 根据实际情况设置
 
-//随机置乱向量，使各元素等概率出现于各位置
-template <typename T> void permute ( Vector<T>& V ) 
-{ 
-   for ( int i = V.size(); i > 0; i-- ) //自后向前
-      swap ( V[i - 1], V[rand() % i] ); //V[i - 1]与V[0, i)中某一随机元素交换
-}
 
 // 二分查找DSA 在有序向量的区间[lo, hi)内查找元素e，0 <= lo <= hi <= _size
 // 二分查找算法（版本A）：三个分支，两个比较
@@ -27,7 +21,7 @@ template <typename T> void permute ( Vector<T>& V )
 //        /*DSA*/ if ( lo >= hi ) { for ( int i = 0; i < mi; i++ ) printf ( "     " ); if ( mi >= 0 ) printf ( "....|\n" ); else printf ( "<<<<|\n" ); }
 //    } //成功查找可以提前终止
 //    return -1; //查找失败
-} //有多个命中元素时，不能保证返回秩最大者；查找失败时，简单地返回-1，而不能指示失败的位置
+// } //有多个命中元素时，不能保证返回秩最大者；查找失败时，简单地返回-1，而不能指示失败的位置
 
 
 // 二分查找算法（版本B）：两个分支 一个比较
@@ -40,7 +34,7 @@ template <typename T> void permute ( Vector<T>& V )
 //    } //出口时hi = lo + 1，查找区间仅含一个元素A[lo]
 //    /*DSA*/ for ( int i = 0; i < lo; i++ ) printf ( "     " ); if ( lo >= 0 ) printf ( "....|\n" ); else printf ( "<<<<|\n" );
 //    return ( e == A[lo] ) ? lo : -1 ; //查找成功时返回对应的秩；否则统一返回-1
-} //有多个命中元素时，不能保证返回秩最大者；查找失败时，简单地返回-1，而不能指示失败的位置
+// } //有多个命中元素时，不能保证返回秩最大者；查找失败时，简单地返回-1，而不能指示失败的位置
 
 
 // 二分查找算法（版本C）：在有序向量的区间[lo, hi)内查找元素e，0 <= lo <= hi <= _size
@@ -56,38 +50,21 @@ template <typename T> static Rank binSearch ( T* A, T const& e, Rank lo, Rank hi
 } //有多个命中元素时，总能保证返回秩最大者；查找失败时，能够返回失败的位置
 
 
-// Fibonacci查找算法（版本A）：在有序向量的区间[lo, hi)内查找元素e，0 <= lo <= hi <= _size
-template <typename T> static Rank fibSearch ( T* A, T const& e, Rank lo, Rank hi ) {
-    /*DSA*/printf ( "FIB search (A)\n" );
-    Fib fib ( hi - lo ); //用O(log_phi(n = hi - lo)时间创建Fib数列
-    while ( lo < hi ) { //每步迭代可能要做两次比较判断，有三个分支
-        /*DSA*/ for ( int i = 0; i < lo; i++ ) printf ( "     " ); if ( lo >= 0 ) for ( int i = lo; i < hi; i++ ) printf ( "....^" ); else printf ( "<<<<|" ); printf ( "\n" );
-        while ( hi - lo < fib.get() ) fib.prev(); //通过向前顺序查找（分摊O(1)）――至多迭代几次？
-        Rank mi = lo + fib.get() - 1; //确定形如Fib(k) - 1的轴点
-        if      ( e < A[mi] ) hi = mi; //深入前半段[lo, mi)继续查找
-        else if ( A[mi] < e ) lo = mi + 1; //深入后半段(mi, hi)继续查找
-        else                return mi; //在mi处命中
-        /*DSA*/ if ( lo >= hi ) { for ( int i = 0; i < mi; i++ ) printf ( "     " ); if ( mi >= 0 ) printf ( "....|\n" ); else printf ( "<<<<|\n" ); }
-    } //成功查找可以提前终止
-    return -1; //查找失败
-} //有多个命中元素时，不能保证返回秩最大者；失败时，简单地返回-1，而不能指示失败的位置
-
-
-// 排序算法
-
-//一趟冒泡排序
-template <typename T> bool Vector<T>::bubble ( Rank lo, Rank hi ) { //一趟扫描交换
-    bool sorted = true; //整体有序标志
-    while ( ++lo < hi ) //自左向右，逐一检查各对相邻元素
-        if ( _elem[lo - 1] > _elem[lo] ) { //若逆序，则
-            sorted = false; //意味着尚未整体有序，并需要
-            swap ( _elem[lo - 1], _elem[lo] ); //通过交换使局部有序
-        }
-    return sorted; //返回有序标志
-}
-
-
-
+// // Fibonacci查找算法（版本A）：在有序向量的区间[lo, hi)内查找元素e，0 <= lo <= hi <= _size
+// template <typename T> static Rank fibSearch ( T* A, T const& e, Rank lo, Rank hi ) {
+//     /*DSA*/printf ( "FIB search (A)\n" );
+//     Fib fib ( hi - lo ); //用O(log_phi(n = hi - lo)时间创建Fib数列
+//     while ( lo < hi ) { //每步迭代可能要做两次比较判断，有三个分支
+//         /*DSA*/ for ( int i = 0; i < lo; i++ ) printf ( "     " ); if ( lo >= 0 ) for ( int i = lo; i < hi; i++ ) printf ( "....^" ); else printf ( "<<<<|" ); printf ( "\n" );
+//         while ( hi - lo < fib.get() ) fib.prev(); //通过向前顺序查找（分摊O(1)）――至多迭代几次？
+//         Rank mi = lo + fib.get() - 1; //确定形如Fib(k) - 1的轴点
+//         if      ( e < A[mi] ) hi = mi; //深入前半段[lo, mi)继续查找
+//         else if ( A[mi] < e ) lo = mi + 1; //深入后半段(mi, hi)继续查找
+//         else                return mi; //在mi处命中
+//         /*DSA*/ if ( lo >= hi ) { for ( int i = 0; i < mi; i++ ) printf ( "     " ); if ( mi >= 0 ) printf ( "....|\n" ); else printf ( "<<<<|\n" ); }
+//     } //成功查找可以提前终止
+//     return -1; //查找失败
+// } //有多个命中元素时，不能保证返回秩最大者；失败时，简单地返回-1，而不能指示失败的位置
 
 
 
@@ -128,8 +105,8 @@ public:
     ~Vector(){ delete [] _elem;}
 
     // read-only  (这个const是指返回值是常量)
-    Rank size() const {return _size;}; //返回vector 规模
-    bool empty() const {return !_size;}; //判断vector 是否为空 true is empty
+    Rank size() const {return _size;} //返回vector 规模
+    bool empty() const {return !_size;} //判断vector 是否为空 true is empty
     int disordered() const; //判断vector 是否已经排序,有序return 0
 
     //随机置乱
@@ -138,6 +115,7 @@ public:
 
     //排序 [多种排序方法的接口]
     void sort(Rank lo, Rank hi);
+    void sort() { sort(0, _size); }
 
     //无序查找
     Rank find( T const& e, Rank lo, Rank hi) const; //从区间[lo, hi]中查找
@@ -156,14 +134,14 @@ public:
 
     // 删除
     int remove(Rank lo, Rank hi); //删除区间[lo, hi]
-    int remove(Rank r); //删除
+    T remove(Rank r); //删除
 
     //剔除重复元素
     //无序剔除
     int deduplicate(); //无序去重
     int uniquify(); //有序去重
 
-
+    void print_vector(); //打印vector
     //重载操作 
     T& operator[] (Rank r) const; //重载下标操作符，实现数组形式的元素引用
     Vector<T> & operator= (Vector<T> const&); //重载赋值操作符，实现vector 克隆

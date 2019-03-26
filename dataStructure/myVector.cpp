@@ -1,5 +1,3 @@
-
-
 #include "myVector.h"
 #include <iostream>
 
@@ -41,6 +39,21 @@ void Vector<T>::copyFrom ( T const* A, Rank lo, Rank hi )
 }
 
 // 各种排序算法
+
+
+//一趟冒泡排序
+template <typename T> 
+bool Vector<T>::bubble ( Rank lo, Rank hi ) 
+{ //一趟扫描交换
+    bool sorted = true; //整体有序标志
+    while ( ++lo < hi ) //自左向右，逐一检查各对相邻元素
+        if ( _elem[lo - 1] > _elem[lo] ) { //若逆序，则
+            sorted = false; //意味着尚未整体有序，并需要
+            std::swap ( _elem[lo - 1], _elem[lo] ); //通过交换使局部有序
+        }
+    return sorted; //返回有序标志
+}
+
 template <typename T> //向量的起泡排序 每次去除尾部元素
 void Vector<T>::bubbleSort ( Rank lo, Rank hi ) //assert: 0 <= lo < hi <= size
 { while ( !bubble( lo, hi-- ) ); } //逐趟做扫描交换，直至全序
@@ -76,7 +89,7 @@ void Vector<T>::unsort(Rank lo, Rank hi)
 {
     T* V = _elem + lo; //将子向量_elem[lo, hi)视作另一向量V[0, hi - lo)
     for ( Rank i = hi - lo; i > 0; i-- ) //自后向前
-        swap ( V[i - 1], V[rand() % i] ); //将V[i - 1]与V[0, i)中某一元素随机交换
+        std::swap ( V[i - 1], V[rand() % i] ); //将V[i - 1]与V[0, i)中某一元素随机交换
 }
 
 //有序向量甄别器 有序return 0
@@ -99,7 +112,7 @@ Rank Vector<T>::find(const T &e, Rank lo, Rank hi) const
 template <typename T>
 Rank Vector<T>::search(const T &e, Rank lo, Rank hi) const {
     return (rand() % 2) ? //按各50%的概率随机使用二分查找或Fibonacci查找
-           binSearch(_elem, e, lo, hi) : fibSearch(_elem, e, lo, hi);
+           binSearch(_elem, e, lo, hi) : binSearch(_elem, e, lo, hi); //fibSearch
 }
 
 
@@ -181,9 +194,25 @@ Vector<T>&  Vector<T>::operator= (Vector<T> const& V)
 }
 
 template <typename T> 
-Vector<T>&  Vector<T>::operator[] (Rank r) const //重载下标操作符，实现数组形式的元素引用
+T&  Vector<T>::operator[] (Rank r) const //重载下标操作符，实现数组形式的元素引用
 {
     return _elem[r];
+}
+
+template <typename T>
+void Vector<T>::sort(Rank lo, Rank hi)
+{
+    bubbleSort(lo, hi);
+}
+
+template <typename T> 
+void Vector<T>::print_vector()
+{
+    for(int i=0; i< _size; i++)
+    {
+        std::cout << _elem[i] << "  ";
+    }
+    std::cout << std::endl;    
 }
 
 // 遍历
@@ -200,8 +229,32 @@ void Vector<T>::traverse ( VST& visit ) //借助函数对象机制
  *
  * ************************************
  */
+
 int main()
 {
-    std::cout << "test" << std::endl;
+    //实例化
+    Vector<int>  intVectorTest(100, 0, 0);
+    //插入
+    for(int i=0; i<=10; i++)
+    {
+        intVectorTest.insert(i);
+    }
+    std::cout << "test vector_size " << intVectorTest.size() << std::endl;
+    intVectorTest.print_vector();
+    
+    //乱序
+    intVectorTest.unsort();
+    intVectorTest.print_vector();
+
+    // 无序查找
+    std::cout << "serach 6 rank " << intVectorTest.find(6) <<std::endl;
+
+    //排序
+    intVectorTest.sort();
+    intVectorTest.print_vector();
+    std::cout << "serach 6 rank " << intVectorTest.search(6) <<std::endl;
+
+
+
     return 0;
 }

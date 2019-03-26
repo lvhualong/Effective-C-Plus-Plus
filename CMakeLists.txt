@@ -15,7 +15,10 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${PROJECT_OUTPUT_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_OUTPUT_DIR}/lib)
 set(CMAKE_LIBRARY_ARCHITECTURE  ${PROJECT_OUTPUT_DIR}/lib)
 
+include_directories(${PROJECT_SOURCE_DIR}/dataStructure)
 
+add_library(myVector SHARED dataStructure/myVector.cpp)
 
-add_executable(vector_exe   dataStructure/vectorMain.cpp)
+add_executable(vector_exe  dataStructure/myVector.cpp)
+
 
