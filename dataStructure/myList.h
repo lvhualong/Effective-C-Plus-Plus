@@ -17,7 +17,7 @@ template <typename T> struct ListNode
     //构造函数
     ListNode() {}  //针对哨兵节点 header和trailer的构造
     //默认构造函数
-    ListNode(T e, ListNodePosi(T) p=NULL, ListNodePosi(T) s=NULL):
+    ListNode(T e, ListNodePosi(T) p= nullptr, ListNodePosi(T) s= nullptr):
         data(e), pred(p), succ(s){}
 
     //接口操作
@@ -43,10 +43,19 @@ private:
 
 
 protected:
+    void init(); //双向链表初始化
+    void copyNodes ( ListNodePosi(T) p, int n); //复制列表中自位置p起的n项
+    int clear(); //清除所有节点
 
+    //排序算法
+    void insertionSort ( ListNodePosi(T), int ); //对从p开始连续的n个节点插入排序
+    void selectionSort ( ListNodePosi(T), int ); //对从p开始连续的n个节点选择排序
+       //归并排序
+    void merge ( ListNodePosi(T)&, int, List<T>&, ListNodePosi(T), int ); //归并
+    void mergeSort ( ListNodePosi(T)&, int ); //对从p开始连续的n个节点归并排序
 
 public:
-    void init(); //双向链表初始化
+
 
 
     //首末节点的位置
@@ -56,6 +65,11 @@ public:
     //无序查找
     //在无序列表内节点p的n个前驱中，找到值为e的最后者
     ListNodePosi(T) find(T const& e, int n, ListNodePosi(T) p) const;
+    //有序列表的查找
+    ListNodePosi(T) search(T const& e, int n, ListNodePosi(T) p) const;
+
+    //在p及其n-1个后继中选出最大者
+    ListNodePosi(T) selectMax ( ListNodePosi(T) p, int n );
 
     //插入
     ListNodePosi(T) insertAsFirst(T const& e) ; //首节点插入
@@ -63,11 +77,21 @@ public:
     ListNodePosi(T) insertAsBefore(ListNodePosi(T) p, T const& e) ;
     ListNodePosi(T) insertAsAfter(ListNodePosi(T) p, T const& e) ;
 
-
     //删除
+    T remove(ListNodePosi(T) p);//删除合法位置p处的节点,返回被删除节点
+
+    //唯一化
+    int deduplicate(); //无序去重
+    int uniquify(); //有序去重
 
     //重载 `[]`操作符，通过秩索引找到Node的位置(指针)
     T& operator[] (Rank r);
+
+// 遍历
+    void traverse ( void (* ) ( T& ) ); //遍历，依次实施visit操作（函数指针，只读或局部性修改）
+    template <typename VST> //操作器
+    void traverse ( VST& ); //遍历，依次实施visit操作（函数对象，可全局性修改）
+
 
 };
 

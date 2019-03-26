@@ -9,14 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="start update list class">
-      <change afterPath="$PROJECT_DIR$/.idea/C-Plus-Plus-Software-Developer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/myList.h" afterDir="false" />
+    <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/myList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/myList.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructure/myList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="60" column="15" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+            <state relative-caret-position="625">
+              <caret line="76" column="34" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="34" />
               <folding>
                 <element signature="e#90#102#0" expanded="true" />
                 <element signature="e#84#96#0" expanded="true" />
@@ -40,30 +36,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+            <state relative-caret-position="400">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#62#74#0" expanded="true" />
                 <element signature="e#315#327#0" expanded="true" />
-                <element signature="e#205#217#0" expanded="true" />
-                <element signature="e#428#440#0" expanded="true" />
-                <element signature="e#1205#1217#0" expanded="true" />
-                <element signature="e#1349#1361#0" expanded="true" />
-                <element signature="e#1486#1498#0" expanded="true" />
-                <element signature="e#1639#1651#0" expanded="true" />
-                <element signature="e#462#474#0" expanded="true" />
+                <element signature="e#681#693#0" expanded="true" />
+                <element signature="e#910#922#0" expanded="true" />
+                <element signature="e#1193#1205#0" expanded="true" />
+                <element signature="e#1327#1339#0" expanded="true" />
+                <element signature="e#1697#1709#0" expanded="true" />
+                <element signature="e#2332#2344#0" expanded="true" />
+                <element signature="e#3087#3099#0" expanded="true" />
+                <element signature="e#1755#1767#0" expanded="true" />
+                <element signature="e#1983#1995#0" expanded="true" />
+                <element signature="e#2844#2856#0" expanded="true" />
+                <element signature="e#2240#2252#0" expanded="true" />
+                <element signature="e#2375#2387#0" expanded="true" />
+                <element signature="e#2512#2524#0" expanded="true" />
+                <element signature="e#2665#2677#0" expanded="true" />
+                <element signature="e#2858#2870#0" expanded="true" />
+                <element signature="e#3124#3136#0" expanded="true" />
+                <element signature="e#3584#3596#0" expanded="true" />
+                <element signature="e#4015#4027#0" expanded="true" />
+                <element signature="e#4185#4197#0" expanded="true" />
+                <element signature="e#4374#4386#0" expanded="true" />
+                <element signature="e#4396#4410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/dataStructure/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="689">
-                <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+              <first_editor relative-caret-position="814">
+                <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -90,6 +91,8 @@
       <find>find</find>
       <find>disorder</find>
       <find>bubble</find>
+      <find>NULL</find>
+      <find>sort</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,18 +106,17 @@
         <option value="$PROJECT_DIR$/dataStructure/myVector.h" />
         <option value="$PROJECT_DIR$/dataStructure/myVector.cpp" />
         <option value="$PROJECT_DIR$/dataStructure/fib.h" />
-        <option value="$PROJECT_DIR$/dataStructure/readme.md" />
-        <option value="$PROJECT_DIR$/dataStructure/myList.cpp" />
-        <option value="$PROJECT_DIR$/dataStructure/myList.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/dataStructure/readme.md" />
+        <option value="$PROJECT_DIR$/dataStructure/myList.h" />
+        <option value="$PROJECT_DIR$/dataStructure/myList.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="912" />
+    <option name="width" value="1008" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -177,7 +179,7 @@
       <updated>1553214339775</updated>
       <workItem from="1553214348240" duration="2232000" />
       <workItem from="1553473372759" duration="25627000" />
-      <workItem from="1553561164167" duration="7945000" />
+      <workItem from="1553561164167" duration="17701000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -207,17 +209,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553561296027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="start update list class">
+      <created>1553569187515</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553569187515</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35804000" />
+    <option name="totallyTimeSpent" value="45560000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="912" y="0" width="1008" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13500534" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2817372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,7 +254,8 @@
     <MESSAGE value="update new message" />
     <MESSAGE value="updated vector" />
     <MESSAGE value="start update list" />
-    <option name="LAST_COMMIT_MESSAGE" value="start update list" />
+    <MESSAGE value="start update list class" />
+    <option name="LAST_COMMIT_MESSAGE" value="start update list class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Data-Structure/myVector.h" />
@@ -277,16 +287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="689">
-            <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -294,31 +294,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
-          <folding>
-            <element signature="e#62#74#0" expanded="true" />
-            <element signature="e#315#327#0" expanded="true" />
-            <element signature="e#205#217#0" expanded="true" />
-            <element signature="e#428#440#0" expanded="true" />
-            <element signature="e#1205#1217#0" expanded="true" />
-            <element signature="e#1349#1361#0" expanded="true" />
-            <element signature="e#1486#1498#0" expanded="true" />
-            <element signature="e#1639#1651#0" expanded="true" />
-            <element signature="e#462#474#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/dataStructure/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="814">
+            <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="60" column="15" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+        <state relative-caret-position="625">
+          <caret line="76" column="34" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="34" />
           <folding>
             <element signature="e#90#102#0" expanded="true" />
             <element signature="e#84#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#62#74#0" expanded="true" />
+            <element signature="e#315#327#0" expanded="true" />
+            <element signature="e#681#693#0" expanded="true" />
+            <element signature="e#910#922#0" expanded="true" />
+            <element signature="e#1193#1205#0" expanded="true" />
+            <element signature="e#1327#1339#0" expanded="true" />
+            <element signature="e#1697#1709#0" expanded="true" />
+            <element signature="e#2332#2344#0" expanded="true" />
+            <element signature="e#3087#3099#0" expanded="true" />
+            <element signature="e#1755#1767#0" expanded="true" />
+            <element signature="e#1983#1995#0" expanded="true" />
+            <element signature="e#2844#2856#0" expanded="true" />
+            <element signature="e#2240#2252#0" expanded="true" />
+            <element signature="e#2375#2387#0" expanded="true" />
+            <element signature="e#2512#2524#0" expanded="true" />
+            <element signature="e#2665#2677#0" expanded="true" />
+            <element signature="e#2858#2870#0" expanded="true" />
+            <element signature="e#3124#3136#0" expanded="true" />
+            <element signature="e#3584#3596#0" expanded="true" />
+            <element signature="e#4015#4027#0" expanded="true" />
+            <element signature="e#4185#4197#0" expanded="true" />
+            <element signature="e#4374#4386#0" expanded="true" />
+            <element signature="e#4396#4410#0" expanded="true" />
           </folding>
         </state>
       </provider>
