@@ -1,5 +1,6 @@
 
 #include "myList.h"
+#include <iostream>
 
 
 /*
@@ -121,6 +122,14 @@ void List<T>::mergeSort ( ListNodePosi(T) & p, int n ) { //valid(p) && rank(p) +
 
 // @ public    *********************
 
+template <typename T> //复制列表中自位置p起的n项（assert: p为合法位置，且至少有n-1个后继节点）
+List<T>::List ( ListNodePosi(T) p, int n ) { copyNodes ( p, n ); }
+
+template <typename T> //整体复制列表L
+List<T>::List ( List<T> const& L ) { copyNodes ( L.first(), L._size ); }
+
+template <typename T> //复制L中自第r项起的n项（assert: r+n <= L._size）
+List<T>::List ( List<T> const& L, int r, int n ) { copyNodes ( L[r], n ); }
 
 //查找
 //在无序列表内节点p的n个前驱中，找到值为e的最后者
@@ -201,6 +210,16 @@ T List<T>::remove(ListNode<T> *p)
     return e;
 }
 
+// List排序
+template <typename T> void List<T>::sort ( ListNodePosi(T) p, int n ) { //列表区间排序
+    switch ( rand() % 3 ) { //随机选取排序算法。可根据具体问题的特点灵活选取或扩充
+        case 1:  insertionSort ( p, n ); break; //插入排序
+        case 2:  selectionSort ( p, n ); break; //选择排序
+        default: mergeSort ( p, n ); break; //归并排序
+    }
+}
+
+
 // 唯一化 ********************************
 
 //剔除无序列表中的重复节点
@@ -247,3 +266,35 @@ void List<T>::traverse ( void ( *visit ) ( T& ) ) //借助函数指针机制遍�
 template <typename T> template <typename VST> //元素类型、操作器
 void List<T>::traverse ( VST& visit ) //借助函数对象机制遍历
 {  for ( ListNodePosi(T) p = header->succ; p != trailer; p = p->succ ) visit ( p->data );  }
+
+template <typename T>
+void List<T>::printList()
+{
+    ListNodePosi(T) posi = header;
+        while (posi->succ != trailer)
+        {
+            std::cout << posi->succ->data << " ";
+            posi = posi->succ;
+        }
+        std::cout << std::endl;
+
+}
+
+int main()
+{
+    //实例化
+    List<int>  initListTest;
+    //插入
+    for(int i=0; i<=10; i++)
+    {
+        int temp = rand()%10;
+        initListTest.insertAsLast(temp)
+    }
+    std::cout << "test vector_size " << initListTest.size() << std::endl;
+    initListTest.printList();
+    //排序
+    intVectorTest.sort();
+    initListTest.printList();
+
+    return 0;
+}

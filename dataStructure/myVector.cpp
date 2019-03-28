@@ -254,7 +254,5 @@ int main()
     intVectorTest.print_vector();
     std::cout << "serach 6 rank " << intVectorTest.search(6) <<std::endl;
 
-
-
     return 0;
 }

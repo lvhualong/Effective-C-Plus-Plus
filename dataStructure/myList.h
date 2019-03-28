@@ -23,7 +23,6 @@ template <typename T> struct ListNode
     //接口操作
     ListNodePosi(T) insertAsPred(T const& e); //紧靠当前节点之前插入新节点
     ListNodePosi(T) insertAsSucc ( T const& e ); //紧随当前节点之后插入新节点
-
 };
 
 
@@ -41,7 +40,6 @@ private:
     ListNodePosi(T) header;
     ListNodePosi(T) trailer;
 
-
 protected:
     void init(); //双向链表初始化
     void copyNodes ( ListNodePosi(T) p, int n); //复制列表中自位置p起的n项
@@ -56,6 +54,16 @@ protected:
 
 public:
 
+    // 构造函数
+    List() { init(); } //默认
+    List ( List<T> const& L ); //整体复制列表L
+    List ( List<T> const& L, Rank r, int n ); //复制列表L中自第r项起的n项
+    List ( ListNodePosi(T) p, int n ); //复制列表中自位置p起的n项
+// 析构函数
+    ~List(); //释放（包含头、尾哨兵在内的）所有节点
+// 只读访问接口
+    Rank size() const { return _size; } //规模
+    bool empty() const { return _size <= 0; } //判空
 
 
     //首末节点的位置
@@ -80,6 +88,10 @@ public:
     //删除
     T remove(ListNodePosi(T) p);//删除合法位置p处的节点,返回被删除节点
 
+    //排序
+    void sort ( ListNodePosi(T) p, int n ); //列表区间排序
+    void sort() { sort ( first(), _size ); } //列表整体排序
+
     //唯一化
     int deduplicate(); //无序去重
     int uniquify(); //有序去重
@@ -91,7 +103,8 @@ public:
     void traverse ( void (* ) ( T& ) ); //遍历，依次实施visit操作（函数指针，只读或局部性修改）
     template <typename VST> //操作器
     void traverse ( VST& ); //遍历，依次实施visit操作（函数对象，可全局性修改）
-
+// print List
+    void printList();
 
 };
 
