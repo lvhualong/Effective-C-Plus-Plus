@@ -1,87 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="dataStructure" targetName="test" />
+      <config projectName="dataStructure" targetName="myList" />
+      <config projectName="dataStructure" targetName="vector_exe" />
+      <config projectName="dataStructure" targetName="list_exe" />
+      <config projectName="dataStructure" targetName="myVector" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="build_Win" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataStructure/myQueue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/myQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/myStack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/myStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/myTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/myTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/testStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/C-Plus-Plus-Software-Developer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C-Plus-Plus-Software-Developer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/myList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/myList.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/myVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myVector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/readme.md" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/build_Win/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructure/myList.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-              <folding>
-                <element signature="e#90#102#0" expanded="true" />
-                <element signature="e#84#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="296" column="29" selection-start-line="296" selection-start-column="29" selection-end-line="296" selection-end-column="29" />
-              <folding>
-                <element signature="e#62#74#0" expanded="true" />
-                <element signature="e#315#327#0" expanded="true" />
-                <element signature="e#681#693#0" expanded="true" />
-                <element signature="e#910#922#0" expanded="true" />
-                <element signature="e#1193#1205#0" expanded="true" />
-                <element signature="e#1327#1339#0" expanded="true" />
-                <element signature="e#1697#1709#0" expanded="true" />
-                <element signature="e#2332#2344#0" expanded="true" />
-                <element signature="e#3087#3099#0" expanded="true" />
-                <element signature="e#3628#3640#0" expanded="true" />
-                <element signature="e#3763#3775#0" expanded="true" />
-                <element signature="e#3869#3881#0" expanded="true" />
-                <element signature="e#1755#1767#0" expanded="true" />
-                <element signature="e#1983#1995#0" expanded="true" />
-                <element signature="e#2844#2856#0" expanded="true" />
-                <element signature="e#2240#2252#0" expanded="true" />
-                <element signature="e#2375#2387#0" expanded="true" />
-                <element signature="e#2512#2524#0" expanded="true" />
-                <element signature="e#2665#2677#0" expanded="true" />
-                <element signature="e#2858#2870#0" expanded="true" />
-                <element signature="e#5728#5740#0" expanded="true" />
-                <element signature="e#3124#3136#0" expanded="true" />
-                <element signature="e#3584#3596#0" expanded="true" />
-                <element signature="e#4015#4027#0" expanded="true" />
-                <element signature="e#4185#4197#0" expanded="true" />
-                <element signature="e#4374#4386#0" expanded="true" />
-                <element signature="e#4396#4410#0" expanded="true" />
-                <element signature="e#6828#6840#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructure/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1650">
-                <caret line="66" column="54" lean-forward="true" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
+              <first_editor relative-caret-position="1640">
+                <caret line="141" column="7" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/myVector.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1257">
+              <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
+              <folding>
+                <element signature="e#6234#6246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/myTree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1991">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="e#2886#2898#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build_Win/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/myQueue.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding>
+                <element signature="e#142#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="296" column="26" selection-start-line="296" selection-start-column="26" selection-end-line="296" selection-end-column="26" />
+              <folding>
+                <element signature="e#1175#1187#0" expanded="true" />
+                <element signature="e#3628#3640#0" expanded="true" />
+                <element signature="e#3763#3775#0" expanded="true" />
+                <element signature="e#3869#3881#0" expanded="true" />
+                <element signature="e#4500#4512#0" expanded="true" />
+                <element signature="e#5728#5740#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/myList.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24">
+              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+              <folding>
+                <element signature="e#164#176#0" expanded="true" />
+                <element signature="e#642#654#0" expanded="true" />
+                <element signature="e#643#655#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +161,7 @@
       <find>bubble</find>
       <find>NULL</find>
       <find>sort</find>
+      <find>first</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,18 +174,26 @@
         <option value="$PROJECT_DIR$/Data-Structure/readme.md" />
         <option value="$PROJECT_DIR$/dataStructure/myVector.h" />
         <option value="$PROJECT_DIR$/dataStructure/fib.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/dataStructure/readme.md" />
+        <option value="$PROJECT_DIR$/dataStructure/myStack.h" />
+        <option value="$PROJECT_DIR$/dataStructure/testStack.cpp" />
+        <option value="$PROJECT_DIR$/dataStructure/myStack.cpp" />
+        <option value="$PROJECT_DIR$/dataStructure/myQueue.h" />
         <option value="$PROJECT_DIR$/dataStructure/myVector.cpp" />
+        <option value="$PROJECT_DIR$/dataStructure/readme.md" />
+        <option value="$PROJECT_DIR$/dataStructure/myTree.cpp" />
+        <option value="$PROJECT_DIR$/dataStructure/myTree.h" />
         <option value="$PROJECT_DIR$/dataStructure/myList.h" />
         <option value="$PROJECT_DIR$/dataStructure/myList.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/build_Win/.gitignore" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="902" />
-    <option name="width" value="1018" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="999" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -136,13 +209,18 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="C-Plus-Plus-Software-Developer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="C-Plus-Plus-Software-Developer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="dataStructure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="build_Win" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -152,12 +230,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build_Win" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\build_Win" />
       <recent name="$PROJECT_DIR$/Data-Structure" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="make" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,6 +257,46 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.myList">
+    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/test.cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="list_exe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="list_exe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="list_exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="myList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="list_exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myVector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="myVector" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vector_exe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="vector_exe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="vector_exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.list_exe" />
+      <item itemvalue="Application.myList" />
+      <item itemvalue="Application.myVector" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.vector_exe" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,7 +309,10 @@
       <updated>1553214339775</updated>
       <workItem from="1553214348240" duration="2232000" />
       <workItem from="1553473372759" duration="25627000" />
-      <workItem from="1553561164167" duration="22989000" />
+      <workItem from="1553561164167" duration="23290000" />
+      <workItem from="1553759143749" duration="39204000" />
+      <workItem from="1553950195501" duration="1300000" />
+      <workItem from="1553951524906" duration="3931000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -227,36 +356,75 @@
       <option name="project" value="LOCAL" />
       <updated>1553611686310</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="end update list class">
+      <created>1553758575778</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553758575778</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50848000" />
+    <option name="totallyTimeSpent" value="95584000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14354323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23618636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32855567" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23418424" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3296582" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.111725666" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32814237" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3261105" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.08874459" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1787649" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32814237" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.111725666" />
+      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.08874459" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -266,7 +434,8 @@
     <MESSAGE value="updated vector" />
     <MESSAGE value="start update list" />
     <MESSAGE value="start update list class" />
-    <option name="LAST_COMMIT_MESSAGE" value="start update list class" />
+    <MESSAGE value="end update list class" />
+    <option name="LAST_COMMIT_MESSAGE" value="end update list class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Data-Structure/myVector.h" />
@@ -274,35 +443,80 @@
     <entry file="file://$PROJECT_DIR$/Data-Structure/myVector.cpp" />
     <entry file="file://$PROJECT_DIR$/Data-Structure/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/Data-Structure/readme.md" />
-    <entry file="file://$PROJECT_DIR$/dataStructure/fib.h">
+    <entry file="file://$PROJECT_DIR$/dataStructure/fib.h" />
+    <entry file="file://$PROJECT_DIR$/dataStructure/testVector.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/testStack.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#142#161#0" expanded="true" />
+            <element signature="e#529#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myVector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
+        <state relative-caret-position="2847">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+          <folding>
+            <element signature="e#3673#3685#0" expanded="true" />
+            <element signature="e#4317#4556#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/dataStructure/myStack.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="373">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/testVector.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/dataStructure/myQueue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#109#121#0" expanded="true" />
+            <element signature="e#3134#3146#0" expanded="true" />
+            <element signature="e#3420#3432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1650">
-            <caret line="66" column="54" lean-forward="true" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
+          <first_editor relative-caret-position="1640">
+            <caret line="141" column="7" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -310,56 +524,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myVector.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
+        <state relative-caret-position="-1257">
+          <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
+          <folding>
+            <element signature="e#6234#6246#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        <state relative-caret-position="-24">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
           <folding>
-            <element signature="e#90#102#0" expanded="true" />
-            <element signature="e#84#96#0" expanded="true" />
+            <element signature="e#164#176#0" expanded="true" />
+            <element signature="e#642#654#0" expanded="true" />
+            <element signature="e#643#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1991">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#2886#2898#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="296" column="29" selection-start-line="296" selection-start-column="29" selection-end-line="296" selection-end-column="29" />
+        <state relative-caret-position="156">
+          <caret line="296" column="26" selection-start-line="296" selection-start-column="26" selection-end-line="296" selection-end-column="26" />
           <folding>
-            <element signature="e#62#74#0" expanded="true" />
-            <element signature="e#315#327#0" expanded="true" />
-            <element signature="e#681#693#0" expanded="true" />
-            <element signature="e#910#922#0" expanded="true" />
-            <element signature="e#1193#1205#0" expanded="true" />
-            <element signature="e#1327#1339#0" expanded="true" />
-            <element signature="e#1697#1709#0" expanded="true" />
-            <element signature="e#2332#2344#0" expanded="true" />
-            <element signature="e#3087#3099#0" expanded="true" />
+            <element signature="e#1175#1187#0" expanded="true" />
             <element signature="e#3628#3640#0" expanded="true" />
             <element signature="e#3763#3775#0" expanded="true" />
             <element signature="e#3869#3881#0" expanded="true" />
-            <element signature="e#1755#1767#0" expanded="true" />
-            <element signature="e#1983#1995#0" expanded="true" />
-            <element signature="e#2844#2856#0" expanded="true" />
-            <element signature="e#2240#2252#0" expanded="true" />
-            <element signature="e#2375#2387#0" expanded="true" />
-            <element signature="e#2512#2524#0" expanded="true" />
-            <element signature="e#2665#2677#0" expanded="true" />
-            <element signature="e#2858#2870#0" expanded="true" />
+            <element signature="e#4500#4512#0" expanded="true" />
             <element signature="e#5728#5740#0" expanded="true" />
-            <element signature="e#3124#3136#0" expanded="true" />
-            <element signature="e#3584#3596#0" expanded="true" />
-            <element signature="e#4015#4027#0" expanded="true" />
-            <element signature="e#4185#4197#0" expanded="true" />
-            <element signature="e#4374#4386#0" expanded="true" />
-            <element signature="e#4396#4410#0" expanded="true" />
-            <element signature="e#6828#6840#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myQueue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#142#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_Win/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>

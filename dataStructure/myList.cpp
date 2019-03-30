@@ -60,6 +60,10 @@ void List<T>::copyNodes ( ListNodePosi(T) p, int n ) { //p合法，且至少有n
     } //将起自p的n项依次作为末节点插入
 }
 
+// List 析构函数
+template <typename T> List<T>::~List() //列表析构器
+{ clear(); delete header; delete trailer; } //清空列表，释放头、尾哨兵节点
+
 //清空列表
 template <typename T> int List<T>::clear() {
     int oldSize = _size;
@@ -288,12 +292,12 @@ int main()
     for(int i=0; i<=10; i++)
     {
         int temp = rand()%10;
-        initListTest.insertAsLast(temp)
+        initListTest.insertAsLast(temp);
     }
     std::cout << "test vector_size " << initListTest.size() << std::endl;
     initListTest.printList();
     //排序
-    intVectorTest.sort();
+    initListTest.sort();
     initListTest.printList();
 
     return 0;

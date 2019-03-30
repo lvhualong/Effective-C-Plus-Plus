@@ -17,12 +17,15 @@ set(CMAKE_LIBRARY_ARCHITECTURE  ${PROJECT_OUTPUT_DIR}/lib)
 
 include_directories(${PROJECT_SOURCE_DIR}/dataStructure)
 
-## Vector library
-add_library(myVector SHARED dataStructure/myVector.cpp)
+## Library
+add_library(myVector SHARED dataStructure/myVector.cpp) ## Vector library
+add_library(myList SHARED dataStructure/myList.cpp) ## List library
 
-## List library
-add_library(myList SHARED dataStructure/myList.cpp)
+## EXE
+add_executable(test  test.cpp)
+add_executable(vector_exe  dataStructure/myVector.cpp) ## vextor_exe
+add_executable(list_exe dataStructure/myList.cpp)
 
-add_executable(vector_exe  dataStructure/myVector.cpp)
+
 
 

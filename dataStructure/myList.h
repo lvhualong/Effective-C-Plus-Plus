@@ -32,6 +32,8 @@ template <typename T> struct ListNode
 /*
  * 定义 List类
  */
+//定义比较器 <
+template <typename T> static bool lt ( T& a, T& b ) { return a < b; } //less than
 
 template <typename T> class List
 {
