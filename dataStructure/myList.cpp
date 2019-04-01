@@ -204,7 +204,7 @@ ListNodePosi(T) List<T>::insertAsAfter(ListNodePosi(T) p, T const& e)
 
 // 删除 *******************************************
 template  <typename T>
-T List<T>::remove(ListNode<T> *p)
+T List<T>::remove(ListNodePosi(T) p)
 {
     T e = p->data; //删除合法位置p处的节点,返回被删除节点
     p->pred->succ = p->succ;

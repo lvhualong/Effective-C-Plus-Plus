@@ -11,15 +11,15 @@
 /*
  * 基于 Vector 实现的 Stack
  */
-template <typename T> class StackWithVector : public Vector<T>
-{
-public:
-    //size() empty() 直接继承
-    void push(T const& e) {insert(e); } //vector 入栈方式，在Vector结尾插入
-    void pop() { return remove(size() -1);} //删除并返回尾元素
-    T& top() { return (*this)[size()-1];} //返回尾部元素
-
-};
+//template <typename T> class StackWithVector : public Vector<T>
+//{
+//public:
+//    //size() empty() 直接继承
+//    void push(T const& e) {this->insert(e); } //vector 入栈方式，在Vector结尾插入
+//    T pop() { return remove((this->size()) -1);} //删除并返回尾元素
+//    T& top() { return (*this)[this->size()-1];} //返回尾部元素
+//
+//};
 
 
 /*
@@ -28,9 +28,9 @@ public:
 template <typename T> class StackWithList : public List<T>
 {
 public:
-    void push(T const& e) {insertAsLast(e);}
-    void pop() { return remove(last());}
-    T& top() { return last()->data;}
+    void push(T const& e) {this->insertAsLast(e);}
+    T pop() { return remove(this->last());}
+    T& top() { return this->last()->data;}
 };
 
 
