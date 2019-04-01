@@ -16,19 +16,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp" afterDir="false" />
+    <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="update 在数组中查找两数之和=目标元素 暴力遍历&amp; hash搜索">
+      <change afterPath="$PROJECT_DIR$/LeeCode/00100_.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeeCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LeeCode/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/myGraph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/myGraph.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/myList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/myQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myQueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/myStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myStack.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/myStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/myStack.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/build_Win/" />
@@ -55,14 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+            <state relative-caret-position="633">
+              <caret line="50" selection-start-line="50" selection-end-line="51" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeeCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -116,6 +118,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,6 +148,8 @@
         <option value="$PROJECT_DIR$/LeeCode/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp" />
+        <option value="$PROJECT_DIR$/LeeCode/00100_.cpp" />
+        <option value="$PROJECT_DIR$/LeeCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp" />
       </list>
     </option>
   </component>
@@ -169,6 +176,17 @@
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="LeeCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="LeeCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="002_ListNodeTwoSum" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,6 +204,8 @@
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeeCode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeeCode\002_ListNodeTowSum" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeeCode" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\build_Win" />
       <recent name="$PROJECT_DIR$/Data-Structure" />
     </key>
@@ -269,7 +289,7 @@
       <workItem from="1553759143749" duration="39204000" />
       <workItem from="1553950195501" duration="1300000" />
       <workItem from="1553951524906" duration="5397000" />
-      <workItem from="1554098111869" duration="13050000" />
+      <workItem from="1554098111869" duration="15717000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -334,11 +354,32 @@
       <option name="project" value="LOCAL" />
       <updated>1553957614916</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1554123407617</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554123407617</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update datastructure">
+      <created>1554123466480</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554123466480</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update 在数组中查找两数之和=目标元素 暴力遍历&amp; hash搜索">
+      <created>1554123573559</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554123573559</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110100000" />
+    <option name="totallyTimeSpent" value="112767000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,12 +394,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23943663" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17984831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,9 +447,11 @@
     <MESSAGE value="start update list" />
     <MESSAGE value="start update list class" />
     <MESSAGE value="end update list class" />
-    <MESSAGE value="update" />
     <MESSAGE value="update programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="update programming" />
+    <MESSAGE value="update" />
+    <MESSAGE value="update datastructure" />
+    <MESSAGE value="update 在数组中查找两数之和=目标元素 暴力遍历&amp; hash搜索" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 在数组中查找两数之和=目标元素 暴力遍历&amp; hash搜索" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Data-Structure/myVector.h" />
@@ -624,13 +667,27 @@
     <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/unordered_map">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeeCode/00100_.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+        <state relative-caret-position="633">
+          <caret line="50" selection-start-line="50" selection-end-line="51" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeeCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
