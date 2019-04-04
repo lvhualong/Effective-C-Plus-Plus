@@ -31,7 +31,10 @@ set( LeeCode_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/LeeCode)
 file( MAKE_DIRECTORY  ${LeeCode_OUTPUT_DIR} )
 add_subdirectory(LeeCode)
 
-
+## Programming子文件夹
+set( Programming_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/programming)
+file( MAKE_DIRECTORY  ${Programming_OUTPUT_DIR} )
+add_subdirectory(programming)
 
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${PROJECT_OUTPUT_DIR}/bin)

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="dataStructure" targetName="sqrt_exe" />
+      <config projectName="dataStructure" targetName="001_twoSumEXE" />
       <config projectName="dataStructure" targetName="test" />
       <config projectName="dataStructure" targetName="myList" />
       <config projectName="dataStructure" targetName="vector_exe" />
-      <config projectName="dataStructure" targetName="list_exe" />
       <config projectName="dataStructure" targetName="myQueue" />
+      <config projectName="dataStructure" targetName="list_exe" />
       <config projectName="dataStructure" targetName="myVector" />
     </generated>
   </component>
@@ -16,12 +18,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="update 在数组中查找两数之和=目标元素 暴力遍历&amp; hash搜索">
-      <change afterPath="$PROJECT_DIR$/LeeCode/00100_.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeeCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeeCode/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="链表逆序存储负整数 求和">
+      <change afterPath="$PROJECT_DIR$/programming/00100_.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/crosswire.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/sqrt.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/build_Win/" />
@@ -35,24 +38,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructure/myGraph.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructure/myGraph.h">
+        <entry file="file://$PROJECT_DIR$/programming/00100_.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="50" selection-start-line="50" selection-end-line="51" />
+            <state relative-caret-position="-483">
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
@@ -61,25 +49,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeeCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp">
+        <entry file="file://$PROJECT_DIR$/programming/sqrt.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/unordered_map">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/programming/crosswire.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="723">
-                <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <first_editor relative-caret-position="800">
+                <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -89,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="58" />
+            <state relative-caret-position="343">
+              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -115,6 +110,9 @@
       <find>sort</find>
       <find>first</find>
     </findStrings>
+    <replaceStrings>
+      <replace>float</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -144,12 +142,15 @@
         <option value="$PROJECT_DIR$/dataStructure/myStack.h" />
         <option value="$PROJECT_DIR$/dataStructure/readme.md" />
         <option value="$PROJECT_DIR$/dataStructure/myGraph.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/LeeCode/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp" />
         <option value="$PROJECT_DIR$/LeeCode/00100_.cpp" />
         <option value="$PROJECT_DIR$/LeeCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp" />
+        <option value="$PROJECT_DIR$/programming/crosswire.cpp" />
+        <option value="$PROJECT_DIR$/programming/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/programming/sqrt.cpp" />
       </list>
     </option>
   </component>
@@ -176,17 +177,6 @@
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="LeeCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="LeeCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="002_ListNodeTwoSum" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -200,14 +190,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeeCode" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeeCode\002_ListNodeTowSum" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeeCode" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\build_Win" />
       <recent name="$PROJECT_DIR$/Data-Structure" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeeCode" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -227,7 +218,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Leecode">
+  <component name="RunManager" selected="Application.sqrt_exe">
+    <configuration name="001_twoSumEXE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="001_twoSumEXE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="001_twoSumEXE">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leecode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/build_Win/AMD64/bin/LeeCode/001_twoSumEXE.exe" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -253,6 +249,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sqrt_exe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="sqrt_exe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="sqrt_exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -271,6 +272,8 @@
       <item itemvalue="Application.myVector" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.vector_exe" />
+      <item itemvalue="Application.001_twoSumEXE" />
+      <item itemvalue="Application.sqrt_exe" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -289,7 +292,8 @@
       <workItem from="1553759143749" duration="39204000" />
       <workItem from="1553950195501" duration="1300000" />
       <workItem from="1553951524906" duration="5397000" />
-      <workItem from="1554098111869" duration="15717000" />
+      <workItem from="1554098111869" duration="18155000" />
+      <workItem from="1554384816259" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -375,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554123573559</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="链表逆序存储负整数 求和">
+      <created>1554127664768</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554127664768</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112767000" />
+    <option name="totallyTimeSpent" value="119096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,12 +405,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17984831" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15926327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,8 +419,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32814237" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2990249" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.08775731" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.2990249" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.22101842" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -451,7 +462,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="update datastructure" />
     <MESSAGE value="update 在数组中查找两数之和=目标元素 暴力遍历&amp; hash搜索" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 在数组中查找两数之和=目标元素 暴力遍历&amp; hash搜索" />
+    <MESSAGE value="链表逆序存储负整数 求和" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表逆序存储负整数 求和" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Data-Structure/myVector.h" />
@@ -623,6 +635,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="886" column="6" selection-start-line="886" selection-start-column="6" selection-end-line="886" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeeCode/00100_.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myGraph.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -633,50 +659,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeeCode/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="723">
-            <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="886" column="6" selection-start-line="886" selection-start-column="6" selection-end-line="886" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/unordered_map">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeeCode/00100_.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeeCode/001_twoSum/001_twoSum.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
+        <state relative-caret-position="1600">
           <caret line="50" selection-start-line="50" selection-end-line="51" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
@@ -686,8 +671,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeeCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/unordered_map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1028" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/crosswire.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/00100_.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/std_abs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeeCode/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="800">
+            <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/sqrt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
         </state>
       </provider>
     </entry>
