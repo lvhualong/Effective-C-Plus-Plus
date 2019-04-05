@@ -24,9 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -44,10 +43,37 @@
         <entry file="file://$PROJECT_DIR$/LeetCode/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3104">
-                <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+              <first_editor relative-caret-position="512">
+                <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/myVector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+              <folding>
+                <element signature="e#3673#3685#0" expanded="true" />
+                <element signature="e#4317#4556#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/myVector.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+              <folding>
+                <element signature="e#4434#4446#0" expanded="true" />
+                <element signature="e#5299#5311#0" expanded="true" />
+                <element signature="e#6234#6246#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,11 +87,52 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programming/00100_.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programming/sqrt.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/programming/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="64">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="322">
+              <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
@@ -145,8 +212,9 @@
         <option value="$PROJECT_DIR$/LeetCode/557_reverseWords/557_reverseWords.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/237_deleteNode/237_deleteNode.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/LeetCode/readme.md" />
         <option value="$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/readme.md" />
+        <option value="$PROJECT_DIR$/programming/readme.md" />
       </list>
     </option>
   </component>
@@ -176,7 +244,7 @@
             <path>
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="LeetCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="programming" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +393,7 @@
       <workItem from="1553950195501" duration="1300000" />
       <workItem from="1553951524906" duration="5397000" />
       <workItem from="1554098111869" duration="18155000" />
-      <workItem from="1554384816259" duration="25512000" />
+      <workItem from="1554384816259" duration="28555000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -446,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554451633727</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update LeetCode">
+      <created>1554458820601</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554458820601</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140717000" />
+    <option name="totallyTimeSpent" value="143760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,14 +538,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18093175" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18093175" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,7 +553,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32814237" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.21343446" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.35427952" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.22101842" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -523,10 +597,10 @@
     <MESSAGE value="update 在数组中查找两数之和=目标元素 暴力遍历&amp; hash搜索" />
     <MESSAGE value="链表逆序存储负整数 求和" />
     <MESSAGE value="update programming" />
-    <MESSAGE value="update LeetCode" />
     <MESSAGE value="update LeetCode104 334" />
     <MESSAGE value="update LeetCode104 237 557" />
-    <option name="LAST_COMMIT_MESSAGE" value="update LeetCode104 237 557" />
+    <MESSAGE value="update LeetCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="update LeetCode" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Data-Structure/myVector.h" />
@@ -626,32 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myVector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-          <folding>
-            <element signature="e#3673#3685#0" expanded="true" />
-            <element signature="e#4317#4556#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myStack.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-320">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myVector.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-          <folding>
-            <element signature="e#4434#4446#0" expanded="true" />
-            <element signature="e#6234#6246#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,25 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/sqrt.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/00100_.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,23 +888,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3104">
-            <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+          <first_editor relative-caret-position="512">
+            <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp">
+    <entry file="file://$PROJECT_DIR$/dataStructure/myVector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="533">
+          <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+          <folding>
+            <element signature="e#3673#3685#0" expanded="true" />
+            <element signature="e#4317#4556#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myVector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+          <folding>
+            <element signature="e#4434#4446#0" expanded="true" />
+            <element signature="e#5299#5311#0" expanded="true" />
+            <element signature="e#6234#6246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/00100_.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/sqrt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="64">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
