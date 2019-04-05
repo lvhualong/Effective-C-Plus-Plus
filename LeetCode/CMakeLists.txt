@@ -14,3 +14,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${LeetCode_OUTPUT_DIR})
 
 ## include_directories(${PROJECT_SOURCE_DIR}/LeetCode/001_twoSum)
 add_executable(001_twoSumEXE 001_twoSum/001_twoSum.cpp)
+add_executable(104_BinTreeMaxDepth 104_BinTreeMaxDepth/104_binTreeMaxDepth.cpp)
+add_executable(334_reverseString 334_reverseString/334_reverseString.cpp)
