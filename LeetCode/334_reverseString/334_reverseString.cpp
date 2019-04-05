@@ -2,40 +2,60 @@
 // Created by hualong on 2019/4/1.
 //
 #include <iostream>
+#include <vector>
+#include <string>
 using namespace std;
 /*
  * ************************************************
- * 问题描述：
- * 给定一个`整数数组` nums 和一个目标值 target，请你在该数组中找出和为目标值
- * @ 给定 nums = [2, 7, 11, 15], target = 9
- * @ 返回值：[0, 1]
+>问题描述：
+将输入的字符串反转过来。输入字符串以字符数组 char[] 的形式给出。
+必须原地修改输入数组、使用 O(1) 的额外空间解决这一问题。
+```
+测试示例：
+输入：["h","e","l","l","o"]
+输出：["o","l","l","e","h"]
+```
+```
+解题思路：
+直接遍历一遍进行逆序, 使用数组的引用方式
+```
  * ************************************************
  */
 class Solution {
 public:
-// 方法描述：
-vector<int>  twoSum(vector<int>& nums, int target)
-{
-
-}
-
+// 方法描述：遍历，交换
+    void reverseString(vector<char>& s)
+    {
+        int length = s.size();
+        for(int i=0; i< length/2; i++)
+        {
+            char temp;
+            temp = s[i];
+            s[i] = s[length-1-i];
+            s[length-1-i] = temp;
+        }
+    }
 };
 
 
 int main()
 {
     //输入
-    vector<int> inputNums{-1,-2,-3,-4,-5};
-    int realTarget = -8;
-    vector<int> expectTarget{2,4};
+    vector<char> input{'H','e','l','l','o'};
 
     //输出
-    vector<int> outputTarget;
-    Solution solution;
-    outputTarget  =  solution.twoSum(inputNums, realTarget);
+    cout<< "input:" ;
+    for(auto ch:input)
+        cout << ch;
+    cout<<endl;
 
-    (outputTarget == expectTarget) ?  cout << "Successful! ^_^": cout << "failed -_-";
-    cout << endl;
+    Solution solution;
+    solution.reverseString(input);
+
+    cout<< "output:" ;
+    for(auto ch:input)
+        cout << ch;
+    cout<<endl;
 
 
     return 0;
