@@ -11,6 +11,8 @@ set( Programming_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/programming)
 #
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${Programming_OUTPUT_DIR})
 
+## 数组的相关操作
+add_executable(removeDuplicates   array/removeDuplicates.cpp) ##
 
-## include_directories(${PROJECT_SOURCE_DIR}/LeetCode/001_twoSum)
-add_executable(sqrt_exe sqrt.cpp)
+## 数学运算的实现
+add_executable(sqrt_exe math/sqrt.cpp) ## 根号的实现

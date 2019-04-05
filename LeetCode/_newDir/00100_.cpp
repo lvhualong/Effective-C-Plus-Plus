@@ -23,16 +23,12 @@ int main()
 {
     //输入
     vector<int> inputNums{-1,-2,-3,-4,-5};
-    int realTarget = -8;
-    vector<int> expectTarget{2,4};
 
-    //输出
-    vector<int> outputTarget;
+
+
     Solution solution;
-    outputTarget  =  solution.twoSum(inputNums, realTarget);
 
-    (outputTarget == expectTarget) ?  cout << "Successful! ^_^": cout << "failed -_-";
-    cout << endl;
+
 
 
     return 0;
