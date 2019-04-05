@@ -4,15 +4,17 @@
     <generated>
       <config projectName="dataStructure" targetName="sqrt_exe" />
       <config projectName="dataStructure" targetName="001_twoSumEXE" />
-      <config projectName="dataStructure" targetName="test" />
-      <config projectName="dataStructure" targetName="myList" />
+      <config projectName="dataStructure" targetName="237_deleteNode" />
+      <config projectName="dataStructure" targetName="136_findSingleNumber" />
       <config projectName="dataStructure" targetName="vector_exe" />
       <config projectName="dataStructure" targetName="myQueue" />
       <config projectName="dataStructure" targetName="list_exe" />
-      <config projectName="dataStructure" targetName="myVector" />
       <config projectName="dataStructure" targetName="334_reverseString" />
       <config projectName="dataStructure" targetName="104_BinTreeMaxDepth" />
       <config projectName="dataStructure" targetName="557_reverseWords" />
+      <config projectName="dataStructure" targetName="test" />
+      <config projectName="dataStructure" targetName="myList" />
+      <config projectName="dataStructure" targetName="myVector" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -22,13 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/237_deleteNode/237_deleteNode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/293_nimGame/292_nimGame.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/557_reverseWords/557_reverseWords.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/334_reverseString/334_reverseString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/334_reverseString/334_reverseString.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/_newDir/00100_.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/_newDir/00100_.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -42,12 +40,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="256">
-                <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <first_editor relative-caret-position="3104">
+                <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,8 +55,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+            <state relative-caret-position="96">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,16 +143,17 @@
         <option value="$PROJECT_DIR$/LeetCode/293_nimGame/292_nimGame.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/_newDir/00100_.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/557_reverseWords/557_reverseWords.cpp" />
-        <option value="$PROJECT_DIR$/LeetCode/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/LeetCode/237_deleteNode/237_deleteNode.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/LeetCode/readme.md" />
+        <option value="$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="155" />
-    <option name="y" value="77" />
+    <option name="x" value="458" />
+    <option name="y" value="92" />
     <option name="width" value="1367" />
     <option name="height" value="1040" />
   </component>
@@ -166,12 +177,6 @@
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="LeetCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="LeetCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="237_deleteNode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -215,13 +220,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.557_reverseWords">
+  <component name="RunManager" selected="Application.136_findSingleNumber">
     <configuration name="001_twoSumEXE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="001_twoSumEXE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="001_twoSumEXE">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="104_BinTreeMaxDepth" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="104_BinTreeMaxDepth" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="104_BinTreeMaxDepth">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="136_findSingleNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="136_findSingleNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="136_findSingleNumber">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="237_deleteNode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="237_deleteNode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="237_deleteNode">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -286,6 +301,8 @@
       <item itemvalue="Application.vector_exe" />
       <item itemvalue="Application.001_twoSumEXE" />
       <item itemvalue="Application.104_BinTreeMaxDepth" />
+      <item itemvalue="Application.136_findSingleNumber" />
+      <item itemvalue="Application.237_deleteNode" />
       <item itemvalue="Application.334_reverseString" />
       <item itemvalue="Application.557_reverseWords" />
       <item itemvalue="Application.sqrt_exe" />
@@ -308,7 +325,7 @@
       <workItem from="1553950195501" duration="1300000" />
       <workItem from="1553951524906" duration="5397000" />
       <workItem from="1554098111869" duration="18155000" />
-      <workItem from="1554384816259" duration="20595000" />
+      <workItem from="1554384816259" duration="25512000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -422,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554432646410</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update LeetCode104 237 557">
+      <created>1554451633727</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554451633727</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135800000" />
+    <option name="totallyTimeSpent" value="140717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,7 +470,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17226435" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18093175" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,7 +525,8 @@
     <MESSAGE value="update programming" />
     <MESSAGE value="update LeetCode" />
     <MESSAGE value="update LeetCode104 334" />
-    <option name="LAST_COMMIT_MESSAGE" value="update LeetCode104 334" />
+    <MESSAGE value="update LeetCode104 237 557" />
+    <option name="LAST_COMMIT_MESSAGE" value="update LeetCode104 237 557" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Data-Structure/myVector.h" />
@@ -825,18 +850,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+        <state relative-caret-position="96">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="256">
-            <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <first_editor relative-caret-position="3104">
+            <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
