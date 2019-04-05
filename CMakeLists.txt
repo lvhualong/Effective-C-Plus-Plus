@@ -27,9 +27,9 @@ add_library(myQueue SHARED dataStructure/myQueue.cpp)
 
 
 ## LeeCode子文件夹
-set( LeeCode_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/LeeCode)
-file( MAKE_DIRECTORY  ${LeeCode_OUTPUT_DIR} )
-add_subdirectory(LeeCode)
+set( LeetCode_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/LeetCode)
+file( MAKE_DIRECTORY  ${LeetCode_OUTPUT_DIR} )
+add_subdirectory(LeetCode)
 
 ## Programming子文件夹
 set( Programming_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/programming)

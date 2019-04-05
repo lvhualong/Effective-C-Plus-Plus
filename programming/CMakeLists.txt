@@ -12,5 +12,5 @@ set( Programming_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/programming)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${Programming_OUTPUT_DIR})
 
 
-## include_directories(${PROJECT_SOURCE_DIR}/LeeCode/001_twoSum)
+## include_directories(${PROJECT_SOURCE_DIR}/LeetCode/001_twoSum)
 add_executable(sqrt_exe sqrt.cpp)
