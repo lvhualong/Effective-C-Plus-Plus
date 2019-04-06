@@ -26,7 +26,7 @@ add_library(myQueue SHARED dataStructure/myQueue.cpp)
 #        dataStructure/myList.cpp)
 
 
-## LeeCode子文件夹
+## LeetCode子文件夹
 set( LeetCode_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/LeetCode)
 file( MAKE_DIRECTORY  ${LeetCode_OUTPUT_DIR} )
 add_subdirectory(LeetCode)
@@ -35,6 +35,11 @@ add_subdirectory(LeetCode)
 set( Programming_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/programming)
 file( MAKE_DIRECTORY  ${Programming_OUTPUT_DIR} )
 add_subdirectory(programming)
+
+## CodingInterview 剑指offer文件夹
+set( CodingInterview_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/codingInterview)
+file( MAKE_DIRECTORY  ${CodingInterview_OUTPUT_DIR} )
+add_subdirectory(CodingInterview)
 
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${PROJECT_OUTPUT_DIR}/bin)

@@ -43,7 +43,9 @@ public:
         return  head;
 }
 //通过数组初始化一个单向链表
-ListNode* init(vector<int> const& nums)
+ListNode* init(vector<int> const& nums){
+
+}
 
 //通过一个链表，填充一个线性数组
 
