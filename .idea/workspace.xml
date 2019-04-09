@@ -2,23 +2,24 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="dataStructure" targetName="sqrt_exe" />
       <config projectName="dataStructure" targetName="04_findInPartiallySortedMatrix" />
-      <config projectName="dataStructure" targetName="206_reverseList" />
-      <config projectName="dataStructure" targetName="001_twoSumEXE" />
-      <config projectName="dataStructure" targetName="237_deleteNode" />
+      <config projectName="dataStructure" targetName="sqrt_exe" />
       <config projectName="dataStructure" targetName="removeDuplicates" />
-      <config projectName="dataStructure" targetName="136_findSingleNumber" />
+      <config projectName="dataStructure" targetName="06_ListNodeInsert_Delete_Print" />
       <config projectName="dataStructure" targetName="vector_exe" />
       <config projectName="dataStructure" targetName="list_exe" />
       <config projectName="dataStructure" targetName="myQueue" />
-      <config projectName="dataStructure" targetName="334_reverseString" />
-      <config projectName="dataStructure" targetName="104_BinTreeMaxDepth" />
-      <config projectName="dataStructure" targetName="557_reverseWords" />
       <config projectName="dataStructure" targetName="03_duplicationInArray" />
+      <config projectName="dataStructure" targetName="_newDir_1" />
+      <config projectName="dataStructure" targetName="_newDir_3" />
+      <config projectName="dataStructure" targetName="_newDir_2" />
       <config projectName="dataStructure" targetName="test" />
       <config projectName="dataStructure" targetName="myList" />
+      <config projectName="dataStructure" targetName="05_replaceStringSpaces" />
       <config projectName="dataStructure" targetName="myVector" />
+      <config projectName="dataStructure" targetName="myMath" />
+      <config projectName="dataStructure" targetName="01_String_BigendOrLittleend_Encode" />
+      <config projectName="dataStructure" targetName="mySring" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -28,13 +29,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/03_duplicationInArray/03_duplicationInArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/04_findInPartiallySortedMatrix/04_findInPartiallySortedMatrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Xiecheng/01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Xiecheng/02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Xiecheng/03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/_newDir/01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/_newDir/02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/_newDir/03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/000_basic_Operate/myMath.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/000_basic_Operate/myString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/Huawei2019/01_String_BigendOrLittleend_Encode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/Huawei2019/02_shortestPahtInPlane.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/Huawei2019/03_fruit_SliceInPlane_.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/Tencent2019/01_splitNum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/Tencent2019/02_allocationForMinCost.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/Tencent2019/03operateToNums.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/206_reverseList/206_reverseList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/206_reverseList/206_reverseList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/_newDir/00100_.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/05_replaceStringSpaces/05_replaceStringSpaces.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programming/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/programming/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/build_Win/" />
@@ -47,32 +64,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodingInterview/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="256">
-                <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodingInterview/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CodingInterview/04_findInPartiallySortedMatrix/04_findInPartiallySortedMatrix.cpp">
+        <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="576">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -97,10 +93,12 @@
       <find>sort</find>
       <find>first</find>
       <find>words_num</find>
+      <find>*pHead</find>
     </findStrings>
     <replaceStrings>
       <replace>float</replace>
       <replace>blank_nums</replace>
+      <replace>pHead</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -112,14 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Data-Structure/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Data-Structure/readme.md" />
-        <option value="$PROJECT_DIR$/dataStructure/myVector.h" />
-        <option value="$PROJECT_DIR$/dataStructure/fib.h" />
-        <option value="$PROJECT_DIR$/dataStructure/testStack.cpp" />
-        <option value="$PROJECT_DIR$/dataStructure/myVector.cpp" />
-        <option value="$PROJECT_DIR$/dataStructure/myTree.cpp" />
-        <option value="$PROJECT_DIR$/dataStructure/myTree.h" />
         <option value="$PROJECT_DIR$/dataStructure/myList.h" />
         <option value="$PROJECT_DIR$/build_Win/.gitignore" />
         <option value="$PROJECT_DIR$/programming/operationEpression_parenthesisMatching.cpp" />
@@ -146,27 +136,40 @@
         <option value="$PROJECT_DIR$/LeetCode/557_reverseWords/557_reverseWords.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/237_deleteNode/237_deleteNode.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/136_findSingleNumber/136_findSingleNumber.cpp" />
-        <option value="$PROJECT_DIR$/programming/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/programming/readme.md" />
         <option value="$PROJECT_DIR$/programming/array/removeDuplicates.cpp" />
-        <option value="$PROJECT_DIR$/LeetCode/_newDir/00100_.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/readme.md" />
-        <option value="$PROJECT_DIR$/LeetCode/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/LeetCode/206_reverseList/206_reverseList.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CodingInterview/duplicationInArray/duplicationInArray.cpp" />
-        <option value="$PROJECT_DIR$/CodingInterview/readme.md" />
         <option value="$PROJECT_DIR$/CodingInterview/04_ findInPartiallySortedMatrix/04_ findInPartiallySortedMatrix.cpp" />
-        <option value="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CodingInterview/04_findInPartiallySortedMatrix/04_findInPartiallySortedMatrix.cpp" />
+        <option value="$PROJECT_DIR$/CodingInterview/05_replaceStringSpaces/05_replaceStringSpaces.cpp" />
+        <option value="$PROJECT_DIR$/CodingInterview/readme.md" />
+        <option value="$PROJECT_DIR$/CodingInterview/06_SingleListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp" />
+        <option value="$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp" />
+        <option value="$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp" />
+        <option value="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/LeetCode/_newDir/00100_.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/_newDir/02.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/_newDir/01.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/_newDir/03.cpp" />
+        <option value="$PROJECT_DIR$/programming/readme.md" />
+        <option value="$PROJECT_DIR$/programming/000_basic_Operate/myString.cpp" />
+        <option value="$PROJECT_DIR$/programming/Huawei2019/01_String_BigendOrLittleend_Encode.cpp" />
+        <option value="$PROJECT_DIR$/programming/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/programming/000_basic_Operate/myMath.cpp" />
+        <option value="$PROJECT_DIR$/programming/Huawei2019/02_shortestPahtInPlane.cpp" />
+        <option value="$PROJECT_DIR$/programming/Huawei2019/03_fruit_SliceInPlane_.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-97" />
-    <option name="width" value="1367" />
-    <option name="height" value="1040" />
+    <option name="x" value="220" />
+    <option name="y" value="-9" />
+    <option name="width" value="1473" />
+    <option name="height" value="909" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,24 +189,13 @@
             <path>
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="CodingInterview" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="CodingInterview" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="03_duplicationInArray" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="CodingInterview" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="04_findInPartiallySortedMatrix" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="LeetCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="LeetCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Xiecheng" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -216,15 +208,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build_Win/AMD64/bin/LeeCode/001_twoSumEXE.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\CodingInterview" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\CodingInterview\duplicationInArray" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeetCode" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\array" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeetCode\104_BinTreeMaxDepth" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\Huawei2019" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\000_basic_Operate" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\LeetCode\_newDir" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\math" />
@@ -249,8 +241,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.04_findInPartiallySortedMatrix">
-    <configuration name="001_twoSumEXE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="001_twoSumEXE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="001_twoSumEXE">
+  <component name="RunManager" selected="Application.01_String_BigendOrLittleend_Encode">
+    <configuration name="01_String_BigendOrLittleend_Encode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="01_String_BigendOrLittleend_Encode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_String_BigendOrLittleend_Encode">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -265,37 +257,32 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="104_BinTreeMaxDepth" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="104_BinTreeMaxDepth" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="104_BinTreeMaxDepth">
+    <configuration name="05_replaceStringSpaces" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="05_replaceStringSpaces" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="05_replaceStringSpaces">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="136_findSingleNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="136_findSingleNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="136_findSingleNumber">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="206_reverseList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="206_reverseList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="206_reverseList">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="237_deleteNode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="237_deleteNode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="237_deleteNode">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="334_reverseString" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="334_reverseString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="334_reverseString">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="557_reverseWords" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="557_reverseWords" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="557_reverseWords">
+    <configuration name="06_ListNodeInsert_Delete_Print" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="06_ListNodeInsert_Delete_Print" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="06_ListNodeInsert_Delete_Print">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Leecode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/build_Win/AMD64/bin/LeeCode/001_twoSumEXE.exe" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_newDir_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="_newDir_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="_newDir_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_newDir_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="_newDir_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="_newDir_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_newDir_3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="_newDir_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="_newDir_3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -310,7 +297,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="myMath" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="myMath" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="myMath">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="myQueue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="myQueue" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mySring" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="mySring" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="mySring">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -350,13 +347,14 @@
       <item itemvalue="Application.vector_exe" />
       <item itemvalue="Application.03_duplicationInArray" />
       <item itemvalue="Application.04_findInPartiallySortedMatrix" />
-      <item itemvalue="Application.001_twoSumEXE" />
-      <item itemvalue="Application.104_BinTreeMaxDepth" />
-      <item itemvalue="Application.136_findSingleNumber" />
-      <item itemvalue="Application.206_reverseList" />
-      <item itemvalue="Application.237_deleteNode" />
-      <item itemvalue="Application.334_reverseString" />
-      <item itemvalue="Application.557_reverseWords" />
+      <item itemvalue="Application.05_replaceStringSpaces" />
+      <item itemvalue="Application.06_ListNodeInsert_Delete_Print" />
+      <item itemvalue="Application._newDir_1" />
+      <item itemvalue="Application._newDir_2" />
+      <item itemvalue="Application._newDir_3" />
+      <item itemvalue="Application.01_String_BigendOrLittleend_Encode" />
+      <item itemvalue="Application.myMath" />
+      <item itemvalue="Application.mySring" />
       <item itemvalue="Application.removeDuplicates" />
       <item itemvalue="Application.sqrt_exe" />
     </list>
@@ -380,7 +378,10 @@
       <workItem from="1554098111869" duration="18155000" />
       <workItem from="1554384816259" duration="28555000" />
       <workItem from="1554464817417" duration="9861000" />
-      <workItem from="1554553296327" duration="8320000" />
+      <workItem from="1554553296327" duration="8498000" />
+      <workItem from="1554606630731" duration="22819000" />
+      <workItem from="1554687781818" duration="21964000" />
+      <workItem from="1554771352036" duration="842000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -522,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554474949852</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update CodingInterview">
+      <created>1554561754490</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1554561754490</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161941000" />
+    <option name="totallyTimeSpent" value="207744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,13 +549,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14818764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22968581" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.12242687" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16793066" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32936078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -555,30 +563,30 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32719395" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.35427952" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.22101842" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3445287" />
+      <window_info active="true" anchor="bottom" id="CMake" order="12" visible="true" weight="0.1787649" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15671642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23618636" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18743229" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32936078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32814237" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32719395" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32394367" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.08874459" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3445287" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.22101842" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -603,17 +611,30 @@
     <MESSAGE value="update LeetCode" />
     <MESSAGE value="update programming" />
     <MESSAGE value="update programming LeetCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="update programming LeetCode" />
+    <MESSAGE value="update CodingInterview" />
+    <option name="LAST_COMMIT_MESSAGE" value="update CodingInterview" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="index" language="ObjectiveC" />
+        <watch expression="cost" language="ObjectiveC" />
+        <watch expression="temp" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>temp</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cost</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>index</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -629,151 +650,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_Win/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/nonDecreasing_sequence.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/operationEpression_parenthesisMatching.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/findNum.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="25" />
-          <folding>
-            <element signature="e#164#176#0" expanded="true" />
-            <element signature="e#735#747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1151">
-          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
-          <folding>
-            <element signature="e#5630#5642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myQueue.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#142#163#0" expanded="true" />
-            <element signature="e#194#206#0" expanded="true" />
-            <element signature="e#460#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myStack.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="755">
-            <caret line="152" column="52" selection-start-line="152" selection-start-column="52" selection-end-line="152" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myStack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#142#161#0" expanded="true" />
-            <element signature="e#529#541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="886" column="6" selection-start-line="886" selection-start-column="6" selection-end-line="886" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myGraph.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myGraph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/unordered_map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1028" />
-      </provider>
-    </entry>
     <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/std_abs.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/crosswire.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,30 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/_newDir/00100_.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/programming/array/removeDuplicates.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -932,13 +788,6 @@
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/237_deleteNode/237_deleteNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -982,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -996,19 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodingInterview/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="256">
-            <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodingInterview/duplicationInArray/duplicationInArrayNoEdit.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/duplicationInArray/duplicationInArrayNoEdit.cpp" />
     <entry file="file://$PROJECT_DIR$/CodingInterview/03_duplicationInArray/03_duplicationInArray.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -1019,17 +849,219 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodingInterview/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodingInterview/04_findInPartiallySortedMatrix/04_findInPartiallySortedMatrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/05_replaceStringSpaces/05_replaceStringSpaces.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/237_deleteNode/237_deleteNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+          <folding>
+            <element signature="e#5630#5642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#164#176#0" expanded="true" />
+            <element signature="e#735#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/_newDir/02.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/_newDir/03.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#411#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="654">
+            <caret line="36" selection-start-line="36" selection-end-line="36" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/Tencent2019/03operateToNums.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#445#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/Tencent2019/02_allocationForMinCost.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/Tencent2019/01_splitNum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/operationEpression_parenthesisMatching.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/nonDecreasing_sequence.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/crosswire.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/Huawei2019/01_String_BigendOrLittleend_Encode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="81" selection-start-line="81" selection-end-line="82" />
+          <folding>
+            <element signature="e#365#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/000_basic_Operate/myString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1426">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#53#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/000_basic_Operate/myMath.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+          <folding>
+            <element signature="e#186#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/Huawei2019/02_shortestPahtInPlane.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/Huawei2019/03_fruit_SliceInPlane_.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Xiecheng/01.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/_newDir/01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="269">
+            <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>

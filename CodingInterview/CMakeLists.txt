@@ -14,4 +14,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${CodingInterview_OUTPUT_DIR})
 ##
 add_executable(03_duplicationInArray 03_duplicationInArray/03_duplicationInArray.cpp)
 add_executable(04_findInPartiallySortedMatrix 04_findInPartiallySortedMatrix/04_findInPartiallySortedMatrix.cpp)
+add_executable(05_replaceStringSpaces 05_replaceStringSpaces/05_replaceStringSpaces.cpp)
+add_executable(06_ListNodeInsert_Delete_Print 06_ListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp) ##单链表
+#add_executable(06_ListNodeInsert_Delete_Print 06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp) ##双向链表
 
