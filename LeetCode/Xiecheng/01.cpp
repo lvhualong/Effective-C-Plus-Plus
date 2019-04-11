@@ -23,26 +23,38 @@
  */
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 
 class Solution {
 public:
-    int splitNum(int& num, int k){
-        int cost = k;
-        while(k--){
-            int temp = num/2;
-            num = max(temp, num-temp);
+    unsigned int  allocationTimes(vector<unsigned  int>& nums){
+        unsigned int median = 0 ;
+        sort(nums.begin(), nums.end());
+        median = nums[nums.size()/2];
+        for(int i=0; i<median; i++)
+        {
+            nums[i] = median/nums[i];
         }
-        return num+cost;
+        for(int i=median+1; i<nums.end(); i++)
+        {
+            nums[i] = nums[i]/median;
+        }
+
+
     }
 
 };
 
 int main()
 {
-    int n=5, k=2;
-    cin >> n >>k;
+    unsigned  int n=3;
+    vector<unsigned  int> nums;
+    cin >> n;
+    int temp;
+    while(cin >> temp)
+        nums.pop_back(temp);
 
     Solution solution;
     int cost = solution.splitNum(n,k);

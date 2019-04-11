@@ -21,10 +21,10 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${LeetCode_OUTPUT_DIR})
 #add_executable(136_findSingleNumber 136_findSingleNumber/136_findSingleNumber.cpp) ## 查找数组中只出现一次的元素
 #add_executable(206_reverseList 206_reverseList/206_reverseList.cpp) ## 单链表反转
 
-add_executable(_newDir_2  _newDir/02.cpp)
-add_executable(_newDir_1  _newDir/01.cpp)
-add_executable(_newDir_3  _newDir/03.cpp)
+#add_executable(_newDir_2  _newDir/02.cpp)
+#add_executable(_newDir_1  _newDir/01.cpp)
+#add_executable(_newDir_3  _newDir/03.cpp)
 
-add_executable(01 Xiecheng/01.cpp)
-add_executable(01 Xiecheng/01.cpp)
-add_executable(01 Xiecheng/01.cpp)
+#add_executable(01 Xiecheng/01.cpp)
+#add_executable(01 Xiecheng/01.cpp)
+#add_executable(01 Xiecheng/01.cpp)
