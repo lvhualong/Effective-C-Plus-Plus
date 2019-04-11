@@ -14,10 +14,35 @@
  */
 
 #include <iostream>
+#include <cmath>
+#include <vector>
 
+using namespace std;
 
 class Solution{
-    void function(){
+public:
+    int countPrime(int num){
+        int count = 0 ;
+        vector<int> prime;
+        if(num<2) return 0;
+        for(int i=2; i<=num; i++){
+            if(isPrime(i)){
+                count++;
+                prime.push_back(i);
+            }
+//        for(int j=2; j<(int)sqrt(num); j++)
+            return count;
+        }
+    }
+
+private:
+    bool isPrime(int num)
+    {
+        if(num<2) return false;
+        for(int i=2; i<(int)sqrt(num); i++)
+            if(num%i == 0) return false;
+        return true;
+    }
 
     }
 
@@ -25,7 +50,9 @@ class Solution{
 
 int main() {
 
-    std::cout << " " << std::endl;
+    int num = 37;
+    Solution solution;
+    cout << " the num: " << solution.countPrime(num) << endl;
 
     return 0;
 

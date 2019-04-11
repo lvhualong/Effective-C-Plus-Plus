@@ -48,3 +48,6 @@ add_executable(numOfHuiwen 02_string/numOfHuiwen.cpp)
 
 ## 华为2019
 add_executable(01_String_BigendOrLittleend_Encode Huawei2019/01_String_BigendOrLittleend_Encode.cpp)
+
+##
+add_executable(primeNumberFiniteField  Weizong2019/primeNumberFiniteField.cpp)
