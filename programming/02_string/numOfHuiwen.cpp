@@ -1,75 +1,66 @@
 
 /* *********************************************************
  * 问题描述：
-// 面试题17：打印1到最大的n位数
-// 题目：输入数字n，按顺序打印出从1最大的n位十进制数。比如输入3，则
-// 打印出1、2、3一直到最大的3位数即999。
+  定义回文字符串  例如 “level" "noon"
+  若将某个十进制非负数N,转换成二进制后得到二进制序列具有回文性质，称该数位回文数
+  例如 9  == 1001 说以9是回文数
+
+  现在输入一个十进制整数N, 计算小于等于N的回文数的数量
+  1<= N <= 10^18
+
  * ----------------------------------
  * 输入示例：
- * 3
+ * 6 --> 3
  *
- * 1 2 3 …… 999
+ * 1 3 5
  *
  * *********************************************************
  */
 
 #include <iostream>
 #include <cstring>
-#include <stack>
+#include <vector>
 using namespace std;
 
 class Solution{
 public:
-    bool countHuiwen(long long number){
-        int binNum[30];
-        int bit;
-        int cur = 0;
-        while(number)
+    bool isBinHuiwen(long  number) {
+        vector<bool> binNum;
+        bool bit;
+        while (number) //先求二进制
         {
             bit = number & 1;
-            number = number>>1;
-            binNum[cur] = bit;
-            cur ++;
+            number = number >> 1;
+            binNum.push_back(bit);
+//            cout << bit << " ";
         }
-        cur --;
-        int start = 0;
-        int end = cur;
-        while((start<end) && binNum[start]== binNum[end] )
-        {
-            ++start ;
-            --end ;
+//        cout << endl;
+        //判断回文
+        vector<bool>::iterator front = binNum.begin();
+        vector<bool>::iterator back = binNum.end()-1;
+        while(front++ <= back--) {
+            if (*front != *back)
+                return false;
         }
-        if (binNum[start]== binNum[end])
-                return true;
-        else return false;
+        return true;
     }
 
 
 };
 
 int main() {
-    long long number ;
-    cin >> number;
+    long  number = 10;
+//    cin >> number;
     int count = 1;
     Solution solution;
-    while(number)
-    {
-        if (number&1)
-        {
-            if (solution.countHuiwen(number))
-            {
-                count++;
-            }
+    while(number){
+        if(solution.isBinHuiwen(number) == true) {
+            count++;
+            cout << number  << " is a huiwen number" << endl;
         }
-
-
         number--;
     }
-
+    cout << "the bin huiwei number:";
     cout<<count<<endl;
-
-
-
-
     return 0;
 }
