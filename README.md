@@ -49,3 +49,31 @@ C++  基础知识/算法与数据结构 学习说明
 - 贪心算法 O(1)时间复杂和空间复杂
     * 每一步都可以做一个贪婪的选择
     * 但是怎么来做贪婪选择需要数学方式来证明。
+    
+## vector list queue区别
+- vector 动态数组，连续空间存储，静态特性好， 通常只在最后一个元素插入删除
+> begin end rbegin rend size 
+> front back []
+> push_back  pop_back   
+
+- deque 双端队列 小片的连续，小片间链表连接   front --- back
+> 可以快速在开始和结尾插入删除，空间重新分配比vector快，不需要拷贝，但是随即访问元素没有vector快
+> begin end rbegin rend size 
+> front back []
+> push_back  pop_back  push_front pop_front
+
+- list 链表 每个元素间都用链表相连  front ---- back
+>list随即访问不及vector快【所以list没有下标访问[]】， 但是随即插入会更快
+> begin end rbegin rend size 
+> front back 
+> push_back  pop_back  push_front pop_front  
+> insert erase sort
+
+
+- queue  FIFO的队列   back  ---> front
+> size() push  pop front back 
+
+- stack LIFO的栈    ---> top
+>size() push pop top 
+
+- set 内部元素唯一，用一棵平衡树结构来存储
