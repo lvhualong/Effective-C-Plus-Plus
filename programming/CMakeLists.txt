@@ -33,7 +33,7 @@ add_executable(mySring 02_string/myString.cpp)
 #add_executable(14_maxProductAfterCutting_greedyAlgorithm 06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_greedyAlgorithm.cpp)
 
 ## 08_math 数学运算的实现
-#add_executable(sqrt_exe 08_math/sqrt.cpp) ## 根号的实现
+add_executable(sqrt_exe 08_math/sqrt.cpp) ## 根号的实现
 #add_executable(myMath 08_math/myMath.cpp)
 add_executable(15_binOperation 08_math/15_binOperation.cpp)
 #add_executable(16_power 08_math/16_power.cpp)
@@ -47,7 +47,10 @@ add_executable(numOfHuiwen 02_string/numOfHuiwen.cpp)
 #add_executable(03operateToNums Tencent2019/03operateToNums.cpp)
 
 ## 华为2019
-add_executable(01_String_BigendOrLittleend_Encode Huawei2019/01_String_BigendOrLittleend_Encode.cpp)
+add_executable(01_String_BigendOrLittleend_Encode Huawei2019/01_String_BigendOrLittleend_Encode.cpp Zijie2019/test.cpp)
 
 ##
 add_executable(primeNumberFiniteField  Weizong2019/primeNumberFiniteField.cpp)
+
+## zijietiaodong2019
+add_executable(zijie_exe  Zijie2019/test.cpp)
