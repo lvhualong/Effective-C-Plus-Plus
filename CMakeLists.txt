@@ -45,11 +45,13 @@ add_subdirectory(CodingInterview)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${PROJECT_OUTPUT_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_OUTPUT_DIR}/lib)
 set(CMAKE_LIBRARY_ARCHITECTURE  ${PROJECT_OUTPUT_DIR}/lib)
-## EXE
-add_executable(test  test.cpp)
+
 add_executable(vector_exe  dataStructure/myVector.cpp) ## vextor_exe
 add_executable(list_exe dataStructure/myList.cpp)
 
-
+## EXE
+add_executable(01_test today/01_test.cpp)
+add_executable(02_test today/02_test.cpp)
+add_executable(03_test today/03_test.cpp)
 
 

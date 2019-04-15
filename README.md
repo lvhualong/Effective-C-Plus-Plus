@@ -62,7 +62,7 @@ C++  基础知识/算法与数据结构 学习说明
 > front back []
 > push_back  pop_back  push_front pop_front
 
-- list 链表 每个元素间都用链表相连  front ---- back
+- list 双向链表 每个元素间都用链表相连  front ---- back
 >list随即访问不及vector快【所以list没有下标访问[]】， 但是随即插入会更快
 > begin end rbegin rend size 
 > front back 
@@ -76,4 +76,27 @@ C++  基础知识/算法与数据结构 学习说明
 - stack LIFO的栈    ---> top
 >size() push pop top 
 
-- set 内部元素唯一，用一棵平衡树结构来存储
+- set 【内部元素唯一】，用一棵平衡树结构来存储, 遍历的时候就排序了
+> begin end rbegin rend size 
+> insert erase 
+> find  count
+
+- unordered_set 哈希表
+> begin end rbegin rend size 
+> insert erase 
+> find  count
+
+
+
+- map 一对一的映射的结合，key不能重复
+>std::map<char,int> mymap
+ mymap.insert ( std::pair<char,int>('a',100) );
+ 
+ > begin end rbegin rend size 
+ [] find 
+ > insert erase 
+ 
+ ### 堆 是一个完全二叉树
+ 
+ - 如果父节点 >= 子节点 称为大顶堆
+ - 如果父节点 <= 子节点 称为大顶堆
