@@ -96,7 +96,11 @@ C++  基础知识/算法与数据结构 学习说明
  [] find 
  > insert erase 
  
- ### 堆 是一个完全二叉树
- 
+ ### 堆 是一个完全二叉树 
+  
  - 如果父节点 >= 子节点 称为大顶堆
  - 如果父节点 <= 子节点 称为大顶堆
+ > (algorithm头文件中 make_heap pop_heap push_heap sort_heap实现)
+ >  vector<int>  v
+ std::make_heap (v.begin(),v.end());
+ 

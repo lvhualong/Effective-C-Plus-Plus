@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <vector>
-#include <list>   //容易删改 方便前后删除
+#include <list>
 #include <deque>
 using namespace std;
 
@@ -20,6 +20,18 @@ public:
     }
 };
 
+
+void mult(const double* A, const double * B, double*AxB, const int M, const int N, const int K) {
+    for (int m = 0; m < M; m++) {
+        for (int k = 0; k < K; k++) {
+            int tmp = 0;
+            for (int n = 0; n < N; n++) {
+                tmp += A[m*N + n] * B[n*K + k];
+            }
+            AxB[m*K + k] = tmp;
+        }
+    }
+}
 int main() {
     Solution solution;
 
