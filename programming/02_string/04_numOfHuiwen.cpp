@@ -29,38 +29,41 @@ public:
         bool bit;
         while (number) //先求二进制
         {
-            bit = number & 1;
+            bit = number & 0x1;
+            binNum.push_back(bit); //这个二进制是反的，不过没关系，因为算回文
             number = number >> 1;
-            binNum.push_back(bit);
-//            cout << bit << " ";
         }
-//        cout << endl;
+
         //判断回文
         vector<bool>::iterator front = binNum.begin();
-        vector<bool>::iterator back = binNum.end()-1;
-        while(front++ <= back--) {
+        vector<bool>::iterator back = binNum.end();
+        back--;//指向最后一个元素
+        while(front < back) {
             if (*front != *back)
                 return false;
+            front++;
+            back--;
         }
         return true;
     }
 
-
 };
 
 int main() {
-    long  number = 10;
+    long  number = 80;
 //    cin >> number;
-    int count = 1;
+    int count = 0;
     Solution solution;
-    while(number){
-        if(solution.isBinHuiwen(number) == true) {
+    cout << "the bin huiwei numbers :";
+    for(int i = 1; i<= number; i++) {
+        bool status = solution.isBinHuiwen(i);
+        if (status)
+        {
             count++;
-            cout << number  << " is a huiwen number" << endl;
+            cout << " " << i;
         }
-        number--;
     }
-    cout << "the bin huiwei number:";
-    cout<<count<<endl;
+    cout << endl;
+    cout<< "the count: " <<count<<endl;
     return 0;
 }

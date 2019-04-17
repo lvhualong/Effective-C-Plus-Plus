@@ -8,37 +8,28 @@
 
 #include <iostream>
 #include <vector>
-#include <list>
-#include <deque>
 using namespace std;
-
-
-class Solution{
+class Solution {
 public:
-    void function(int num){
-
+    int hammingDistance(const vector<bool>& num1, const vector<bool>& num2) {
+        int count = 0;
+        if (num1.size() != num2.size())
+            return 0;
+        for (int i = 0; i < num1.size(); i++) {
+            if (num1[i] ^ num2[i])
+                count++;
+        }
+        return count;
     }
 };
 
-
-void mult(const double* A, const double * B, double*AxB, const int M, const int N, const int K) {
-    for (int m = 0; m < M; m++) {
-        for (int k = 0; k < K; k++) {
-            int tmp = 0;
-            for (int n = 0; n < N; n++) {
-                tmp += A[m*N + n] * B[n*K + k];
-            }
-            AxB[m*K + k] = tmp;
-        }
-    }
-}
 int main() {
+    vector<bool> Num1{1,1,0,0,1,0};
+    vector<bool> Num2{0,1,0,0,1,1};
     Solution solution;
-
-    std::cout << " " << std::endl;
-
+    int Count = solution.hammingDistance(Num1, Num2);
+    cout << "Hanming distance: " << Count << endl;
     return 0;
-
 }
 /* *********************************************************
  * 解题思路：

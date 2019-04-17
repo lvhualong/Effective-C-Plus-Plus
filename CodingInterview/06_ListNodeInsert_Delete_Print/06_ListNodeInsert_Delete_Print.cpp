@@ -19,7 +19,7 @@ struct ListNode{
 class Solution {
 public:
     // 方法描述：在ListNode尾节点插入一个节点 【新建一个节点，空链表直接插入，非空链表，找到尾节点插入】
-    void addToTail(ListNode* pHead, int value){ //pHead 是指向 ListNode的头指针
+    ListNode* addToTail(ListNode* pHead, int value){ //pHead 是指向 ListNode的头指针
 
         ListNode* pNew = new ListNode(value);
 
@@ -32,7 +32,22 @@ public:
             }
             pNode->next = pNew;
         }
+        return pNew;
     }
+
+    //在链表中的指定节点后面插入一个新节点
+    ListNode* insertNode(ListNode* pNode, int value){
+        ListNode* pNew = new ListNode(value);
+
+        if(pNode == nullptr)
+            pNode = pNew;
+        else{
+            pNew->next = pNode->next;
+            pNode->next = pNew;
+        }
+        return pNew;
+    }
+
 
     //根据node的值删除节点
     void removeNode(ListNode* pHead, int value){
@@ -84,6 +99,8 @@ int main()
         solution.addToTail(testNodes, num);
     solution.print_Node(testNodes);
     solution.removeNode(testNodes, 5);
+    solution.print_Node(testNodes);
+    solution.insertNode(testNodes->next->next, 10);
     solution.print_Node(testNodes);
 
     return 0;

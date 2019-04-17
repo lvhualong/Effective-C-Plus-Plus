@@ -25,6 +25,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${LeetCode_OUTPUT_DIR})
 #add_executable(_newDir_1  _newDir/01.cpp)
 #add_executable(_newDir_3  _newDir/03.cpp)
 
-#add_executable(01 Xiecheng/01.cpp)
-#add_executable(01 Xiecheng/01.cpp)
-#add_executable(01 Xiecheng/01.cpp)
+
