@@ -9,9 +9,11 @@
       <config projectName="dataStructure" targetName="nuimax2019_1" />
       <config projectName="dataStructure" targetName="01_test" />
       <config projectName="dataStructure" targetName="03_test" />
+      <config projectName="dataStructure" targetName="00_myDoubleNodeList" />
       <config projectName="dataStructure" targetName="17_printaTotheMaxNum" />
-      <config projectName="dataStructure" targetName="01_arrayShiftProblem" />
+      <config projectName="dataStructure" targetName="00_mySingleNodeList" />
       <config projectName="dataStructure" targetName="15_binOperation" />
+      <config projectName="dataStructure" targetName="05_regularExpressionMatching" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,14 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/programming/nuimax2019/01_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/nuimax2019/02_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/xijian2019/collatzSequence.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/xijian2019/hanmingDistance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/01_array/00_mySingleNodeList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/02_string/05_regularExpressionMatching.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikang/01_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikang/02_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haikang/03_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/nuimax2019/03_test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programming/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -45,28 +43,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1722">
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="448">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
+        <entry file="file://$PROJECT_DIR$/programming/02_string/05_regularExpressionMatching.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-832">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="428">
+              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              <folding>
+                <element signature="e#312#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programming/01_array/00_mySingleNodeList.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+                <element signature="e#363#826#0" />
+                <element signature="e#832#1129#0" />
+                <element signature="e#1136#1862#0" />
+                <element signature="e#1868#2174#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3968">
+              <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +118,7 @@
       <find>distenceTowPoints</find>
       <find>03_fruit_SliceInPlane</find>
       <find>M</find>
+      <find>pDelete</find>
     </findStrings>
     <replaceStrings>
       <replace>float</replace>
@@ -113,6 +132,8 @@
       <replace>number</replace>
       <replace>distanceTowPoints</replace>
       <replace>succ</replace>
+      <replace>pToDelete</replace>
+      <replace>pTo-Delete</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -124,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CodingInterview/duplicationInArray/duplicationInArray.cpp" />
-        <option value="$PROJECT_DIR$/CodingInterview/04_ findInPartiallySortedMatrix/04_ findInPartiallySortedMatrix.cpp" />
-        <option value="$PROJECT_DIR$/CodingInterview/04_findInPartiallySortedMatrix/04_findInPartiallySortedMatrix.cpp" />
         <option value="$PROJECT_DIR$/CodingInterview/readme.md" />
         <option value="$PROJECT_DIR$/CodingInterview/06_SingleListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/_newDir/00100_.cpp" />
@@ -173,8 +191,11 @@
         <option value="$PROJECT_DIR$/programming/02_string/numOfHuiwen.cpp" />
         <option value="$PROJECT_DIR$/programming/xijian2019/01_test.cpp" />
         <option value="$PROJECT_DIR$/programming/xijian2019/02_test.cpp" />
-        <option value="$PROJECT_DIR$/programming/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/programming/nuimax2019/01_test.cpp" />
+        <option value="$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp" />
+        <option value="$PROJECT_DIR$/programming/01_array/00_mySingleNodeList.cpp" />
+        <option value="$PROJECT_DIR$/programming/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/programming/02_string/05_regularExpressionMatching.cpp" />
       </list>
     </option>
   </component>
@@ -204,18 +225,7 @@
             <path>
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="LeetCode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="programming" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="programming" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="01_array" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -226,8 +236,7 @@
             <path>
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="programming" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="08_math" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="today" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -239,7 +248,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build_Win/AMD64/bin/LeeCode/001_twoSumEXE.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -250,11 +259,11 @@
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\math" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\02_string" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\01_array" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\xijian2019" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\02_string" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\AiBEE2019" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\08_math" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -274,8 +283,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.nuimax2019_1">
-    <configuration name="01_arrayShiftProblem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="01_arrayShiftProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_arrayShiftProblem">
+  <component name="RunManager" selected="Application.00_mySingleNodeList">
+    <configuration name="00_myDoubleNodeList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="00_myDoubleNodeList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="00_myDoubleNodeList">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="00_mySingleNodeList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="00_mySingleNodeList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="00_mySingleNodeList">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -291,6 +305,11 @@
       </method>
     </configuration>
     <configuration name="03_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="03_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="03_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="05_regularExpressionMatching" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="05_regularExpressionMatching" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="05_regularExpressionMatching">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -335,7 +354,9 @@
       <item itemvalue="Application.01_test" />
       <item itemvalue="Application.02_test" />
       <item itemvalue="Application.03_test" />
-      <item itemvalue="Application.01_arrayShiftProblem" />
+      <item itemvalue="Application.00_myDoubleNodeList" />
+      <item itemvalue="Application.00_mySingleNodeList" />
+      <item itemvalue="Application.05_regularExpressionMatching" />
       <item itemvalue="Application.15_binOperation" />
       <item itemvalue="Application.17_printaTotheMaxNum" />
       <item itemvalue="Application.nuimax2019_1" />
@@ -374,7 +395,7 @@
       <workItem from="1555304930265" duration="4493000" />
       <workItem from="1555392576955" duration="4976000" />
       <workItem from="1555464662589" duration="29785000" />
-      <workItem from="1555987033957" duration="5485000" />
+      <workItem from="1555987033957" duration="11051000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -565,11 +586,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555512386372</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update programming">
+      <created>1556005011065</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1556005011065</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358476000" />
+    <option name="totallyTimeSpent" value="364042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,8 +610,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1881663" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25568798" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32502708" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.18851571" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.45503792" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.19826652" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -599,28 +650,6 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.31744313" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.19826652" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15671642" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18743229" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32936078" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32719395" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.14409535" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3445287" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.22101842" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -756,19 +785,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3214">
-          <caret line="194" column="4" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/fruit_SliceInPlane_dynamic.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/01_array/05_fruit_SliceInPlane_dynamic.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/programming/Huawei2019/03_fruit_SliceInPlane.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1856">
@@ -807,20 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="803">
           <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663">
-          <caret line="71" column="31" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-373">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -962,13 +964,6 @@
     <entry file="file://$PROJECT_DIR$/haikang/01_test.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/programming/02_string/00_myString.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1086,13 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1722">
@@ -1102,10 +1090,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="58" column="27" selection-end-line="116" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="45" column="61" lean-forward="true" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="36" column="31" selection-end-line="124" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="192">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3968">
+          <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/01_array/00_mySingleNodeList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+            <element signature="e#363#826#0" />
+            <element signature="e#832#1129#0" />
+            <element signature="e#1136#1862#0" />
+            <element signature="e#1868#2174#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/02_string/05_regularExpressionMatching.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <element signature="e#312#331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

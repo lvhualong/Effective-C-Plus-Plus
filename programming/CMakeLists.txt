@@ -15,7 +15,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${Programming_OUTPUT_DIR})
 
 
 ## 01 vector 数组的相关操作  11111111111111111111111111111111111111111111111111111111111111111111111111111
-add_executable(01_arrayShiftProblem 01_array/01_arrayShiftProblem.cpp) ## 一叠牌 每次输入第一个，第二个移到最后
+## 单链表 的基本操作
+add_executable(00_mySingleNodeList  01_array/00_mySingleNodeList.cpp)
+add_executable(00_myDoubleNodeList  01_array/00_myDoubleNodeList.cpp)
+## 双向链表的基本操作
+
+#add_executable(01_arrayShiftProblem 01_array/01_arrayShiftProblem.cpp) ## 一叠牌 每次输入第一个，第二个移到最后
 #add_executable(02_removeDuplicates 01_array/02_removeDuplicates.cpp) ## 已排序数组删除重复元素
 #add_executable(03_boundingBox 01_array/03_boundingBox.cpp) ## 求一组二维点的boundingBox坐标 左上 右下
 #add_executable(04_shortestPahtInPlane 01_array/04_shortestPahtInPlane.cpp) ##平面上五个二维点到原点的最短路径
@@ -30,7 +35,8 @@ add_executable(01_arrayShiftProblem 01_array/01_arrayShiftProblem.cpp) ## 一叠
 ### 03 输入一个整数表示位数，打印所有整数 3 -> 1~999，【字符串数组的累加定义】
 ### 04 输入一个数表示范围，输出这个范围内，所有二进制是回文的数量 【二进制回文】
 #add_executable(numOfHuiwen 02_string/04_numOfHuiwen.cpp)
-
+### 05 正则表达式的匹配
+add_executable(05_regularExpressionMatching 02_string/05_regularExpressionMatching.cpp)
 ## 03_tree
 
 ## 04_sorted
