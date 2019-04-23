@@ -2,12 +2,15 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="dataStructure" targetName="numOfHuiwen" />
+      <config projectName="dataStructure" targetName="nuimax2019_2" />
       <config projectName="dataStructure" targetName="02_test" />
+      <config projectName="dataStructure" targetName="nuimax2019_3" />
       <config projectName="dataStructure" targetName="sqrt_exe" />
+      <config projectName="dataStructure" targetName="nuimax2019_1" />
       <config projectName="dataStructure" targetName="01_test" />
       <config projectName="dataStructure" targetName="03_test" />
       <config projectName="dataStructure" targetName="17_printaTotheMaxNum" />
+      <config projectName="dataStructure" targetName="01_arrayShiftProblem" />
       <config projectName="dataStructure" targetName="15_binOperation" />
     </generated>
   </component>
@@ -18,36 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/programming/01_array/05_fruit_SliceInPlane_dynamic.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/02_string/02_findSubstringNum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/fruit_SliceInPlane_dynamic.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/08_math/primeNumberFiniteField.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit_1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_String.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/nuimax2019/01_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/nuimax2019/02_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/xijian2019/collatzSequence.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/xijian2019/hanmingDistance.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/05_replaceStringSpaces/05_replaceStringSpaces.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/05_replaceStringSpaces/05_replaceStringSpaces.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_ListNodeInsert_Delete_Print.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Xiecheng/01.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Xiecheng/02.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Xiecheng/03.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/Tencent2019/03_arraySubSmallest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/02_string/17_printaTotheMaxNum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/02_string/03_printaTotheMaxNum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/02_string/myString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/02_string/00_myString.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/02_string/numOfHuiwen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/02_string/04_numOfHuiwen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haikang/01_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/haikang/02_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/haikang/03_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/nuimax2019/03_test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programming/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/Huawei2019/03_fruit_SliceInPlane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/Huawei2019/03_fruit_SliceInPlane.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/Tencent2019/03operateToNums.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/Weizong2019/primeNumberFiniteField.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/Weizong2019/primeNumberFiniteField.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/Zijie2019/test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/programming/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/today/01_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/01_test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/today/02_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/02_test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/build_Win/" />
@@ -60,106 +42,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="352">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programming/02_string/04_numOfHuiwen.cpp">
+        <entry file="file://$PROJECT_DIR$/LeetCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1321">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="-1722">
               <folding>
-                <element signature="e#356#375#0" expanded="true" />
+                <element signature="e#41#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programming/02_string/03_printaTotheMaxNum.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="19" />
-              <folding>
-                <element signature="e#295#314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programming/02_string/00_myString.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programming/02_string/01_String_BigendOrLittleend_Encode.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="e#163#182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/today/01_test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-              <folding>
-                <element signature="e#143#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/today/02_test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="8" selection-start-line="8" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="e#144#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programming/01_array/03_boundingBox.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-              <folding>
-                <element signature="e#321#340#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-832">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -217,9 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/programming/array/removeDuplicates.cpp" />
-        <option value="$PROJECT_DIR$/LeetCode/readme.md" />
-        <option value="$PROJECT_DIR$/LeetCode/206_reverseList/206_reverseList.cpp" />
         <option value="$PROJECT_DIR$/CodingInterview/duplicationInArray/duplicationInArray.cpp" />
         <option value="$PROJECT_DIR$/CodingInterview/04_ findInPartiallySortedMatrix/04_ findInPartiallySortedMatrix.cpp" />
         <option value="$PROJECT_DIR$/CodingInterview/04_findInPartiallySortedMatrix/04_findInPartiallySortedMatrix.cpp" />
@@ -267,7 +171,10 @@
         <option value="$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp" />
         <option value="$PROJECT_DIR$/programming/02_string/00_myString.cpp" />
         <option value="$PROJECT_DIR$/programming/02_string/numOfHuiwen.cpp" />
+        <option value="$PROJECT_DIR$/programming/xijian2019/01_test.cpp" />
+        <option value="$PROJECT_DIR$/programming/xijian2019/02_test.cpp" />
         <option value="$PROJECT_DIR$/programming/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/programming/nuimax2019/01_test.cpp" />
       </list>
     </option>
   </component>
@@ -286,27 +193,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="CodingInterview" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="dataStructure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="haikang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -334,18 +227,12 @@
               <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="programming" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="jd2019" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="today" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="08_math" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,19 +242,19 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\02_string" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\AiBEE2019" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\08_math" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\01_array" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\06_dynamicProgramming_greedyAlgorithm" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\today" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\01_array" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\08_math" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\math" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\xijian2019" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\02_string" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\AiBEE2019" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\08_math" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -387,7 +274,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.01_test">
+  <component name="RunManager" selected="Application.nuimax2019_1">
+    <configuration name="01_arrayShiftProblem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="01_arrayShiftProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_arrayShiftProblem">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="01_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="01_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -418,6 +310,21 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nuimax2019_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="nuimax2019_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="nuimax2019_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nuimax2019_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="nuimax2019_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="nuimax2019_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nuimax2019_3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="nuimax2019_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="nuimax2019_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sqrt_exe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="sqrt_exe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="sqrt_exe">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -428,8 +335,12 @@
       <item itemvalue="Application.01_test" />
       <item itemvalue="Application.02_test" />
       <item itemvalue="Application.03_test" />
+      <item itemvalue="Application.01_arrayShiftProblem" />
       <item itemvalue="Application.15_binOperation" />
       <item itemvalue="Application.17_printaTotheMaxNum" />
+      <item itemvalue="Application.nuimax2019_1" />
+      <item itemvalue="Application.nuimax2019_2" />
+      <item itemvalue="Application.nuimax2019_3" />
       <item itemvalue="Application.sqrt_exe" />
     </list>
   </component>
@@ -462,7 +373,8 @@
       <workItem from="1555035206245" duration="9521000" />
       <workItem from="1555304930265" duration="4493000" />
       <workItem from="1555392576955" duration="4976000" />
-      <workItem from="1555464662589" duration="27425000" />
+      <workItem from="1555464662589" duration="29785000" />
+      <workItem from="1555987033957" duration="5485000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -646,11 +558,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555397499410</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update programming">
+      <created>1555512386372</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1555512386372</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350631000" />
+    <option name="totallyTimeSpent" value="358476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,14 +582,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13109426" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2156013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32502708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -838,365 +756,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#2704#213815#0" />
-            <element signature="e#2785#3423#0" />
-            <element signature="e#3427#3786#0" />
-            <element signature="e#3790#4766#0" />
-            <element signature="e#4770#5015#0" />
-            <element signature="e#5019#5374#0" />
-            <element signature="e#5378#5802#0" />
-            <element signature="e#6006#7191#0" />
-            <element signature="e#7210#7298#0" />
-            <element signature="e#7210#8061#0" />
-            <element signature="e#8065#8165#0" />
-            <element signature="e#8065#9120#0" />
-            <element signature="e#9124#9607#0" />
-            <element signature="e#9611#10371#0" />
-            <element signature="e#10375#11648#0" />
-            <element signature="e#11652#12950#0" />
-            <element signature="e#11652#13870#0" />
-            <element signature="e#13874#15279#0" />
-            <element signature="e#13874#16288#0" />
-            <element signature="e#16319#16767#0" />
-            <element signature="e#16989#17439#0" />
-            <element signature="e#17669#18138#0" />
-            <element signature="e#18347#18765#0" />
-            <element signature="e#18347#19326#0" />
-            <element signature="e#19330#19720#0" />
-            <element signature="e#19330#20066#0" />
-            <element signature="e#20070#20434#0" />
-            <element signature="e#20070#21472#0" />
-            <element signature="e#21483#21862#0" />
-            <element signature="e#21866#22463#0" />
-            <element signature="e#21866#23208#0" />
-            <element signature="e#23212#23828#0" />
-            <element signature="e#23212#24601#0" />
-            <element signature="e#24632#25237#0" />
-            <element signature="e#24632#26030#0" />
-            <element signature="e#26034#26423#0" />
-            <element signature="e#26719#27267#0" />
-            <element signature="e#26719#27787#0" />
-            <element signature="e#27791#28472#0" />
-            <element signature="e#27791#29633#0" />
-            <element signature="e#29644#30142#0" />
-            <element signature="e#30146#30779#0" />
-            <element signature="e#30146#31349#0" />
-            <element signature="e#31353#32010#0" />
-            <element signature="e#31353#32605#0" />
-            <element signature="e#32609#33040#0" />
-            <element signature="e#33044#33630#0" />
-            <element signature="e#33634#34241#0" />
-            <element signature="e#33634#34778#0" />
-            <element signature="e#34782#35479#0" />
-            <element signature="e#34782#36155#0" />
-            <element signature="e#36159#36366#0" />
-            <element signature="e#36159#37153#0" />
-            <element signature="e#37157#37362#0" />
-            <element signature="e#37157#38314#0" />
-            <element signature="e#38318#38524#0" />
-            <element signature="e#38318#39231#0" />
-            <element signature="e#39235#39405#0" />
-            <element signature="e#39235#39729#0" />
-            <element signature="e#39733#39903#0" />
-            <element signature="e#39733#40231#0" />
-            <element signature="e#40235#40712#0" />
-            <element signature="e#40235#41122#0" />
-            <element signature="e#41126#41883#0" />
-            <element signature="e#41126#42528#0" />
-            <element signature="e#42532#42686#0" />
-            <element signature="e#42532#42948#0" />
-            <element signature="e#42952#48363#0" />
-            <element signature="e#42980#43860#0" />
-            <element signature="e#43865#44884#0" />
-            <element signature="e#44888#46952#0" />
-            <element signature="e#47043#47855#0" />
-            <element signature="e#47043#48358#0" />
-            <element signature="e#48384#49251#0" />
-            <element signature="e#48384#49921#0" />
-            <element signature="e#49925#50467#0" />
-            <element signature="e#50471#51110#0" />
-            <element signature="e#51130#53186#0" />
-            <element signature="e#53190#53915#0" />
-            <element signature="e#53919#54768#0" />
-            <element signature="e#53919#55377#0" />
-            <element signature="e#55381#55852#0" />
-            <element signature="e#55875#57116#0" />
-            <element signature="e#57120#57971#0" />
-            <element signature="e#57120#59165#0" />
-            <element signature="e#59169#60133#0" />
-            <element signature="e#59169#61531#0" />
-            <element signature="e#61535#62065#0" />
-            <element signature="e#62069#62760#0" />
-            <element signature="e#62764#63179#0" />
-            <element signature="e#63183#63260#0" />
-            <element signature="e#63263#63289#1" />
-            <element signature="e#63294#63813#0" />
-            <element signature="e#63817#64333#0" />
-            <element signature="e#64337#64829#0" />
-            <element signature="e#64833#65176#0" />
-            <element signature="e#65180#65838#0" />
-            <element signature="e#65853#66217#0" />
-            <element signature="e#66221#66978#0" />
-            <element signature="e#67042#67719#0" />
-            <element signature="e#67042#68364#0" />
-            <element signature="e#68368#69049#0" />
-            <element signature="e#69053#69524#0" />
-            <element signature="e#69053#70094#0" />
-            <element signature="e#70098#70752#0" />
-            <element signature="e#70098#71397#0" />
-            <element signature="e#71401#72601#0" />
-            <element signature="e#72605#73241#0" />
-            <element signature="e#72605#74061#0" />
-            <element signature="e#74065#74735#0" />
-            <element signature="e#74065#75669#0" />
-            <element signature="e#75673#76150#0" />
-            <element signature="e#75673#76841#0" />
-            <element signature="e#76845#77496#0" />
-            <element signature="e#76845#78292#0" />
-            <element signature="e#78308#79040#0" />
-            <element signature="e#79044#80081#0" />
-            <element signature="e#80085#81316#0" />
-            <element signature="e#81320#83388#0" />
-            <element signature="e#83392#85028#0" />
-            <element signature="e#85032#86023#0" />
-            <element signature="e#86027#86790#0" />
-            <element signature="e#86027#87505#0" />
-            <element signature="e#87509#88451#0" />
-            <element signature="e#87509#89324#0" />
-            <element signature="e#89329#90060#0" />
-            <element signature="e#90064#90857#0" />
-            <element signature="e#90861#91308#0" />
-            <element signature="e#91312#91338#1" />
-            <element signature="e#91343#92148#0" />
-            <element signature="e#92152#93124#0" />
-            <element signature="e#93128#93804#0" />
-            <element signature="e#94085#94584#0" />
-            <element signature="e#94588#95429#0" />
-            <element signature="e#94588#96532#0" />
-            <element signature="e#96536#97523#0" />
-            <element signature="e#96536#98758#0" />
-            <element signature="e#98929#99763#0" />
-            <element signature="e#99767#100337#0" />
-            <element signature="e#99767#100962#0" />
-            <element signature="e#100966#101665#0" />
-            <element signature="e#100966#102418#0" />
-            <element signature="e#102422#103256#0" />
-            <element signature="e#103260#103844#0" />
-            <element signature="e#103260#104476#0" />
-            <element signature="e#104480#105186#0" />
-            <element signature="e#104480#105941#0" />
-            <element signature="e#105975#106424#0" />
-            <element signature="e#106428#107055#0" />
-            <element signature="e#106428#107864#0" />
-            <element signature="e#107868#108539#0" />
-            <element signature="e#107868#109380#0" />
-            <element signature="e#109384#109759#0" />
-            <element signature="e#109790#110048#0" />
-            <element signature="e#110235#110587#0" />
-            <element signature="e#110825#111239#0" />
-            <element signature="e#111243#111558#0" />
-            <element signature="e#111243#112149#0" />
-            <element signature="e#112153#112539#0" />
-            <element signature="e#112153#113258#0" />
-            <element signature="e#113262#113558#0" />
-            <element signature="e#113262#113916#0" />
-            <element signature="e#113920#114295#0" />
-            <element signature="e#113920#114598#0" />
-            <element signature="e#114602#115783#0" />
-            <element signature="e#115787#116307#0" />
-            <element signature="e#115787#116944#0" />
-            <element signature="e#116948#117511#0" />
-            <element signature="e#116948#118275#0" />
-            <element signature="e#119024#119288#0" />
-            <element signature="e#119292#119600#0" />
-            <element signature="e#119604#120871#0" />
-            <element signature="e#120875#121458#0" />
-            <element signature="e#120875#122188#0" />
-            <element signature="e#122192#122842#0" />
-            <element signature="e#122192#123661#0" />
-            <element signature="e#129247#130202#0" />
-            <element signature="e#129247#130545#0" />
-            <element signature="e#130549#130985#0" />
-            <element signature="e#130549#133173#0" />
-            <element signature="e#133264#133727#0" />
-            <element signature="e#133264#134179#0" />
-            <element signature="e#134183#134570#0" />
-            <element signature="e#134183#135102#0" />
-            <element signature="e#135106#135520#0" />
-            <element signature="e#135106#136080#0" />
-            <element signature="e#136084#136832#0" />
-            <element signature="e#136084#137707#0" />
-            <element signature="e#137711#138532#0" />
-            <element signature="e#137711#139498#0" />
-            <element signature="e#139502#139904#0" />
-            <element signature="e#139502#140438#0" />
-            <element signature="e#140442#140934#0" />
-            <element signature="e#140442#141612#0" />
-            <element signature="e#141616#141975#0" />
-            <element signature="e#141616#142559#0" />
-            <element signature="e#142563#142924#0" />
-            <element signature="e#142563#143523#0" />
-            <element signature="e#143527#144711#0" />
-            <element signature="e#143527#145535#0" />
-            <element signature="e#145539#146575#0" />
-            <element signature="e#145539#147497#0" />
-            <element signature="e#147501#148122#0" />
-            <element signature="e#147501#148728#0" />
-            <element signature="e#148733#149496#0" />
-            <element signature="e#148733#150203#0" />
-            <element signature="e#150734#151388#0" />
-            <element signature="e#150734#152075#0" />
-            <element signature="e#151788#151893#0" />
-            <element signature="e#152079#152870#0" />
-            <element signature="e#152079#153742#0" />
-            <element signature="e#153412#153530#0" />
-            <element signature="e#153746#154284#0" />
-            <element signature="e#153746#154990#0" />
-            <element signature="e#154994#155537#0" />
-            <element signature="e#154994#156271#0" />
-            <element signature="e#156275#156798#0" />
-            <element signature="e#156275#157319#0" />
-            <element signature="e#157323#157968#0" />
-            <element signature="e#157323#158447#0" />
-            <element signature="e#158224#158311#0" />
-            <element signature="e#158451#159335#0" />
-            <element signature="e#158451#160174#0" />
-            <element signature="e#160178#161026#0" />
-            <element signature="e#160178#161844#0" />
-            <element signature="e#161868#162254#0" />
-            <element signature="e#161868#162891#0" />
-            <element signature="e#162902#163449#0" />
-            <element signature="e#162902#164166#0" />
-            <element signature="e#164171#164831#0" />
-            <element signature="e#164171#165432#0" />
-            <element signature="e#165437#166139#0" />
-            <element signature="e#165437#166852#0" />
-            <element signature="e#166856#167682#0" />
-            <element signature="e#166856#168525#0" />
-            <element signature="e#168529#169206#0" />
-            <element signature="e#168529#169996#0" />
-            <element signature="e#170000#170778#0" />
-            <element signature="e#170000#171695#0" />
-            <element signature="e#171699#172196#0" />
-            <element signature="e#171699#172782#0" />
-            <element signature="e#172786#173371#0" />
-            <element signature="e#172786#174086#0" />
-            <element signature="e#174090#174737#0" />
-            <element signature="e#174741#175642#0" />
-            <element signature="e#174741#176933#0" />
-            <element signature="e#176937#178014#0" />
-            <element signature="e#176937#179402#0" />
-            <element signature="e#179406#180093#0" />
-            <element signature="e#180097#180812#0" />
-            <element signature="e#180097#181431#0" />
-            <element signature="e#181435#182253#0" />
-            <element signature="e#181435#183001#0" />
-            <element signature="e#183005#183776#0" />
-            <element signature="e#183780#184596#0" />
-            <element signature="e#183780#186067#0" />
-            <element signature="e#186071#187018#0" />
-            <element signature="e#186071#188611#0" />
-            <element signature="e#188615#189222#0" />
-            <element signature="e#189226#190018#0" />
-            <element signature="e#189226#191378#0" />
-            <element signature="e#191382#192305#0" />
-            <element signature="e#191382#193777#0" />
-            <element signature="e#193781#194424#0" />
-            <element signature="e#194428#195367#0" />
-            <element signature="e#194428#196716#0" />
-            <element signature="e#196720#197789#0" />
-            <element signature="e#196720#199259#0" />
-            <element signature="e#199263#200049#0" />
-            <element signature="e#200053#200876#0" />
-            <element signature="e#200053#202382#0" />
-            <element signature="e#202386#203338#0" />
-            <element signature="e#202386#204971#0" />
-            <element signature="e#204975#205378#0" />
-            <element signature="e#205382#205631#0" />
-            <element signature="e#205382#206246#0" />
-            <element signature="e#206250#206593#0" />
-            <element signature="e#206250#207332#0" />
-            <element signature="e#207336#207738#0" />
-            <element signature="e#207742#207990#0" />
-            <element signature="e#207742#208605#0" />
-            <element signature="e#208609#208951#0" />
-            <element signature="e#208609#209690#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/08_math/twoDimMatrixMulit.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/AiBEE2019/02_boundingBox.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding>
-            <element signature="e#144#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/01_array/04_shortestPahtInPlane.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="e#275#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/01_array/01_arrayShiftProblem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#451#470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/Huawei2019/02_shortestPahtInPlane.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2336">
-          <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
-          <folding>
-            <element signature="e#275#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/01_array/02_removeDuplicates.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_solution_dynamic.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_greedyAlgorithm.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="e#376#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/_software/MinGW-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3214">
@@ -1209,16 +768,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/programming/01_array/05_fruit_SliceInPlane_dynamic.cpp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="488">
-            <caret line="105" column="5" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/programming/Huawei2019/03_fruit_SliceInPlane.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1268,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodingInterview/06_ListNodeInsert_Delete_Print/06_DoubleListNodeInsert_Delete_Print.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-373">
@@ -1282,30 +824,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programming/Xiecheng/02.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1770" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/Xiecheng/03.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-458" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodingInterview/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/Xiecheng/02.cpp" />
+    <entry file="file://$PROJECT_DIR$/programming/Xiecheng/03.cpp" />
     <entry file="file://$PROJECT_DIR$/CodingInterview/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1314,9 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programming/Xiecheng/01.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/Xiecheng/01.cpp" />
     <entry file="file://$PROJECT_DIR$/programming/Weizong2019/primeNumberFiniteField.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1184">
@@ -1328,13 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1382,16 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="559">
-            <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/programming/01_array/03_boundingBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1409,36 +910,6 @@
     <entry file="file://$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit_1.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/today/02_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" selection-start-line="8" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="e#144#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/today/01_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="e#143#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#163#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/programming/Tencent2019/03_arraySubSmallest.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1280">
@@ -1449,28 +920,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-          <folding>
-            <element signature="e#321#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/programming/02_string/02_findSubstringNum.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programming/02_string/01_String_BigendOrLittleend_Encode.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programming/02_string/00_myString.cpp">
+    <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="864">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingInterview/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/02_string/04_numOfHuiwen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1664">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#356#375#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1484,20 +959,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programming/02_string/04_numOfHuiwen.cpp">
+    <entry file="file://$PROJECT_DIR$/haikang/01_test.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1321">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="-511">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/02_string/00_myString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/02_string/01_String_BigendOrLittleend_Encode.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/today/03_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/xijian2019/hanmingDistance.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
-            <element signature="e#356#375#0" expanded="true" />
+            <element signature="e#143#162#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/xijian2019/collatzSequence.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/today/02_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="26" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <element signature="e#144#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+          <folding>
+            <element signature="e#321#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/nuimax2019/03_test.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/nuimax2019/02_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/nuimax2019/01_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#143#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/today/01_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#143#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/01_array/01_arrayShiftProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="e#451#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="968">
+            <caret line="105" column="5" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3328">
+            <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/programming/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="352">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/002_ListNodeTwoSum/002_ListNodeTwoSum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1722">
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/myList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>

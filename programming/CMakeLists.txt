@@ -15,7 +15,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${Programming_OUTPUT_DIR})
 
 
 ## 01 vector 数组的相关操作  11111111111111111111111111111111111111111111111111111111111111111111111111111
-#add_executable(01_arrayShiftProblem 01_array/01_arrayShiftProblem.cpp) ## 一叠牌 每次输入第一个，第二个移到最后
+add_executable(01_arrayShiftProblem 01_array/01_arrayShiftProblem.cpp) ## 一叠牌 每次输入第一个，第二个移到最后
 #add_executable(02_removeDuplicates 01_array/02_removeDuplicates.cpp) ## 已排序数组删除重复元素
 #add_executable(03_boundingBox 01_array/03_boundingBox.cpp) ## 求一组二维点的boundingBox坐标 左上 右下
 #add_executable(04_shortestPahtInPlane 01_array/04_shortestPahtInPlane.cpp) ##平面上五个二维点到原点的最短路径
@@ -97,6 +97,15 @@ add_executable(17_printaTotheMaxNum 02_string/03_printaTotheMaxNum.cpp)
 #add_executable(bigNumAdd_Array Zijie2019/bigNumAdd_Array.cpp)
 #### 大数加法定义的 String 形式
 #add_executable(bigNumAdd_String Zijie2019/bigNumAdd_String.cpp)
+
+## 悉见科技
+## 求两个字符串的汉明距离
+## 求一个collatzSequence序列
+
+## 纽劢科技
+add_executable(nuimax2019_1 nuimax2019/01_test.cpp)
+add_executable(nuimax2019_2 nuimax2019/02_test.cpp)
+add_executable(nuimax2019_3 nuimax2019/03_test.cpp)
 
 ## 京东
 ### 寻找一个大字符串出现的n个小字符串的最大数量
