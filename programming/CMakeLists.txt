@@ -16,16 +16,24 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${Programming_OUTPUT_DIR})
 
 ## 01 vector 数组的相关操作  11111111111111111111111111111111111111111111111111111111111111111111111111111
 ## 单链表 的基本操作
-add_executable(00_mySingleNodeList  01_array/00_mySingleNodeList.cpp)
-add_executable(00_myDoubleNodeList  01_array/00_myDoubleNodeList.cpp)
+#add_executable(00_mySingleNodeList  01_array/00_mySingleNodeList.cpp)
 ## 双向链表的基本操作
+#add_executable(00_myDoubleNodeList  01_array/00_myDoubleNodeList.cpp)
+## 自定义一个栈
+add_executable(00_myStack  01_array/00_myStack.cpp)
 
-#add_executable(01_arrayShiftProblem 01_array/01_arrayShiftProblem.cpp) ## 一叠牌 每次输入第一个，第二个移到最后
-#add_executable(02_removeDuplicates 01_array/02_removeDuplicates.cpp) ## 已排序数组删除重复元素
-#add_executable(03_boundingBox 01_array/03_boundingBox.cpp) ## 求一组二维点的boundingBox坐标 左上 右下
-#add_executable(04_shortestPahtInPlane 01_array/04_shortestPahtInPlane.cpp) ##平面上五个二维点到原点的最短路径
-
-
+## 【一叠牌 重新排序问题】 每次输入第一个，第二个移到最后
+#add_executable(01_arrayShiftProblem 01_array/01_arrayShiftProblem.cpp)
+#add_executable(01_arrayShiftProblem_reverse 01_array/01_arrayShiftProblem_reverse.cpp)
+## 已排序数组删除重复元素
+#add_executable(02_removeDuplicates 01_array/02_removeDuplicates.cpp)
+## 求一组二维点的boundingBox坐标 左上 右下 【二维点的排序】
+#add_executable(03_boundingBox 01_array/03_boundingBox.cpp)
+## 平面上五个二维点到原点的最短路径
+#add_executable(04_shortestPahtInPlane 01_array/04_shortestPahtInPlane.cpp)
+### 05_fruit_SliceInPlane_dynamic.cpp  【二维平面切水果问题】 【根据横切 竖切 斜切的特点 动态规划】
+### 06_theLastSubArraySum.cpp  最大子数组和问题 【贪心算法 和 动态规划解法】
+### 07_theLastVesselProblem.cpp  给定一系列第一象限坐标，get最大容器问题，【对输入字符串切分，转整型， 贪心算法】
 
 ## 02 string  2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 
@@ -35,11 +43,28 @@ add_executable(00_myDoubleNodeList  01_array/00_myDoubleNodeList.cpp)
 ### 03 输入一个整数表示位数，打印所有整数 3 -> 1~999，【字符串数组的累加定义】
 ### 04 输入一个数表示范围，输出这个范围内，所有二进制是回文的数量 【二进制回文】
 #add_executable(numOfHuiwen 02_string/04_numOfHuiwen.cpp)
-### 05 正则表达式的匹配
-add_executable(05_regularExpressionMatching 02_string/05_regularExpressionMatching.cpp)
-## 03_tree
+### 05 正则表达式的匹配 【* 超前考虑】
+#add_executable(05_regularExpressionMatching 02_string/05_regularExpressionMatching.cpp)
+### 06 【 输出最后一个子串单词的长度】
+### 07 【双对称字符的判断  字符串逆序 与迭代器的使用】
+### 08 【多行字符串的数组，转成整型vector的处理】 theLastVesselProblem.cpp
+### 09 【检查括号匹配问题  [] () {}  栈的基本使用】
+### 10 【字符串运算表达式的解析与求解  带加减乘除括号运算符】
+#add_executable(09_bracket_check 02_string/09_bracket_check.cpp)
+add_executable(10_stringEvaluationReversePolishNotation 02_string/10_stringEvaluationReversePolishNotation.cpp)
 
-## 04_sorted
+## 03_treeAndGraph  333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+
+### 01 Dijkstra 单源最短路径问题
+add_executable(01_Dijkstra-singleSourceShortestPath 03_treeAndGraph/01_Dijkstra-singleSourceShortestPath.cpp)
+
+
+## 04_sorted  44444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
+
+### 01 arrayShiftProblem【手上的一打牌排序的问题；每次把第一张输出，第二张插到结尾】
+### 01 arrayShiftProblem_reverse【逆问题，现在桌子上有一打牌，给出原来手里牌的顺序】
+
+
 
 ## 05_searchFind
 
@@ -52,11 +77,11 @@ add_executable(05_regularExpressionMatching 02_string/05_regularExpressionMatchi
 #add_executable(14_maxProductAfterCutting_greedyAlgorithm 06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_greedyAlgorithm.cpp)
 
 ## 08_math 数学运算的实现
-add_executable(sqrt_exe 08_math/sqrt.cpp) ## 根号的实现
+#add_executable(sqrt_exe 08_math/sqrt.cpp) ## 根号的实现
 #add_executable(myMath 08_math/myMath.cpp)
-add_executable(15_binOperation 08_math/15_binOperation.cpp)
+#add_executable(15_binOperation 08_math/15_binOperation.cpp)
 #add_executable(16_power 08_math/16_power.cpp)
-add_executable(17_printaTotheMaxNum 02_string/03_printaTotheMaxNum.cpp)
+#add_executable(17_printaTotheMaxNum 02_string/03_printaTotheMaxNum.cpp)
 
 
 ## ##########################################################
@@ -77,12 +102,18 @@ add_executable(17_printaTotheMaxNum 02_string/03_printaTotheMaxNum.cpp)
 #add_executable(02_boundingBox AiBEE2019/02_boundingBox.cpp)
 
 ## 华为2019
-#### 字符串的小端/大端编码
-#### 二维平面上5点到原点的最短路径
-#### 二维平面上直线切水果
+#### 01 字符串的小端/大端编码
+#### 02 二维平面上5点到原点的最短路径
+#### 03 二维平面上直线切水果
+#### 04 双对称字符的判断
+#### 05 【公交车换乘问题  转化成单源最短路径模型】
+
+####
 #add_executable(01_String_BigendOrLittleend_Encode Huawei2019/01_String_BigendOrLittleend_Encode.cpp Zijie2019/test.cpp)
 #add_executable(02_shortestPahtInPlane Huawei2019/02_shortestPahtInPlane.cpp)
 #add_executable(03_fruit_SliceInPlane  Huawei2019/03_fruit_SliceInPlane.cpp)
+add_executable(05_Dijkstra Huawei2019/05_Dijkstra-singleSourceShortestPath.cpp)
+add_executable(05_Dijkstra_1 Huawei2019/05_Dijkstra_shortestDistance.cpp)
 
 ## 微众银行(腾讯)
 ### 1. 二进制的加减与移位操作
@@ -108,10 +139,14 @@ add_executable(17_printaTotheMaxNum 02_string/03_printaTotheMaxNum.cpp)
 ## 求两个字符串的汉明距离
 ## 求一个collatzSequence序列
 
-## 纽劢科技
-add_executable(nuimax2019_1 nuimax2019/01_test.cpp)
-add_executable(nuimax2019_2 nuimax2019/02_test.cpp)
-add_executable(nuimax2019_3 nuimax2019/03_test.cpp)
+
+
+## 文远知行，景驰科技
+### 最大子数组问题  最大容器装水体积问题
+#add_executable(01_theLastSubArraySum    weRide2019/01_theLastSubArraySum.cpp)
+#add_executable(01_theLastVesselProblem  weRide2019/01_theLastVesselProblem.cpp)
+### 智力题通关问题
+
 
 ## 京东
 ### 寻找一个大字符串出现的n个小字符串的最大数量

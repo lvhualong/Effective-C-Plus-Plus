@@ -51,7 +51,7 @@ set(CMAKE_LIBRARY_ARCHITECTURE  ${PROJECT_OUTPUT_DIR}/lib)
 
 ## EXE
 add_executable(01_test today/01_test.cpp)
-add_executable(02_test today/02_test.cpp)
-add_executable(03_test today/03_test.cpp)
+
+
 
 
