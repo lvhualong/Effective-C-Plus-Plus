@@ -17,38 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/programming/01_array/00_myStack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/01_array/01_arrayShiftProblem_reverse.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/01_array/06_theLastSubArraySum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/01_array/07_theLastVesselProblem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/02_string/06_theLastSubStringLength.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/02_string/07_symmetricString.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/02_string/08_theLastVesselProblem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/02_string/09_bracket_check.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/02_string/10_stringEvaluationReversePolishNotation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/03_treeAndGraph/01_Dijkstra-singleSourceShortestPath.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/04_sorted/01_arrayShiftProblem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/04_sorted/01_arrayShiftProblem_reverse.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/08_math/bigNumAdd_Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/08_math/bigNumAdd_String.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/Huawei2019/04_symmetricString.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/Huawei2019/05_Dijkstra-singleSourceShortestPath.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/Huawei2019/05_Dijkstra_shortestDistance.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/weRide2019/01_theLastSubArraySum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/weRide2019/01_theLastVesselProblem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/weRide2019/03_solveBrainTeaser.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/02_string/05_regularExpressionMatching.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/02_string/05_regularExpressionMatching.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programming/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_String.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/nuimax2019/01_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/nuimax2019/02_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/nuimax2019/03_test.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/today/01_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/01_test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/today/02_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/today/03_test.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/build_Win/" />
@@ -70,13 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programming/02_string/10_stringEvaluationReversePolishNotation.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="e#113#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/today/01_test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#53#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,12 +201,12 @@
         <option value="$PROJECT_DIR$/programming/weRide2019/03_solveBrainTeaser.cpp" />
         <option value="$PROJECT_DIR$/programming/weRide2019/01_theLastSubArraySum.cpp" />
         <option value="$PROJECT_DIR$/programming/weRide2019/01_theLastVesselProblem.cpp" />
-        <option value="$PROJECT_DIR$/today/01_test.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/programming/02_string/09_bracket_check.cpp" />
         <option value="$PROJECT_DIR$/programming/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/programming/01_array/00_myStack.cpp" />
         <option value="$PROJECT_DIR$/programming/02_string/10_stringEvaluationReversePolishNotation.cpp" />
+        <option value="$PROJECT_DIR$/today/01_test.cpp" />
       </list>
     </option>
   </component>
@@ -356,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.10_stringEvaluationReversePolishNotation">
+  <component name="RunManager" selected="Application.01_test">
     <configuration type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/build_Win/AMD64/bin/LeeCode/001_twoSumEXE.exe" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -435,7 +417,8 @@
       <workItem from="1556068195068" duration="69285000" />
       <workItem from="1556330080667" duration="4067000" />
       <workItem from="1556348113516" duration="20092000" />
-      <workItem from="1557279854544" duration="607000" />
+      <workItem from="1557279854544" duration="713000" />
+      <workItem from="1557312373047" duration="4624000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -640,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556010769397</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update programming">
+      <created>1557282095720</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1557282095720</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458505000" />
+    <option name="totallyTimeSpent" value="463235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,21 +649,21 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.26760563" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29685807" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49573562" visible="true" weight="0.13434453" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.29685807" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18851571" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.36944744" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.13867822" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.26218852" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5042644" side_tool="true" visible="true" weight="0.13434453" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4946695" weight="0.3347779" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.1332611" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -960,16 +950,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/hualong1995/FileStorage/File/2019-04/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="11" selection-end-line="95" selection-end-column="1" />
-          <folding>
-            <element signature="e#226#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/hualong1995/FileStorage/File/2019-04/main.cpp" />
     <entry file="file://$PROJECT_DIR$/programming/07_backTrackingAlgorithm/12_stringPathInCharMatrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1156,13 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/today/01_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/today/02_test.cpp" />
     <entry file="file://$PROJECT_DIR$/programming/Huawei2019/05_Dijkstra_shortestDistance.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1219,9 +1193,19 @@
     <entry file="file://$PROJECT_DIR$/programming/02_string/10_stringEvaluationReversePolishNotation.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="e#113#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/today/01_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#53#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
