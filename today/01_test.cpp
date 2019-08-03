@@ -4,6 +4,11 @@
 
 using namespace std;
 
+int main()
+{
+    return 0;
+}
+
 void gift(unsigned int gift_num, unsigned int child_k,int cur_gift, int cur_k, vector<int>& out, vector<vector<int>>& res){
     if(cur_k==child_k){
         int num = gift_num - cur_gift;
