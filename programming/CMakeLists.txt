@@ -101,6 +101,11 @@ add_executable(01_Dijkstra-singleSourceShortestPath 03_treeAndGraph/01_Dijkstra-
 #add_executable(01_twoDimMatrixMulit  AiBEE2019/01_twoDimMatrixMulit.cpp)
 #add_executable(02_boundingBox AiBEE2019/02_boundingBox.cpp)
 
+## DJI 2019
+### 用钱购买零食，获得最大满足感的问题
+### 机器人最短路劲问题
+add_executable(02_theMaxSatisfication DJI2019/02_theMaxSatisfication.cpp)
+add_executable(03_dijistra_distance DJI2019/03_dijistra_distance.cpp)
 ## 华为2019
 #### 01 字符串的小端/大端编码
 #### 02 二维平面上5点到原点的最短路径

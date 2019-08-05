@@ -23,12 +23,11 @@
 
 #include <iostream>
 #include <vector>
-#include <list>   //容易删改 方便前后删除
 #include <deque>
 #include <algorithm>
 using namespace std;
 
-bool comp(pair<int,int> a, pair<int,int> b)
+bool comp(pair<int,int> a,  pair<int,int> b)
 {
     return a.second < b.second;
 }

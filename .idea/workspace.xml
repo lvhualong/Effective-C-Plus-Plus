@@ -3,13 +3,19 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="dataStructure" targetName="10_stringEvaluationReversePolishNotation" />
-      <config projectName="dataStructure" targetName="56_2_NumberAppearingOnce" />
+      <config projectName="dataStructure" targetName="02_theMaxSatisfication" />
       <config projectName="dataStructure" targetName="01_Dijkstra-singleSourceShortestPath" />
       <config projectName="dataStructure" targetName="01_test" />
       <config projectName="dataStructure" targetName="00_myStack" />
-      <config projectName="dataStructure" targetName="05_Dijkstra" />
+      <config projectName="dataStructure" targetName="53_2_MissingNumber" />
+      <config projectName="dataStructure" targetName="03_dijistra_distance" />
+      <config projectName="dataStructure" targetName="03_test" />
+      <config projectName="dataStructure" targetName="02_test" />
+      <config projectName="dataStructure" targetName="53_indexEqualValue" />
+      <config projectName="dataStructure" targetName="51_InversePairs" />
+      <config projectName="dataStructure" targetName="53_1_NumberOfK" />
       <config projectName="dataStructure" targetName="05_Dijkstra_1" />
-      <config projectName="dataStructure" targetName="56_1_TwoNumbersAppearOnce" />
+      <config projectName="dataStructure" targetName="05_Dijkstra" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -18,22 +24,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/56_1_TwoNumbersAppearOnce/56_1_TwoNumbersAppearOnce.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/56_2_NumberAppearingOnce/56_2_NumberAppearingOnce.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/57_1_TwoNumbersWithSum/57_1_TwoNumbersWithSum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/57_2_ContinuousSquenceWithSum/57_2_ContinuousSquenceWithSum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/58_1_ReverseWordsInSentence/58_1_ReverseWordsInSentence.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/58_2_LeftRotateString/58_2_LeftRotateString.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/59_1_MaxInSlidingWindow/59_1_MaxInSlidingWindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/59_2_QueueWithMax/59_2_QueueWithMax.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/60_DicesProbability/60_DicesProbability.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/61_ContinousCards/61_ContinousCards.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/62_LastNumberInCircle_JosephuseCircle/62_LastNumberInCircle_JosephuseCircle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/63_MaximalProfit_max_min_value/63_MaximalProfit_max_min_value.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/64_fashion_accumulate/64_fashion_accumulate.cpp" afterDir="false" />
+    <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="update programming">
+      <change afterPath="$PROJECT_DIR$/CodingInterview/51_InversePairs/51_InversePairs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/53_1_NumberOfK/53_1_NumberOfK.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/53_2_MissingNumber/53_2_MissingNumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/53_indexEqualValue/53_indexEqualValue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/54_KthNodeInBST/54_KthNodeInBST.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/55_2_BalancedBinaryTree/55_2_BalancedBinaryTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/8_NextNodeInBinaryTrees/8_NextNodeInBinaryTrees.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/DJI2019/02_theMaxSatisfication.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programming/DJI2019/03_dijistra_distance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/today/02_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/today/03_test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/01_array/01_arrayShiftProblem_reverse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/01_array/01_arrayShiftProblem_reverse.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/01_array/02_removeDuplicates.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/01_array/02_removeDuplicates.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programming/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/today/01_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/01_test.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,6 +54,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="dataStructure" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -59,7 +70,7 @@
       <GitPushTagMode />
     </option>
   </component>
-  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1OtRryWLuSFGvKeQBCZ0xBJsPXQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -67,7 +78,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build_Win/AMD64/bin/LeeCode/001_twoSumEXE.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/today" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,22 +86,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\today" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\02_string" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\01_array" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\04_sorted" />
+      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\weRide2019" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\CodingInterview\58_1_ReverseWordsInSentence" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\Huawei2019" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\today" />
       <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\01_array" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\02_string" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\01_array" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\04_sorted" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\weRide2019" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\Huawei2019" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -110,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.56_2_NumberAppearingOnce">
+  <component name="RunManager" selected="CMake Application.03_dijistra_distance">
     <configuration name="00_myStack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="00_myStack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="00_myStack">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -121,7 +132,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="01_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_test" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="01_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="01_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="02_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="02_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_theMaxSatisfication" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="02_theMaxSatisfication" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="02_theMaxSatisfication">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03_dijistra_distance" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="03_dijistra_distance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="03_dijistra_distance">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="03_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="03_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -141,12 +172,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="56_1_TwoNumbersAppearOnce" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="56_1_TwoNumbersAppearOnce" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="56_1_TwoNumbersAppearOnce">
+    <configuration name="51_InversePairs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="51_InversePairs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="51_InversePairs">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="56_2_NumberAppearingOnce" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="56_2_NumberAppearingOnce" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="56_2_NumberAppearingOnce">
+    <configuration name="53_1_NumberOfK" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="53_1_NumberOfK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="53_1_NumberOfK">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="53_2_MissingNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="53_2_MissingNumber" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="53_indexEqualValue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="53_indexEqualValue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="53_indexEqualValue">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -158,10 +199,16 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.01_test" />
-      <item itemvalue="CMake Application.56_1_TwoNumbersAppearOnce" />
-      <item itemvalue="CMake Application.56_2_NumberAppearingOnce" />
+      <item itemvalue="CMake Application.02_test" />
+      <item itemvalue="CMake Application.03_test" />
+      <item itemvalue="CMake Application.51_InversePairs" />
+      <item itemvalue="CMake Application.53_1_NumberOfK" />
+      <item itemvalue="CMake Application.53_2_MissingNumber" />
+      <item itemvalue="CMake Application.53_indexEqualValue" />
       <item itemvalue="CMake Application.00_myStack" />
       <item itemvalue="CMake Application.01_Dijkstra-singleSourceShortestPath" />
+      <item itemvalue="CMake Application.02_theMaxSatisfication" />
+      <item itemvalue="CMake Application.03_dijistra_distance" />
       <item itemvalue="CMake Application.05_Dijkstra" />
       <item itemvalue="CMake Application.05_Dijkstra_1" />
       <item itemvalue="CMake Application.10_stringEvaluationReversePolishNotation" />
@@ -205,6 +252,9 @@
       <workItem from="1557312373047" duration="4661000" />
       <workItem from="1564795115175" duration="336000" />
       <workItem from="1564767637079" duration="41050000" />
+      <workItem from="1564891981734" duration="14770000" />
+      <workItem from="1564914139154" duration="10442000" />
+      <workItem from="1564925297356" duration="6438000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
