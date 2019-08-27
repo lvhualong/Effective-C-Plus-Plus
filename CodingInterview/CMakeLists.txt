@@ -4,10 +4,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 set( CodingInterview_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/codingInterview)
 
-## make directory
-##file( MAKE_DIRECTORY ${PROJECT_OUTPUT_DIR})
-#file( MAKE_DIRECTORY ${LeeCode_OUTPUT_DIR}/bin)
-#file( MAKE_DIRECTORY ${LeeCode_OUTPUT_DIR}/lib)
 #
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${CodingInterview_OUTPUT_DIR})
 
@@ -25,16 +21,16 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${CodingInterview_OUTPUT_DIR})
 
 ## 有序数组查找
 ### 53_1 查找一个递增数组中，某一个元素出现的次数
-add_executable(53_1_NumberOfK  53_1_NumberOfK/53_1_NumberOfK.cpp)
+#add_executable(53_1_NumberOfK  53_1_NumberOfK/53_1_NumberOfK.cpp)
 ### 53 一个长度0~n-1的递增数组中，所有元素都在0~n-1范围内，  比如长度为4的数组元素都在0~4内，会有一个元素缺失，找出这个数字
-add_executable(53_2_MissingNumber 53_2_MissingNumber/53_2_MissingNumber.cpp)
+#add_executable(53_2_MissingNumber 53_2_MissingNumber/53_2_MissingNumber.cpp)
 ### 53——给定一个递增数组，每个元素为整数且唯一， 查找数组中元素值与下标相同的元素
-add_executable(53_indexEqualValue  53_indexEqualValue/53_indexEqualValue.cpp)
+#add_executable(53_indexEqualValue  53_indexEqualValue/53_indexEqualValue.cpp)
 
 
 ##无序数组查找
 ### 查找一个整型数组的逆序数对
-add_executable(51_InversePairs  51_InversePairs/51_InversePairs.cpp)
+#add_executable(51_InversePairs  51_InversePairs/51_InversePairs.cpp)
 
 
 

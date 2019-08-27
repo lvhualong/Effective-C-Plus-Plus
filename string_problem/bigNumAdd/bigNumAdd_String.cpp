@@ -17,8 +17,9 @@ string bigNumAdd_String(string& stringA, string& stringB)
         string temp = stringA;
         stringA = stringB;
         stringB = temp;
-     Alength = stringA.size(), Blength = stringB.size();}
-int
+     Alength = stringA.size(), Blength = stringB.size();
+    }
+
     int flag = 0, sumBit = 0, a,b;
     while (Alength>0){
         a = stringA[Alength-1] - '0';

@@ -20,6 +20,7 @@ int InversePairs(int* data, int length)
     if(data == nullptr || length < 0)
         return 0;
 
+    //辅助数组
     int* copy = new int[length];
     for(int i = 0; i < length; ++i)
         copy[i] = data[i];

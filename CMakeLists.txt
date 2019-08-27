@@ -42,6 +42,28 @@ file( MAKE_DIRECTORY  ${CodingInterview_OUTPUT_DIR} )
 add_subdirectory(CodingInterview)
 
 
+## sorted_problem dir
+set( Sorted_problem_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/sorted_problem)
+file( MAKE_DIRECTORY  ${Sorted_problem_OUTPUT_DIR} )
+add_subdirectory(sorted_problems)
+
+## search_problem dir
+set( search_problem_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/search_problem)
+file( MAKE_DIRECTORY  ${search_problem_OUTPUT_DIR} )
+add_subdirectory(search_problem)
+
+
+## string_problem dir
+set( string_problem_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/string_problem)
+file( MAKE_DIRECTORY  ${string_problem_OUTPUT_DIR} )
+add_subdirectory(string_problem)
+
+## recursion_dynamic_programming dir
+set( recursion_dynamic_programming_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/recursion_dynamic_programming)
+file( MAKE_DIRECTORY  ${recursion_dynamic_programming_OUTPUT_DIR} )
+add_subdirectory(recursion_dynamic_programming)
+
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${PROJECT_OUTPUT_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_OUTPUT_DIR}/lib)
 set(CMAKE_LIBRARY_ARCHITECTURE  ${PROJECT_OUTPUT_DIR}/lib)

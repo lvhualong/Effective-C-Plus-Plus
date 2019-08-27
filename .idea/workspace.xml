@@ -2,20 +2,21 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="dataStructure" targetName="10_stringEvaluationReversePolishNotation" />
       <config projectName="dataStructure" targetName="02_theMaxSatisfication" />
+      <config projectName="dataStructure" targetName="map_remove_sturents" />
+      <config projectName="dataStructure" targetName="10_stringEvaluationReversePolishNotation" />
       <config projectName="dataStructure" targetName="01_Dijkstra-singleSourceShortestPath" />
       <config projectName="dataStructure" targetName="01_test" />
+      <config projectName="dataStructure" targetName="03_dijistra_distance" />
       <config projectName="dataStructure" targetName="00_myStack" />
       <config projectName="dataStructure" targetName="53_2_MissingNumber" />
-      <config projectName="dataStructure" targetName="03_dijistra_distance" />
       <config projectName="dataStructure" targetName="03_test" />
+      <config projectName="dataStructure" targetName="02_string_Num_EncodeDecode" />
+      <config projectName="dataStructure" targetName="01_theLastSubArraySum" />
       <config projectName="dataStructure" targetName="02_test" />
-      <config projectName="dataStructure" targetName="53_indexEqualValue" />
-      <config projectName="dataStructure" targetName="51_InversePairs" />
-      <config projectName="dataStructure" targetName="53_1_NumberOfK" />
-      <config projectName="dataStructure" targetName="05_Dijkstra_1" />
+      <config projectName="dataStructure" targetName="02_unit_maxSatify" />
       <config projectName="dataStructure" targetName="05_Dijkstra" />
+      <config projectName="dataStructure" targetName="05_Dijkstra_1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -25,24 +26,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="update programming">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/51_InversePairs/51_InversePairs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/53_1_NumberOfK/53_1_NumberOfK.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/53_2_MissingNumber/53_2_MissingNumber.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/53_indexEqualValue/53_indexEqualValue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/54_KthNodeInBST/54_KthNodeInBST.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/55_2_BalancedBinaryTree/55_2_BalancedBinaryTree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/8_NextNodeInBinaryTrees/8_NextNodeInBinaryTrees.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/DJI2019/02_theMaxSatisfication.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming/DJI2019/03_dijistra_distance.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/today/02_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/today/03_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_charge_problem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/sequenceJumpFloor_Fibonacci.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/sequence_rabbit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_problem/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_problem/dijistar_distance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_problem/map_remove_sturents.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_problem/nonIncreasing_sequence.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorted_problems/01_string_sort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorted_problems/02_unit_maxSatify.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorted_problems/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorted_problems/based_sort/01_stl_sorted_used.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorted_problems/based_sort/02_base_sorted.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string_problem/01_string_caculateurs_Epression.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string_problem/02_string_Num_EncodeDecode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string_problem/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/today/04_test_.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/51_InversePairs/51_InversePairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/51_InversePairs/51_InversePairs.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/56_1_TwoNumbersAppearOnce/56_1_TwoNumbersAppearOnce.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/56_2_NumberAppearingOnce/56_2_NumberAppearingOnce.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/01_array/01_arrayShiftProblem_reverse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/01_array/01_arrayShiftProblem_reverse.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/01_array/02_removeDuplicates.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/01_array/02_removeDuplicates.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allSorted/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allSorted/sortedMain.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_greedyAlgorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/14_maxProductAfterCutting_greedyAlgorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_solution_dynamic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/14_maxProductAfterCutting_solution_dynamic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/fruit_SliceInPlane_dynamic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/fruit_SliceInPlane_dynamic.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programming/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/string_problem/bigNumAdd/bigNumAdd_Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/string_problem/bigNumAdd/bigNumAdd_String.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/crosswire.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/findNum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search_problem/findNum_appearOnce.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/nonDecreasing_sequence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/operationEpression_parenthesisMatching.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/weRide2019/01_theLastSubArraySum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/01_theLastSubArraySum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/weRide2019/01_theLastVesselProblem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/02_theLastVesselProblem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/xijian2019/collatzSequence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/sequenceCollatz.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/xijian2019/hanmingDistance.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/today/01_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/01_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/today/02_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/02_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/today/03_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/03_test.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +104,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/today" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recursion_dynamic_programming" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,22 +112,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\recursion_dynamic_programming" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\sorted_problems" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\search_problem" />
       <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\today" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\02_string" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\01_array" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\04_sorted" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\weRide2019" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\recursion_dynamic_programming" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\string_problem" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\search_problem" />
       <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\CodingInterview\58_1_ReverseWordsInSentence" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\Huawei2019" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\today" />
-      <recent name="C:\Users\hualong\Desktop\C-Plus-Plus-Software-Developer\programming\01_array" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -121,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.03_dijistra_distance">
+  <component name="RunManager" selected="CMake Application.01_theLastSubArraySum">
     <configuration name="00_myStack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="00_myStack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="00_myStack">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -133,6 +159,16 @@
       </method>
     </configuration>
     <configuration name="01_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="01_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01_theLastSubArraySum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="01_theLastSubArraySum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_theLastSubArraySum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_string_Num_EncodeDecode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="02_string_Num_EncodeDecode" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -172,27 +208,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="51_InversePairs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="51_InversePairs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="51_InversePairs">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="53_1_NumberOfK" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="53_1_NumberOfK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="53_1_NumberOfK">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="53_2_MissingNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="53_2_MissingNumber" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="53_indexEqualValue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="53_indexEqualValue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="53_indexEqualValue">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="map_remove_sturents" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="map_remove_sturents" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="map_remove_sturents">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -201,10 +222,6 @@
       <item itemvalue="CMake Application.01_test" />
       <item itemvalue="CMake Application.02_test" />
       <item itemvalue="CMake Application.03_test" />
-      <item itemvalue="CMake Application.51_InversePairs" />
-      <item itemvalue="CMake Application.53_1_NumberOfK" />
-      <item itemvalue="CMake Application.53_2_MissingNumber" />
-      <item itemvalue="CMake Application.53_indexEqualValue" />
       <item itemvalue="CMake Application.00_myStack" />
       <item itemvalue="CMake Application.01_Dijkstra-singleSourceShortestPath" />
       <item itemvalue="CMake Application.02_theMaxSatisfication" />
@@ -212,6 +229,9 @@
       <item itemvalue="CMake Application.05_Dijkstra" />
       <item itemvalue="CMake Application.05_Dijkstra_1" />
       <item itemvalue="CMake Application.10_stringEvaluationReversePolishNotation" />
+      <item itemvalue="CMake Application.01_theLastSubArraySum" />
+      <item itemvalue="CMake Application.map_remove_sturents" />
+      <item itemvalue="CMake Application.02_string_Num_EncodeDecode" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -255,6 +275,13 @@
       <workItem from="1564891981734" duration="14770000" />
       <workItem from="1564914139154" duration="10442000" />
       <workItem from="1564925297356" duration="6438000" />
+      <workItem from="1566436673525" duration="26781000" />
+      <workItem from="1566520161598" duration="14041000" />
+      <workItem from="1566540026076" duration="10048000" />
+      <workItem from="1566642360246" duration="108000" />
+      <workItem from="1566642517371" duration="14327000" />
+      <workItem from="1566819310280" duration="3897000" />
+      <workItem from="1566864991135" duration="4448000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -549,11 +576,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/programming/Weizong2019/primeNumberFiniteField.cpp</url>
-          <line>15</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/Weizong2019/primeNumberFiniteField.cpp</url>
           <line>59</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -578,12 +600,12 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_Array.cpp</url>
+          <url>file://$PROJECT_DIR$/string_problem/bigNumAdd/bigNumAdd_Array.cpp</url>
           <line>55</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_Array.cpp</url>
+          <url>file://$PROJECT_DIR$/string_problem/bigNumAdd/bigNumAdd_Array.cpp</url>
           <line>58</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -641,16 +663,6 @@
           <url>file://$PROJECT_DIR$/programming/03_treeAndGraph/01_Dijkstra-singleSourceShortestPath.cpp</url>
           <line>99</line>
           <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/weRide2019/01_theLastSubArraySum.cpp</url>
-          <line>37</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/weRide2019/01_theLastSubArraySum.cpp</url>
-          <line>42</line>
-          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CodingInterview/64_fashion_accumulate/64_fashion_accumulate.cpp</url>
@@ -730,20 +742,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -1,7 +1,7 @@
 
 /* *********************************************************
  * 问题描述：
- * 定义一个 collatzSequence序列
+ * 输入一个整数，定义一个collatzSequence序列
  * 
  * *********************************************************
  */
@@ -13,6 +13,7 @@ bool collatzSequence(const int num, vector<int>& sequence) {
     if(num <= 0) return false ;
 
     sequence.push_back(num);
+    //终止条件
     if(num == 1) return  true;
 
     if(num&0x1) //奇数

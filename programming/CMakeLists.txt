@@ -68,13 +68,13 @@ add_executable(01_Dijkstra-singleSourceShortestPath 03_treeAndGraph/01_Dijkstra-
 
 ## 05_searchFind
 
-## 06_dynamicProgramming_greedyAlgorithm
+## recursion_dynamic_programming
 
 ## 07_backTrackingAlgorithm
 #add_executable(12_stringPathInCharMatrix  07_backTrackingAlgorithm/12_stringPathInCharMatrix.cpp)
 #add_executable(13_robotMoveCountInPlane 07_backTrackingAlgorithm/13_robotMoveCountInPlane.cpp)
-#add_executable(14_maxProductAfterCutting_solution_dynamic 06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_solution_dynamic.cpp)
-#add_executable(14_maxProductAfterCutting_greedyAlgorithm 06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_greedyAlgorithm.cpp)
+#add_executable(14_maxProductAfterCutting_solution_dynamic recursion_dynamic_programming/14_maxProductAfterCutting_solution_dynamic.cpp)
+#add_executable(14_maxProductAfterCutting_greedyAlgorithm recursion_dynamic_programming/14_maxProductAfterCutting_greedyAlgorithm.cpp)
 
 ## 08_math 数学运算的实现
 #add_executable(sqrt_exe 08_math/sqrt.cpp) ## 根号的实现
@@ -114,7 +114,7 @@ add_executable(03_dijistra_distance DJI2019/03_dijistra_distance.cpp)
 #### 05 【公交车换乘问题  转化成单源最短路径模型】
 
 ####
-#add_executable(01_String_BigendOrLittleend_Encode Huawei2019/01_String_BigendOrLittleend_Encode.cpp Zijie2019/test.cpp)
+#add_executable(01_String_BigendOrLittleend_Encode Huawei2019/01_String_BigendOrLittleend_Encode.cpp bigNumAdd/test.cpp)
 #add_executable(02_shortestPahtInPlane Huawei2019/02_shortestPahtInPlane.cpp)
 #add_executable(03_fruit_SliceInPlane  Huawei2019/03_fruit_SliceInPlane.cpp)
 add_executable(05_Dijkstra Huawei2019/05_Dijkstra-singleSourceShortestPath.cpp)
@@ -136,9 +136,9 @@ add_executable(05_Dijkstra_1 Huawei2019/05_Dijkstra_shortestDistance.cpp)
 
 ## 字节跳动 2019
 ### 大数加法定义的 array 形式
-#add_executable(bigNumAdd_Array Zijie2019/bigNumAdd_Array.cpp)
+#add_executable(bigNumAdd_Array bigNumAdd/bigNumAdd_Array.cpp)
 #### 大数加法定义的 String 形式
-#add_executable(bigNumAdd_String Zijie2019/bigNumAdd_String.cpp)
+#add_executable(bigNumAdd_String bigNumAdd/bigNumAdd_String.cpp)
 
 ## 悉见科技
 ## 求两个字符串的汉明距离
