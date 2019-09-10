@@ -4,6 +4,7 @@
 #include <iostream>
 
 using namespace std;
+void print_vector(vector<int>& nums);
 //稳定排序，待排序序列中有相同的记录，排序前后不改变其相对位置成为稳定排序
 
 /*
@@ -16,6 +17,13 @@ using namespace std;
  * 稳定排序
  *
  */
+void bobble_sort(vector<int> &nums);
+void selection_sort(vector<int>& nums);
+void insert_sort(vector<int>& nums);
+void insert_sort_B(vector<int>& nums);
+void shell_sort(vector<int> &nums);
+void merge_sort(vector<int> &arr, int left, int right);
+
  void bobble_sort(vector<int> &nums)
 {
    int length = nums.size();
@@ -66,30 +74,56 @@ void selection_sort(vector<int>& nums) {
 /*
  * 插入排序：每次从后面拿一个数，插入到前面排好序的正确位置上
  * 平均时间复杂度：O(n^2)
- * 最好时间复杂度：O(n^2)
+ * 最好时间复杂度：O(n) 遍历一遍，每次比较一下就好
  * 最坏时间复杂度：O(n^2)
  * 空间复杂度： O(1)
- * 适用情况：
- * 不稳定排序
+ * 适用情况： 当待排序序列按关键字“基本有序”时，直接插入排序的效率就可以大大提高
+ * 稳定排序
  *
  */
-void insert_sort(vector<int>& nums)
+void insert_sort(vector<int>& nums) {
+  int length = nums.size();
+  for (int i = 1; i < length; i++) {
+    if (nums[i] < nums[i - 1]) {
+      int temp = nums[i];
+      //把temp放在合适的位置
+      int j = 0;
+      for (j = i - 1; j >= 0 && (temp < nums[j]); j--)
+        nums[j+1] = nums[j];
+      nums[j+1] = temp;
+    }
+  }
+}
+
+// 与直接插入排序相比，只是减少了关键字之间的比较次数，并没有改变记录的移动次数
+void insert_sort_B(vector<int>& nums)
 {
   int length = nums.size();
   for(int i=1; i<length; i++)
-    for(int j=i; j<length; j++)
+  {
+    int low = 0;
+    int high = i-1;
+    int temp = nums[i];
+    // 查找插入的位置的时候用的折半，因为前面是有序的了
+    while (low < high)
     {
-      if(nums[j]<nums[j-1])
-      {
-        int temp = nums[j];
-        nums[j] = nums[j-1];
-        nums[j-1] = temp;
-      }
+      int mid = (low + high)/2;
+      if(temp >= nums[mid])   //!!去掉等于号，则可能不具有稳定性
+        low = mid + 1;
+      else
+        high = mid - 1;
     }
+
+    int j=0;
+    for(j=i-1; j>=high+1; j--)
+      nums[j+1] = nums[j];
+    nums[j+1] = temp;
+  }
 }
 
 /*
- * 希尔排序：递减递增排序算法，插入排序的优化版本
+ * 希尔排序：递减递增排序算法/缩小增量排序，插入排序的优化版本,
+ * 通过一个增量序列 对序列进行分组，在每个小组上插入排序，然后不断减小增量步长，让整体序列不断迈向有序
  * 插入排 序需要一位一位比较，然后放置到正确位置。
  * 为了提升比较的跨度，希尔排序将数组按照一定步长分成几个子数组进行排序，通过逐渐减短步长来完成最终排序。
  *
@@ -97,25 +131,31 @@ void insert_sort(vector<int>& nums)
  * - 子数组内插入排序
  * - 步长除以2后继续12两步，直到步长最后变成1
  *
- * 平均时间复杂度：O(nlogn)
- * 最好时间复杂度：O(nlogn)
- * 最坏时间复杂度：
+ * 希尔排序的时间复杂度比较复杂
+ * 平均时间复杂度：O(nlogn^2)
+ * 最好时间复杂度：
+ * 最坏时间复杂度：O(n^2)
  * 空间复杂度：
- * 适用情况：
+ * 适用情况：整体基本有序的情况
  * 不稳定排序
  */
+
+void insertI(vector<int>& nums, int gap, int i)
+{
+  int inserted = nums[i];
+  int j;
+  for(j=i-gap; j>=0 && inserted<nums[j]; j -= gap)
+    nums[j+gap] = nums[j];
+
+  nums[j+gap] = inserted;
+}
+
 void shell_sort(vector<int> &nums)
 {
-  for (int gap = nums.size() >> 1; gap > 0; gap >>= 1) { // times
+  //每次增量gap减半
+  for (int gap = nums.size() >> 1; gap > 0; gap >>= 1) {
     for (int i = gap; i < nums.size(); i++) { // position
-      int temp = nums[i];
-
-      int j = i - gap;
-      for (; j >= 0 && nums[j] > temp; j -= gap) {
-        nums[j + gap] = nums[j];
-      }
-
-      nums[j + gap] = temp;
+        insertI(nums, gap, i);
     }
   }
 }
@@ -125,43 +165,61 @@ void shell_sort(vector<int> &nums)
  * 归并排序：采用分治法， 把一个数组打散成小数组，然后再把小数组拼凑再排序
  * - 把当前数组分化成n个单位为1的子数组，然后两两比较合并成单位为2的n/2个子数组
  * - 继续进行这个过程，按照2的倍数进行子数组的比较合并，直到最终数组有序
+ * - 递归进行划分子集， 分治用于合并子集
  * 平均时间复杂度：O(nlogn)
  * 最好时间复杂度：O()
  * 最坏时间复杂度：O()
- * 空间复杂度： O(n)
- * 适用情况：
- * 稳定排序
+ * 空间复杂度： O(n) 归并排序需要一个与原数组相同长度的数组做辅助来排序
  *
+ * 归并排序特点：
+ * 1. 最常用的外部排序方法（待排序的记录放在外存上）
+ * 2. 时间复杂度低 O(nlogn)  递归logn 归并n --> O(nlogn)
+ * 3. 稳定排序
+ *
+ * 归并排序需要O(n)的辅助空间，
+ * 而与之效率相同的【快排]和[堆排]分别需要O(logn)和O(1)的辅助空间，在同类算法中归并排序的空间复杂度略高
+ * https://blog.csdn.net/zpznba/article/details/83745205
  */
 
-void merge_array(vector<int> &nums, int b, int m, int e, vector<int> &temp)
-{
-  int lb = b, rb = m, tb = b;
-  while (lb != m && rb != e)
-    if (nums[lb] < nums[rb])
-      temp[tb++] = nums[lb++];
+
+void Merge(vector<int> &arr, int begin, int mid, int end){
+  int size = end-begin+1;
+  int* tmp=new int[size]; //辅助空间
+  int i=0;
+  int lb=begin;
+  int rb=mid+1;
+  //两个子串都没结束
+  while(lb<=mid && rb<=end)
+  {
+    if(arr[lb] <= arr[rb])
+      tmp[i++] = arr[lb++];
     else
-      temp[tb++] = nums[rb++];
-
-  while (lb < m)
-    temp[tb++] = nums[lb++];
-
-  while (rb < e)
-    temp[tb++] = nums[rb++];
-
-  for (int i = b;i < e; i++)
-    nums[i] = temp[i];
-}
-
-void merge_sort(vector<int> &nums, int b, int e, vector<int> &temp)
-{
-  int m = (b + e) / 2;
-  if (m != b) {
-    merge_sort(nums, b, m, temp);
-    merge_sort(nums, m, e, temp);
-    merge_array(nums, b, m, e, temp);
+      tmp[i++] = arr[rb++];
   }
+  //其中一个结束
+  while(lb<=mid)
+    tmp[i++]=arr[lb++];
+  while(rb<=end)
+    tmp[i++]=arr[rb++];
+
+  for(int j=0; j<size; ++j)
+    arr[begin+j]=tmp[j];
+
+  delete [] tmp;//删掉堆区的内存
 }
+
+void merge_sort(vector<int> &arr, int left, int right){
+  if(left==right)
+    return;  //递归基是让数组中的每个数单独成为长度为1的区间
+
+   //递归
+  int mid = (left + right)/2;
+  merge_sort(arr, left, mid);
+  merge_sort(arr, mid + 1, right);
+  //合并
+  Merge(arr, left, mid, right);
+}
+
 
 /*
  * 快速排序：也是采用分治法，快速排序和归并排序不同，
@@ -173,54 +231,44 @@ void merge_sort(vector<int> &nums, int b, int e, vector<int> &temp)
  * - 将大于基准数的移到右边，小于的移到左边
  * - 递归的对子数组重复执行1，2，直到整个数组有序
  * 平均时间复杂度：O(nlogn)
- * 最好时间复杂度：O()
- * 最坏时间复杂度：O()
- * 空间复杂度： O(n)
+ * 最好时间复杂度：O(nlogn)
+ * 最坏时间复杂度：O(n^2)
+ * 空间复杂度： O(logn) 每次把pivot正确位置都需要一个元素辅助空间，共有logn次递归，所以需要logn -- n的辅助空间
  * 适用情况：
  * 不稳定排序
- *
  */
-void quick_sort(vector<int> &nums, int b, int e, vector<int> &temp)
+
+int quick_Parition(vector<int> &nums, int begin, int end)
 {
-  int m = (b + e) / 2;
-  if (m != b) {
-    int lb = b, rb = e - 1;
+  int pivot = nums[begin];//每次选择首个元素为pivot
+  int lb = begin;
+  int rb = end;
+  while (lb < rb){
+    while (nums[rb] >= pivot && lb<rb) //!!注意着两个while的顺序，反了就错掉了，从后面开始
+      rb--;
+    while (nums[lb] <= pivot && lb<rb)
+      lb++;
 
-    for (int i = b; i < e; i++) {
-      if (i == m)
-        continue;
-      if (nums[i] < nums[m])
-        temp[lb++] = nums[i];
-      else
-        temp[rb--] = nums[i];
-    }
-    temp[lb] = nums[m];
-
-    for (int i = b; i < e; i++)
-      nums[i] = temp[i];
-
-    quick_sort(nums, b, lb, temp);
-    quick_sort(nums, lb + 1, e, temp);
+    swap(nums[lb], nums[rb]);
   }
-}
-//解法2: 不需要辅助空间
 
-void quick_sort_2(vector<int> &nums, int b, int e)
+  swap(nums[begin], nums[lb]); //pivot 放到正确位置
+  return lb;// pivot的index
+}
+
+void quick_sort(vector<int> &nums, int begin, int end)
 {
-  if (b < e - 1) {
-    int lb = b, rb = e - 1;
-    while (lb < rb) {
-      while (nums[rb] >= nums[b] && lb < rb)
-        rb--;
-      while (nums[lb] <= nums[b] && lb < rb)
-        lb++;
-      swap(nums[lb], nums[rb]);
-    }
-    swap(nums[b], nums[lb]);
-    quick_sort_2(nums, b, lb);
-    quick_sort_2(nums, lb + 1, e);
-  }
+  if(begin >= end)
+    return;
+  //先把当前的pivot放到正确位置
+  int pivot_index = quick_Parition(nums, begin, end);
+
+  //再进行递归
+  quick_sort(nums, begin, pivot_index);
+  quick_sort(nums, pivot_index+1, end);
 }
+
+
 
 /*
  * 堆排序：
@@ -256,6 +304,7 @@ i节点的右子节点 right(i) = 2i + 2
  堆执行一次调整需要O(logn)的时间，在排序过程中需要遍历所有元素执行堆调整，
  所以最终时间复杂度是O(nlogn)。空间复杂度是O(n)。
  */
+void max_heapify(vector<int> &nums, int beg, int end);
 void heap_sort(vector<int> &nums)
 {
   int n = nums.size();
@@ -265,8 +314,8 @@ void heap_sort(vector<int> &nums)
 
   for (int i = n - 1; i > 0; i--) { // heap sort
     int temp = nums[i];
-    num[i] = nums[0];
-    num[0] = temp;
+    nums[i] = nums[0];
+    nums[0] = temp;
     max_heapify(nums, 0, i);
   }
 }
@@ -282,7 +331,7 @@ void max_heapify(vector<int> &nums, int beg, int end)
     if (nums[curr] < nums[child]) {
       int temp = nums[curr];
       nums[curr] = nums[child];
-      num[child] = temp;
+      nums[child] = temp;
       curr = child;
       child = 2 * curr + 1;
     } else {
@@ -291,7 +340,7 @@ void max_heapify(vector<int> &nums, int beg, int end)
   }
 }
 
-void print_vector(vector<int>& nums);
+
 int main() {
 
   //一维 vector的比较
@@ -299,27 +348,33 @@ int main() {
   cout << "the input nums: " ;
   print_vector(inputNums);
 
-  bobble_sort(inputNums);
-  cout << "the bobble_sort nums: " ;
-  print_vector(inputNums);
+//  bobble_sort(inputNums);
+//  cout << "the bobble_sort nums: " ;
+//  print_vector(inputNums);
+//
+//  selection_sort(inputNums);
+//  cout << "the selection_sort nums: " ;
+//  print_vector(inputNums);
 
-  selection_sort(inputNums);
-  cout << "the selection_sort nums: " ;
-  print_vector(inputNums);
-
-  insert_sort(inputNums);
-  cout << "the insert_sort nums: " ;
-  print_vector(inputNums);
+//  insert_sort(inputNums);
+//  insert_sort_B(inputNums);
+//  cout << "the insert_sort nums: " ;
+//  print_vector(inputNums);
 
   //shell sort
-  shell_sort(inputNums);
-  cout << "the shell_sort nums: " ;
-  print_vector(inputNums);
-
-  // merge_sort
-//  merge_sort(inputNums);
+//  shell_sort(inputNums);
 //  cout << "the shell_sort nums: " ;
 //  print_vector(inputNums);
+
+  // merge_sort
+
+//  merge_sort(inputNums, 0, inputNums.size()-1);
+//  cout << "the merge_sort nums: " ;
+//  print_vector(inputNums);
+
+  quick_sort(inputNums,0, inputNums.size()-1);
+  cout << "the quick_sort nums: " ;
+  print_vector(inputNums);
 
 }
 

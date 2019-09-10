@@ -64,6 +64,22 @@ file( MAKE_DIRECTORY  ${recursion_dynamic_programming_OUTPUT_DIR} )
 add_subdirectory(recursion_dynamic_programming)
 
 
+## listNode_problem
+set( listNode_problem_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/listNode_problem)
+file( MAKE_DIRECTORY  ${listNode_problem_OUTPUT_DIR} )
+add_subdirectory(listNode_problem)
+
+## 一些新的定义问题
+set( new_define_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/new_define)
+file( MAKE_DIRECTORY  ${new_define_OUTPUT_DIR} )
+add_subdirectory(new_define)
+
+## cin_input
+set( cin_input_OUTPUT_DIR ${PROJECT_OUTPUT_DIR}/bin/cin_input)
+file( MAKE_DIRECTORY  ${cin_input_OUTPUT_DIR} )
+add_subdirectory(cin_input)
+
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${PROJECT_OUTPUT_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_OUTPUT_DIR}/lib)
 set(CMAKE_LIBRARY_ARCHITECTURE  ${PROJECT_OUTPUT_DIR}/lib)

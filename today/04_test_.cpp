@@ -1,76 +1,45 @@
 #include <iostream>
+#include <sstream>
+#include <string>
 #include <vector>
-#include <unordered_map>
-#include <unordered_set>
-
 using namespace std;
+void split(const string &s, vector<int> &sv, const char flag = ' ') {
+  sv.clear();
+  istringstream iss(s);
+  string temp;
 
-unordered_map<int, int> dijistra_distance(unordered_map<int,vector<vector<int >>>& grapgh, int vertex, int src, int targ = 1){
-    unordered_set<int> visited;
-    unordered_map<int, int> distancemap;
-    for (int i = 0; i < vertex; ++i) {
-        if(i!=src){
-            distancemap[i] = INT32_MAX;
-        }
-    }
-    visited.insert(src);
-    for(auto edge:grapgh[src]){
-        distancemap[edge[0]] = edge[1];
-    }
-
-    for (int j = 0; j < vertex; ++j) {
-        if(j == src)
-            continue;
-        int mindisfromstart = INT32_MAX;
-        int mindisindex = -1;
-        if(!visited.count(j) && distancemap[j]<mindisfromstart){
-            mindisfromstart = distancemap[j];
-            mindisindex = j;
-        }
-
-        if(mindisindex == -1)
-            break;
-
-        visited.insert(mindisindex);
-        for(auto edge:grapgh[mindisindex]){
-            if(visited.count(edge[0]))
-                continue;
-            int predis = distancemap[edge[0]];
-            if(edge[1]!=INT32_MAX && mindisfromstart+edge[1]-1<predis){
-                distancemap[edge[0]] = mindisfromstart+edge[1]-1;
-            }
-        }
-    }
-    return distancemap;
+  while (getline(iss, temp, flag)) {
+    sv.push_back(stoi(temp));
+  }
 }
 
+int cal_min_step(vector<int> &nums) {
+  int max_first_step = nums.size() / 2;
+  int min_step = INT32_MAX;
+  for (int i = 1; i < max_first_step; ++i) {
+    int reach = i;
+    int step = 1;
+    while (reach < nums.size()) {
+      reach = reach + nums[reach];
+      step++;
+      if (reach == nums.size() - 1) {
+        min_step = min(step, min_step);
+        break;
+      }
+    }
+  }
+  return min_step;
+}
 
 int main() {
-    int n, p, c;
-    cin >> n >> p >> c;
-
-    unordered_map<int, vector<vector<int>>> graph_s1;
-    vector<int> destination;
-    for (int i = 0; i < p; ++i) {
-        int a, b, t;
-        cin >> a >> b >> t;
-        graph_s1[a].push_back({b, t});
-        graph_s1[b].push_back({a, t});
-    }
-
-    for (int j = 0; j < c; ++j) {
-        int des;
-        cin>>des;
-        destination.push_back(des);
-    }
-
-    auto res = dijistra_distance(graph_s1, n, 0);
-
-    int res_sum = 0;
-    for(int des: destination){
-        res_sum+=res[des];
-    }
-    cout<<res_sum<<endl;
-
-    return 0;
+//  string nu = "7 5 9 4 2 6 8 3 5 4 3 9";
+//  stringstream ss(nu);
+//  cin.rdbuf(ss.rdbuf());
+  string str;
+  getline(cin, str);
+  vector<int> nums;
+  split(str, nums, ' ');
+  int res = cal_min_step(nums);
+  cout << res << endl;
+  return 0;
 }

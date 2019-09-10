@@ -1,7 +1,7 @@
 
 /* *********************************************************
  * 问题描述：定义二维矩阵乘法
- * A m*n  B n*k
+ * 定义两个矩阵乘法的运算，如何能实现矩阵乘法的加速
  *
  * *********************************************************
  */
@@ -10,17 +10,16 @@
 #include <list>
 #include <deque>
 using namespace std;
-
-
 class Solution{
 public:
-    void twoDimMatrixMulit(const double* A, const double* B, double* AxB, int M, int N, int K){
-        for(int m=0; m<M; m++) {
-            for (int k = 0; k < K; k++) {
+    // N*N阶矩阵
+    void twoDimMatrixMulit(const double* A, const double* B, double* AxB, int N){
+        for(int m=0; m<N; m++) {
+            for (int k = 0; k < N; k++) {
                 double temp = 0;
                 for(int n=0; n<N; n++)
-                    temp += A[m*N+n]*B[n*K+k];  //对应元素相乘 相加
-                AxB[m*K+k] = temp; //放到指定位置
+                    temp += A[m*N+n]*B[n*N+k];  //对应元素相乘 相加
+                AxB[m*N+k] = temp; //放到指定位置
             }
         }
     }
@@ -28,11 +27,11 @@ public:
 
 
 int main() {
-    const double A[] = {1,2,3,4,5,6};
-    const double B[] = {1,2,3,4,5,6};
+    const double A[] = {1,2,3,4,5,6,7,8,9};
+    const double B[] = {1,2,3,4,5,6,7,8,9};
     Solution solution;
     double *AB;
-    solution.twoDimMatrixMulit(A, B, AB, 3, 2, 3);
+    solution.twoDimMatrixMulit(A, B, AB, 3);
 
     for(int i=0; i<3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -41,7 +40,6 @@ int main() {
         cout << endl;
     }
     return 0;
-
 }
 /* *********************************************************
  * 解题思路：

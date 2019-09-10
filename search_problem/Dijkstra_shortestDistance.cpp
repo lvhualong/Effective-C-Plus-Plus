@@ -14,7 +14,7 @@
 #include<vector>
 
 using namespace std;
-int inf = INT64_MAX;
+int inf = INT32_MAX;
 vector<int> Dijkstra_shortestDistance(vector<vector<int> >& matrix , int src)
 {
     int rows = matrix.size();
@@ -22,8 +22,9 @@ vector<int> Dijkstra_shortestDistance(vector<vector<int> >& matrix , int src)
     int cur = 0;
     vector<int> res(rows, 0);
     vector<int> book(rows, 0);
+
     for (int i=1;i<rows;i++)
-        res[i] = matrix[src][i];
+        res[i] = matrix[src][i]; //初始化顶点src到各个顶点i的距离
 
     for (int i=1; i<rows-1; i++)
     {
@@ -36,12 +37,12 @@ vector<int> Dijkstra_shortestDistance(vector<vector<int> >& matrix , int src)
                 cur = j;
             }
         }
-        book[cur] = 1;
+        book[cur] = 1; //用book数组记录哪些点已经知道 到源点的最短路径
         for (int v=1; v< rows; v++)
         {
-            if (matrix[cur][v]<inf)
+            if (matrix[cur][v] < inf)//有这条边
             {
-                if(res[v]>res[cur]+matrix[cur][v])
+                if(res[v] > res[cur]+matrix[cur][v]) //如果当前路径比原来最短路径还要短，就替换一下这个值
                     res[v] = res[cur] + matrix[cur][v];
             }
         }
@@ -66,7 +67,7 @@ int main()
 
     for (int i=1;i<m+1;i++)
     {
-        cin >>t0>> t1>>t2>>t3;
+        cin >> t1>>t2>>t3;
         e[t1][t2] = t3;
 
     }

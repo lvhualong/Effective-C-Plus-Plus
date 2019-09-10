@@ -14,10 +14,13 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${Sorted_problem_OUTPUT_DIR})
 ### 基本排序算法，使用stl库，手写各种排序算法
 
 #add_executable(01_std_sort_used based_sort/01_stl_sorted_used.cpp)
-#add_executable(02_base_sorted based_sort/02_base_sorted.cpp)
+add_executable(02_base_sorted based_sort/02_base_sorted.cpp)
 
 ## 字符串单词 排序
 #add_executable(01_string_sort  01_string_sort.cpp)
 
 ## 每一个商品有不同属性，组合成pair, 根据其中一个属性进行排序
 #add_executable(02_unit_maxSatify  02_unit_maxSatify.cpp)
+
+## @文远知行 每个脑筋急转弯需要一定的阈值，并且需要消耗一定的脑力值，问最少需要补充多少脑力值才能解出所有问题
+#add_executable(03_solveBrainTeaser  03_solveBrainTeaser.cpp)

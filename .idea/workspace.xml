@@ -2,21 +2,32 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="dataStructure" targetName="02_theMaxSatisfication" />
-      <config projectName="dataStructure" targetName="map_remove_sturents" />
-      <config projectName="dataStructure" targetName="10_stringEvaluationReversePolishNotation" />
-      <config projectName="dataStructure" targetName="01_Dijkstra-singleSourceShortestPath" />
+      <config projectName="dataStructure" targetName="01_isHuiWen_SingleNodeList" />
+      <config projectName="dataStructure" targetName="matrix_find_neighbour_list" />
+      <config projectName="dataStructure" targetName="Dijkstra_shortestDistance" />
       <config projectName="dataStructure" targetName="01_test" />
-      <config projectName="dataStructure" targetName="03_dijistra_distance" />
-      <config projectName="dataStructure" targetName="00_myStack" />
-      <config projectName="dataStructure" targetName="53_2_MissingNumber" />
-      <config projectName="dataStructure" targetName="03_test" />
-      <config projectName="dataStructure" targetName="02_string_Num_EncodeDecode" />
-      <config projectName="dataStructure" targetName="01_theLastSubArraySum" />
+      <config projectName="dataStructure" targetName="dp_theLastSubStringMatch" />
+      <config projectName="dataStructure" targetName="backtrack_backPackage" />
+      <config projectName="dataStructure" targetName="02_theMaxSatisfication" />
+      <config projectName="dataStructure" targetName="binary_tree_node_problem" />
+      <config projectName="dataStructure" targetName="map_remove_sturents" />
       <config projectName="dataStructure" targetName="02_test" />
-      <config projectName="dataStructure" targetName="02_unit_maxSatify" />
+      <config projectName="dataStructure" targetName="01_twoDimMatrixMulit_1" />
       <config projectName="dataStructure" targetName="05_Dijkstra" />
+      <config projectName="dataStructure" targetName="02_base_sorted" />
+      <config projectName="dataStructure" targetName="03_test" />
+      <config projectName="dataStructure" targetName="01_twoDimMatrixMulit" />
+      <config projectName="dataStructure" targetName="02_string_Num_EncodeDecode" />
+      <config projectName="dataStructure" targetName="00_myStack" />
+      <config projectName="dataStructure" targetName="dp_theLasFood_Satify" />
       <config projectName="dataStructure" targetName="05_Dijkstra_1" />
+      <config projectName="dataStructure" targetName="01_Dijkstra-singleSourceShortestPath" />
+      <config projectName="dataStructure" targetName="03_dijistra_distance" />
+      <config projectName="dataStructure" targetName="02_unit_maxSatify" />
+      <config projectName="dataStructure" targetName="53_2_MissingNumber" />
+      <config projectName="dataStructure" targetName="dp_theLastValue_Satify" />
+      <config projectName="dataStructure" targetName="03_reverse_polish_expression" />
+      <config projectName="dataStructure" targetName="10_stringEvaluationReversePolishNotation" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,49 +37,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e19cd7-c718-402d-98aa-806b92006fdc" name="Default Changelist" comment="update programming">
-      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_charge_problem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/sequenceJumpFloor_Fibonacci.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/sequence_rabbit.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search_problem/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search_problem/dijistar_distance.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search_problem/map_remove_sturents.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search_problem/nonIncreasing_sequence.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorted_problems/01_string_sort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorted_problems/02_unit_maxSatify.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorted_problems/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorted_problems/based_sort/01_stl_sorted_used.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorted_problems/based_sort/02_base_sorted.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_problem/01_string_caculateurs_Epression.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_problem/02_string_Num_EncodeDecode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_problem/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/today/04_test_.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cin_input/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cin_input/mulit_lines_int.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cin_input/mulit_lines_string.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cin_input/unfixed_lines_string.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/01_vector_Min_step.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listNode_problem/01_isHuiWen_SingleNodeList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listNode_problem/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listNode_problem/binary_tree_node_BFS_2_inorder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listNode_problem/binary_tree_node_leastCommonAncestor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listNode_problem/binary_tree_node_problem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_define/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_define/math/vector_angle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_define/vector-cross-product.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/backtrack_backPackage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_edit_string_distance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_theLasFood_Satify.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_theLastSubStringMatch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_theLastValue_Satify.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_theMaxCommonSubStringMatch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_theMaxVaulePath_occupiedGrid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_problem/matrix_find_neighbour_list.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_problem/vector_theLongest_IncreaseArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string_problem/03_reverse_polish_expression.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string_problem/find_subString_iter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/51_InversePairs/51_InversePairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/51_InversePairs/51_InversePairs.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/56_1_TwoNumbersAppearOnce/56_1_TwoNumbersAppearOnce.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/56_2_NumberAppearingOnce/56_2_NumberAppearingOnce.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allSorted/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allSorted/sortedMain.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_greedyAlgorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/14_maxProductAfterCutting_greedyAlgorithm.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/14_maxProductAfterCutting_solution_dynamic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/14_maxProductAfterCutting_solution_dynamic.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/06_dynamicProgramming_greedyAlgorithm/fruit_SliceInPlane_dynamic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/fruit_SliceInPlane_dynamic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/54_KthNodeInBST/54_KthNodeInBST.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/54_KthNodeInBST/54_KthNodeInBST.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/01_array/00_myDoubleNodeList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/listNode_problem/00_myDoubleNodeList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/01_array/00_mySingleNodeList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/listNode_problem/00_mySingleNodeList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/15_binOperation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/15_binOperation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/16_power.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/16_power.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/bigNumAdd_Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/bigNumAdd_Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/bigNumAdd_String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/bigNumAdd_String.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/myFunction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/myFunction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/myMath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/myMath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/primeNumberFiniteField.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/primeNumberFiniteField.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/sqrt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/sqrt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/08_math/twoDimMatrixMulit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/math/twoDimMatrixMulit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/01_twoDimMatrixMulit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/AiBEE2019/01_twoDimMatrixMulit_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/01_twoDimMatrixMulit_1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/AiBEE2019/02_boundingBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/02_boundingBox.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programming/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/string_problem/bigNumAdd/bigNumAdd_Array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/Zijie2019/bigNumAdd_String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/string_problem/bigNumAdd/bigNumAdd_String.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/crosswire.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/findNum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search_problem/findNum_appearOnce.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/nonDecreasing_sequence.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/operationEpression_parenthesisMatching.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/weRide2019/01_theLastSubArraySum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/01_theLastSubArraySum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/weRide2019/01_theLastVesselProblem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/02_theLastVesselProblem.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/xijian2019/collatzSequence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/sequenceCollatz.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming/xijian2019/hanmingDistance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Huawei2019/01_String_BigendOrLittleend_Encode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/string_problem/01_String_BigendOrLittleend_Encode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Huawei2019/02_shortestPahtInPlane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/02_shortestPahtInPlane.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Huawei2019/03_fruit_SliceInPlane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/03_fruit_SliceInPlane.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Huawei2019/04_symmetricString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/string_problem/04_symmetricString.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Huawei2019/05_Dijkstra-singleSourceShortestPath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search_problem/Dijkstra-singleSourceShortestPath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Huawei2019/05_Dijkstra_shortestDistance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search_problem/Dijkstra_shortestDistance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Tencent2019/01_splitNum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/01_splitNum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Tencent2019/02_allocationForMinCost.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/02_allocationForMinCost.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Tencent2019/03_arraySubSmallest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/03_arraySubSmallest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Weizong2019/bin_operate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/bin_operate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/Weizong2019/primeNumberFiniteField.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/primeNumberFiniteField.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_define/01_findSubstringNum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming/weRide2019/03_solveBrainTeaser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_problems/03_solveBrainTeaser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion_dynamic_programming/01_theLastSubArraySum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/dp_theLastSubArraySum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion_dynamic_programming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recursion_dynamic_programming/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_problem/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/search_problem/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_problem/dijistar_distance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search_problem/dijistar_distance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_problem/findNum_appearOnce.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search_problem/findNum_appearOnce.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorted_problems/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_problems/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorted_problems/based_sort/02_base_sorted.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sorted_problems/based_sort/02_base_sorted.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_problem/01_string_caculateurs_Epression.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/string_problem/01_string_caculateurs_Epression.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_problem/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/string_problem/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/today/01_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/01_test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/today/02_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/02_test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/today/03_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/03_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/today/04_test_.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/today/04_test_.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/recursion_dynamic_programming" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/listNode_problem" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,22 +149,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\recursion_dynamic_programming" />
-      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus" />
-      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\sorted_problems" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\listNode_problem" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\huawei" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\new_define\math" />
       <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\search_problem" />
-      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\today" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\string_problem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\recursion_dynamic_programming" />
-      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus" />
-      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\string_problem" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\new_define" />
       <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\search_problem" />
-      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\CodingInterview\58_1_ReverseWordsInSentence" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\string_problem" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\recursion_dynamic_programming" />
+      <recent name="C:\Users\LAB540\Desktop\Effective-C-Plus-Plus\listNode_problem" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -147,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.01_theLastSubArraySum">
+  <component name="RunManager" selected="CMake Application.02_test">
     <configuration name="00_myStack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="00_myStack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="00_myStack">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -163,12 +200,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="01_theLastSubArraySum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="01_theLastSubArraySum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="01_theLastSubArraySum">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="02_string_Num_EncodeDecode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="02_string_Num_EncodeDecode" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="02_base_sorted" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="02_base_sorted" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="02_base_sorted">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -193,17 +225,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="05_Dijkstra" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="05_Dijkstra" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="05_Dijkstra_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="05_Dijkstra_1" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="10_stringEvaluationReversePolishNotation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="10_stringEvaluationReversePolishNotation" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dijkstra_shortestDistance" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="Dijkstra_shortestDistance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="Dijkstra_shortestDistance">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -213,7 +240,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="map_remove_sturents" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="map_remove_sturents" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="map_remove_sturents">
+    <configuration name="backtrack_backPackage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="backtrack_backPackage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="backtrack_backPackage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="binary_tree_node_problem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="binary_tree_node_problem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="binary_tree_node_problem">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrix_find_neighbour_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructure" TARGET_NAME="matrix_find_neighbour_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructure" RUN_TARGET_NAME="matrix_find_neighbour_list">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -222,16 +259,16 @@
       <item itemvalue="CMake Application.01_test" />
       <item itemvalue="CMake Application.02_test" />
       <item itemvalue="CMake Application.03_test" />
+      <item itemvalue="CMake Application.binary_tree_node_problem" />
       <item itemvalue="CMake Application.00_myStack" />
       <item itemvalue="CMake Application.01_Dijkstra-singleSourceShortestPath" />
       <item itemvalue="CMake Application.02_theMaxSatisfication" />
       <item itemvalue="CMake Application.03_dijistra_distance" />
-      <item itemvalue="CMake Application.05_Dijkstra" />
-      <item itemvalue="CMake Application.05_Dijkstra_1" />
       <item itemvalue="CMake Application.10_stringEvaluationReversePolishNotation" />
-      <item itemvalue="CMake Application.01_theLastSubArraySum" />
-      <item itemvalue="CMake Application.map_remove_sturents" />
-      <item itemvalue="CMake Application.02_string_Num_EncodeDecode" />
+      <item itemvalue="CMake Application.backtrack_backPackage" />
+      <item itemvalue="CMake Application.Dijkstra_shortestDistance" />
+      <item itemvalue="CMake Application.matrix_find_neighbour_list" />
+      <item itemvalue="CMake Application.02_base_sorted" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -281,7 +318,21 @@
       <workItem from="1566642360246" duration="108000" />
       <workItem from="1566642517371" duration="14327000" />
       <workItem from="1566819310280" duration="3897000" />
-      <workItem from="1566864991135" duration="4448000" />
+      <workItem from="1566864991135" duration="33012000" />
+      <workItem from="1566953586730" duration="14417000" />
+      <workItem from="1566991045450" duration="10701000" />
+      <workItem from="1567132656766" duration="28602000" />
+      <workItem from="1567337612658" duration="6731000" />
+      <workItem from="1567479090203" duration="3075000" />
+      <workItem from="1567565223585" duration="599000" />
+      <workItem from="1567613541242" duration="28427000" />
+      <workItem from="1567727766992" duration="3613000" />
+      <workItem from="1567736956013" duration="5804000" />
+      <workItem from="1567744456779" duration="12081000" />
+      <workItem from="1567786301672" duration="2328000" />
+      <workItem from="1567823070489" duration="16560000" />
+      <workItem from="1567930608779" duration="3117000" />
+      <workItem from="1568015170609" duration="16124000" />
     </task>
     <task id="LOCAL-00001" summary="update new message">
       <created>1553473997861</created>
@@ -503,15 +554,6 @@
     <option name="localTasksCounter" value="32" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -575,12 +617,12 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/Weizong2019/primeNumberFiniteField.cpp</url>
+          <url>file://$PROJECT_DIR$/new_define/primeNumberFiniteField.cpp</url>
           <line>59</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/Weizong2019/primeNumberFiniteField.cpp</url>
+          <url>file://$PROJECT_DIR$/new_define/primeNumberFiniteField.cpp</url>
           <line>60</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -590,12 +632,12 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/AiBEE2019/02_boundingBox.cpp</url>
+          <url>file://$PROJECT_DIR$/new_define/02_boundingBox.cpp</url>
           <line>66</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/AiBEE2019/02_boundingBox.cpp</url>
+          <url>file://$PROJECT_DIR$/new_define/02_boundingBox.cpp</url>
           <line>69</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
@@ -613,11 +655,6 @@
           <url>file://$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp</url>
           <line>49</line>
           <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/programming/jd2019/01_findSubstringNum.cpp</url>
-          <line>38</line>
-          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/programming/07_backTrackingAlgorithm/12_stringPathInCharMatrix.cpp</url>
@@ -713,6 +750,11 @@
           <url>file://$PROJECT_DIR$/CodingInterview/58_1_ReverseWordsInSentence/58_1_ReverseWordsInSentence.cpp</url>
           <line>50</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/recursion_dynamic_programming/dp_theMaxCommonSubStringMatch.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -32,7 +32,7 @@ public:
                 if(prime.count(i) < 1) //如果哈希表中还没有
                     count++;
                 prime.insert(i); //先将素数放入hash表中
-                for(int prime_pow = i; prime_pow<num; prime_pow *= i)
+                for(int prime_pow = i; prime_pow<num; prime_pow *= i)//判断素数的平方是不是在范围内
                     if(prime.count(prime_pow) < 1) //如果哈希表中还没有
                     {
                         cout << prime_pow << " ";
@@ -46,7 +46,7 @@ public:
     }
 
 private:
-    bool isPrime(int num)
+    bool isPrime(int num)//判断一个数是否为素数
     {
         if(num<2) return false;
         for(int i=2; i<(num/2); i++)

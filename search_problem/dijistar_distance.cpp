@@ -8,12 +8,14 @@ using namespace std;
 unordered_map<int, int> dijistra_distance(unordered_map<int,vector<vector<int >>>& grapgh, int vertex, int src, int targ = 1){
     unordered_set<int> visited;
     unordered_map<int, int> distancemap;
+
     for (int i = 0; i < vertex; ++i) {
         if(i!=src){
-            distancemap[i] = INT32_MAX;
+            distancemap[i] = INT32_MAX; //初始化距离
         }
     }
-    visited.insert(src);
+    visited.insert(src);//插入源点
+
     for(auto edge:grapgh[src]){
         distancemap[edge[0]] = edge[1];
     }

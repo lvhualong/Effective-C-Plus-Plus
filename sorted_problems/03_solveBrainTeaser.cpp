@@ -61,7 +61,8 @@ public:
                      needs += troubles.back().thread - cur_value;
                      cur_value += needs;
                      continue;
-            }}
+            }
+            }
         }
         cout << needs << endl;
         return needs;

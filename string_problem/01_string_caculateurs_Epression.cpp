@@ -15,6 +15,7 @@ class Solution {
 private:
     stack<int> num;
     stack<char> op;
+    //各种运算符级别
     int pri(char a){
         switch(a){
         case '+': return 1;

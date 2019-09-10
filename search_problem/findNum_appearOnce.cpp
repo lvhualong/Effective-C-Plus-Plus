@@ -83,6 +83,7 @@ void findNumsAppearOnce(vector<int> nums,  int& result_a, int& result_b)
     result_a = result_b = 0;
     for(int num : nums)
     {
+        //分成两组
         if(isBit1(num, indexBit))
             result_a ^= num;
         else
