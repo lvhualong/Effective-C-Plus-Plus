@@ -7,41 +7,63 @@
  */
 #include <iostream>
 #include <vector>
-#include <list>
-#include <deque>
 using namespace std;
-
 
 class Solution{
 public:
-    void twoDimMatrixMulit(const double* A, const double* B, double* AxB, int M, int N, int K){
-        for(int m=0; m<M; m++) {
-            for (int k = 0; k < K; k++) {
-                double temp = 0;
-                for(int n=0; n<N; n++)
-                    temp += A[m*N+n]*B[n*K+k];  //对应元素相乘 相加
-                AxB[m*K+k] = temp; //放到指定位置
-            }
+  //M*N * N*K
+  void twoDimMatrixMulit(vector<int>& A, vector<int>& B, vector<int>& AxB, int M, int N, int K){
+    for(int m=0; m<M; m++) {
+      for (int k = 0; k < K; k++) {
+        double temp = 0;
+        for(int n=0; n<N; n++) {
+          temp += A[m * N + n] * B[n * K + k];  //对应元素相乘 相加
+//          cout <<  m * N + n << " * " << n * K + k;
         }
+        AxB[m*K+k] = temp; //放到指定位置
+      }
     }
+  }
 };
 
 
 int main() {
-    const double A[] = {1,2,3,4,5,6};
-    const double B[] = {1,2,3,4,5,6};
-    Solution solution;
-    double *AB;
-    solution.twoDimMatrixMulit(A, B, AB, 3, 2, 3);
+  vector<int> A ;
+  vector<int> B;
 
-    for(int i=0; i<3; i++) {
-        for (int j = 0; j < 3; j++) {
-            cout << " " << AB[i*3+j];
-        }
-        cout << endl;
+  int x,y,z;
+  cin >> x;
+  cin >> y;
+  cin >> z;
+
+  for(int i=0; i<x; i++)
+    for(int j=0; j<y; j++)
+    {
+      int temp; cin>>temp;
+      A.push_back(temp);;
+//       cout << "i*y+j: " << temp;
     }
-    return 0;
 
+  for(int i=0; i<y; i++)
+    for(int j=0; j<z; j++)
+    {
+      int temp; cin>>temp;
+      B.push_back(temp);
+//      cout << "i*z+j: " << temp;
+    }
+
+  Solution solution;
+  vector<int> AB;
+  AB.resize(x*z); //注意初始化AB的尺寸
+  solution.twoDimMatrixMulit(A, B, AB, x, y, z);
+
+  for(int i=0; i<x; i++) {
+    for (int j = 0; j < z; j++) {
+      cout << AB[i*z+j] <<" ";
+    }
+    cout << endl;
+  }
+  return 0;
 }
 /* *********************************************************
  * 解题思路：

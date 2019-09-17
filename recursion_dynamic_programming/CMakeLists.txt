@@ -47,3 +47,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${recursion_dynamic_programming_OUTPUT_DIR})
 
 ## 回溯算法
 add_executable( backtrack_backPackage   backtrack_backPackage.cpp)
+
+## 给定一个序列，求其中最长的等差序列的长度为多少
+#add_executable(dp_theLongestSubSeq_length dp_theLongestSubSeq_length.cpp)
+
+## 给定一个序列，将其分为两个子序列，使得两个子数组和的的差值最小
+#add_executable(dp_the_shortest_diff_two_sub  dp_the_shortest_diff_two_sub.cpp)

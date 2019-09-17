@@ -1,44 +1,56 @@
-
-
-
 #include <iostream>
-#include <deque>
-#include <cmath>
+#include <vector>
+#include <algorithm>
+using namespace std;
 
-using  namespace std;
-struct BinaryTreeNode
+bool  comp(pair<int, int> a, pair<int, int> b)
 {
-  int val;
-  BinaryTreeNode* left;
-  BinaryTreeNode* right;
+  return (a.second - a.first) > (b.second - b.first);
+}
 
-  BinaryTreeNode(int value):val(value),left(NULL),right(NULL){};
-};
-
-
-
-
-
+void resutl(vector<pair<int, int>>& nums)
+{
+  sort(nums.begin(), nums.end(), comp);
+  int add_time = 0;
+  for(auto num:nums)
+  {
+    if(num.first > num.second+add_time) {
+      cout << "No" << endl;
+      return;
+    } else {
+      add_time = add_time + num.second - num.first;
+    }
+  }
+  cout << "Yes" << endl;
+  return;
+}
 
 int main()
 {
-  int n;
-  deque<int> nums;
-  cin >> n;
 
-  for(int i=0; i<pow(2,n)-1; i++)
+  int test_num;
+  int nums;
+  vector<vector<pair<int, int>>> input;
+
+  cin >> test_num;
+//  input.resize(test_num);
+  vector<pair<int, int>> temp;
+  for(int i=0; i< test_num; i++)
   {
-    int temp; cin >> temp;
-    nums.push_back(temp);
+    cin >> nums;
+//    input[i].resize(nums);
+    for(int j=0; j<nums; j++)
+    {
+      int a,b;
+      cin >> a >> b;
+      temp.push_back(make_pair(a,b));
+    }
+    resutl(temp);
+//    input.push_back(temp);
   }
 
-  int p, q;
-  cin >> p >> q;
+//  cout << "input size: " << input.size() << endl;
+//  cout << "nums.size: " << input[0].size() << endl;
 
-  BinaryTreeNode* nodes;
-   return 0;
 }
 
-//4
-// 9 6 15 2 -1 12 25 -1 -1 -1 -1 -1 -1 20 37
-// 12 20

@@ -55,6 +55,7 @@ bool isPalindrome(ListNode* head)
   }
 
   //开始判断回文
+  // slow 刚好走到后半段， prev刚好走到前半段
   while (slow != NULL) {
     if (slow->val != prev->val) {
       return false;

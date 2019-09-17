@@ -91,6 +91,8 @@ set(CMAKE_LIBRARY_ARCHITECTURE  ${PROJECT_OUTPUT_DIR}/lib)
 add_executable(01_test today/01_test.cpp)
 add_executable(02_test today/02_test.cpp)
 add_executable(03_test today/03_test.cpp)
+add_executable(04_test recursion_dynamic_programming/dp_the_shortest_diff_two_sub.cpp)
+add_executable(0_theLongestSubSeq recursion_dynamic_programming/dp_theLongestSubSeq_length.cpp)
 
 
 

@@ -25,4 +25,7 @@ add_executable(Dijkstra_shortestDistance  Dijkstra_shortestDistance.cpp)
 #add_executable(map_remove_sturents   map_remove_sturents.cpp)
 
 ## @华为 一个5*5的int矩阵， 现在输入一个序列，判断这个序列是否在矩阵中“相邻” 类似于通行域或者贪吃蛇
-add_executable(matrix_find_neighbour_list   matrix_find_neighbour_list.cpp)
+#add_executable(matrix_find_neighbour_list   matrix_find_neighbour_list.cpp)
+
+## nvidia 给定一个字符串，查找字符串中两个单词的最小距离
+add_executable(string_find_two_words_ShortestDist  string_find_two_words_ShortestDist.cpp)
